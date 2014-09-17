@@ -123,6 +123,118 @@
 			<Italian>Vedi ID</Italian>
 			<Portuguese>Menu do Admin</Portuguese>
 		</Key>
+		<Key ID="STR_Admin_Spectate">
+			<Original>Spectate</Original>
+			<English>Spectate</English>
+			<German>Zuschauen</German>
+			<French>Regardez</French>
+		</Key>
+		<Key ID="STR_Admin_Teleport">
+			<Original>Teleport</Original>
+			<English>Teleport</English>
+			<German>Teleport</German>
+			<French>Teleport</French>
+		</Key>
+		<Key ID="STR_Admin_TpHere">
+			<Original>TP Here</Original>
+			<English>TP Here</English>
+			<German>TP Hier</German>
+			<French>TP Ici</French>
+		</Key>
+		<Key ID="STR_Admin_TpTo">
+			<Original>TP To</Original>
+			<English>TP To</English>
+			<German>TP Zu</German>
+			<French>TP Ici</French>
+		</Key>
+		<Key ID="STR_Admin_Debug">
+			<Original>Debug</Original>
+			<English>Debug</English>
+			<German>Debug Monitor (Achtung SpyGlass)</German>
+			<French>Debug</French>
+		</Key>
+		<Key ID="STR_Admin_Compensate">
+			<Original>Comp</Original>
+			<English>Comp</English>
+			<German>cash</German>
+			<French>Comp</French>
+		</Key>
+		<Key ID="STR_Admin_God">
+			<Original>GodMode</Original>
+			<German>Gott</German>
+		</Key>
+		<Key ID="STR_Admin_Freeze">
+			<Original>Freeze</Original>
+			<German>Einfrieren</German>
+		</Key>
+		<Key ID="STR_Admin_Markers">
+			<Original>Markers</Original>
+			<German>Player ESP</German>
+		</Key>
+		<Key ID="STR_Admin_CleanupVeh">
+			<Original>Vehicle Cleanup</Original>
+			<German>Cleanup veh</German>
+		</Key>
+		<Key ID="STR_Admin_CleanupPpl">
+			<Original>Player Cleanup</Original>
+			<German>Cleanup ppl</German>
+		</Key>
+		<Key ID="STR_Admin_Amount">
+			<Original>Player Cleanup</Original>
+			<German>kp was/wo</German>
+		</Key>
+		<Key ID="STR_ANOTF_CompWarn">
+			<Original>You are about to give yourself $%1 to compensate to another player &lt;br/&gt;&lt;br/&gt;You must give this cash to the person you are compensating manually.</Original>
+			<German>Du hast dir $%1 für einen anderen Spieler gutgeschrieben. &lt;br/&gt;&lt;br/&gt; du musst das cash dem Spieler manuell überweisen, um den Ausgleich vorzunehmen. </German>
+		</Key>
+		<Key ID="STR_ANOTF_Success">
+			<Original>You have added $%1 to your account.</Original>
+			<German>Du hast dir $%1 auf deinem Konto gutgeschrieben.</German>
+		</Key>
+		<Key ID="STR_ANOTF_Fail">
+			<Original>You can not go above 999999.</Original>
+			<German>Du kannst nicht mehr als $999.999 eingeben.</German>
+			</Key>
+		<Key ID="STR_ANOTF_Amount">
+			<Original>Please type in the amount to compensate.</Original>
+			<German>Bitte gib einen Wert zum Ausgleichen ein.</German>
+			</Key>
+		<Key ID="STR_ANOTF_Frozen">
+			<Original>You have disabled %1's input.</Original>
+			<German>Du hast %1's eingefroren.</German>
+			</Key>
+		<Key ID="STR_ANOTF_Unfrozen">
+			<Original>You have enabled %1's input.</Original>
+			<German>Du hast %1's aufgetaut.</German>
+			</Key>
+		<Key ID="STR_ANOTF_Error">
+			<Original>You can't do that dumbass.</Original>
+			<German>Das kannst du nicht tun.</German>
+			</Key>
+		<Key ID="STR_ANOTF_ErrorLevel">
+			<Original>Your Admin Level is not high enough.</Original>
+			<German>Dein Adminlevel ist nicht hoch genug.</German>
+			</Key>
+		<Key ID="STR_ANOTF_MDisabled">
+			<Original>Player Markers Disabled.</Original>
+			<German>Spielermarkierung deaktiviert.</German>
+			</Key>
+		<Key ID="STR_ANOTF_MEnabled">
+			<Original>Player Markers Enabled.</Original>
+			<German>Spielermarkierung aktiviert.</German>
+			</Key>
+		<Key ID="STR_NOTF_ActionCancel">
+			<Original>Action Cancelled</Original>
+			<German>Aktion abgebrochen</German>
+			</Key>
+		<Key ID="STR_Global_Yes">
+			<Original>Yes</Original>
+			<German>Ja</German>
+			</Key>
+		<Key ID="STR_Global_No">
+			<Original>No</Original>
+			<German>Nein</German>
+			</Key>
 	</Package>
 	<Package name="Admin_Notifications">
 		<Key ID="STR_ANOTF_Query">
@@ -1404,6 +1516,16 @@
 		</Key>
 	</Package>
 	<Package name="Notifications">
+		<Key ID="STR_NOTF_Frozen">
+			<Original>You have been frozen by an administrator</Original>
+			<English>You have been frozen by an administrator</English>
+			<German>To Be Changed</German>
+		</Key>
+		<Key ID="STR_NOTF_Unfrozen">
+			<Original>You have been unfrozen by an administrator</Original>
+			<English>You have been unfrozen by an administrator</English>
+			<German>To Be Changed</German>
+		</Key>
 		<Key ID="STR_NOTF_NE_1">
 			<Original>You do not have $%1 for a %2</Original>
 			<English>You do not have $%1 for a %2</English>
