@@ -6,6 +6,7 @@ respawn = BASE;
 respawndelay = 5;
 disabledAI = true;
 disableChannels[]={0,1,2};
+//LoadScreen  = "images\logo.jpg";  //Format is 1024x512
 enableDebugConsole = 1;
 respawnDialog = 0;
 
@@ -13,7 +14,7 @@ class Header
 {
 	gameType = RPG;
 	minPlayers = 1;
-	maxPlayers = 75;
+	maxPlayers = 100;
 };
 
 wreckLimit = 3;
@@ -47,6 +48,25 @@ class CfgSounds
 		titles[] = {};
 	};
 	
+	class MedicSiren
+	{    
+		name = "MedicSiren";
+		sound[] = {"\sounds\Medic.ogg", 1.0, 1};
+		titles[] = {};  
+	};
+	
+	class car_lock
+	{
+		name = "car_lock";
+		sound[] = {"\sounds\car_lock.ogg", 1.0, 1};
+		titles[] = {};
+	};
+	class car_unlock
+	{
+		name = "car_unlock";
+		sound[] = {"\sounds\car_unlock.ogg", 1.0, 1};
+		titles[] = {};
+	};
 	class tazersound
 	{
 		name = "Tazersound";

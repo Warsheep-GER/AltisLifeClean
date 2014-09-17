@@ -4,17 +4,20 @@
 	Description:
 	Called upon first spawn selection and welcomes our player.
 */
-format["Welcome %1, Please read the following as it is important!",profileName] hintC
+format["Herzlich Willkommen %1, Bitte lies die folgenden Zeilen diese sind wichtig!",player getVariable["realname",name player]] hintC
 [
-	"Welcome to the server! A few things have changed with Altis Life RPG that you need to be aware of!",
-	"An interaction key has been introduced which replaces the large majority of scroll wheel actions, this was for performance issues. By default this key is [Left Windows], you can change this key by pressing ESC and going to Configure->Controls->Custom
-	and bind 'Use Action 10' to a single key like H. This key is used for the following actions",
-	"Picking up items and money.",
-	"Fishing and gathering",
-	"Interacting with players (as a cop)",
-	"Interacting with vehicles (repairing and cop actions)",
-	"",
-	"If you are having issues with interacting / picking up items just wait. A quick way to know when you can interact with that item if the server allows it is by pressing your tilde key (~) and using the circle to highlight the object, when it says for example 'Pile of Money' then
-	that means you can pick it up!."
+	"Willkommen auf unserem Server! Ein paar Sachen haben sich in Altis Life geändert auf die du achten solltest!",
+	"Eine Interaktionstaste wurde eingefügt welche dir die große Anstrengung des scrollen abnimmt. Als Standart ist dies [Left Windows], du solltrst dies aber neu Belegen indem du ESC drückst und dann",
+	"Konfigurieren->Steuerung->individuell",
+	"und änder 'Aktion 10' zu einer Taste .Empfehlung ist [Left Windows] da sonst Probleme Auftreten können .",
+	"Diese Taste ist für die folgenden Aktionen gedacht",
+	"Aufheben von Gegenständen",
+	"Fischen",
+	"Interagieren mit Spielern (Polizist)",
+	"Interagieren mit Fahrzeugen",
+	"Polizeieinstellungen",
+	"Wenn du Probleme mit Interaktion / aufheben von Gegenständen hast einfach warten! Ein schneller Weg zu wissen ob man etwas aufheben kann ist die Taste (~) und den Kreis zu betätigen um ein Objekt zu markieren,
+	wenn es angezeigt wird mit Namen kann man es aufheben."
+	
 ];
 	

@@ -46,6 +46,17 @@ if(count (actionKeys "User10") != 0 && {(inputAction "User10" > 0)}) exitWith {
 
 switch (_code) do
 {
+	//Q key for farming
+	case 16:
+	{
+		if((!life_action_inUse) && (vehicle player == player)) then
+                {
+                     if(life_inv_pickaxe > 0) then
+                     {
+                     [] spawn life_fnc_pickAxeUse;
+        	     };
+                }
+	};
 	//Space key for Jumping
 	case 57:
 	{
@@ -150,7 +161,7 @@ switch (_code) do
 	{
 		//If cop run checks for turning lights on.
 		if(_shift && playerSide in [west,independent]) then {
-			if(vehicle player != player && (typeOf vehicle player) in ["C_Offroad_01_F","B_MRAP_01_F","C_SUV_01_F"]) then {
+			if(vehicle player != player && (typeOf vehicle player) in ["C_Offroad_01_F","C_Hatchback_01_F","C_SUV_01_F","C_Hatchback_01_sport_F","B_MRAP_01_F","B_MRAP_01_hmg_F","B_Heli_Light_01_F","O_Heli_Light_02_unarmed_F","I_Heli_light_03_unarmed_F"]) then {
 				if(!isNil {vehicle player getVariable "lights"}) then {
 					if(playerSide == west) then {
 						[vehicle player] call life_fnc_sirenLights;
@@ -239,6 +250,7 @@ switch (_code) do
 							[[_veh,0],"life_fnc_lockVehicle",_veh,false] spawn life_fnc_MP;
 						};
 						systemChat localize "STR_MISC_VehUnlock";
+						player say3D "car_unlock";
 					} else {
 						if(local _veh) then {
 							_veh lock 2;
@@ -246,6 +258,7 @@ switch (_code) do
 							[[_veh,2],"life_fnc_lockVehicle",_veh,false] spawn life_fnc_MP;
 						};	
 						systemChat localize "STR_MISC_VehLock";
+						player say3D "car_lock";
 					};
 				};
 			};
