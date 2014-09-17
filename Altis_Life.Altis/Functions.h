@@ -147,6 +147,7 @@ class Life_Client_Core
 		class houseConfig {};
 		
 		//Clothing Store Configs
+		class clothing_med {};
 		class clothing_cop {};
 		class clothing_bruce {};
 		class clothing_reb {};
