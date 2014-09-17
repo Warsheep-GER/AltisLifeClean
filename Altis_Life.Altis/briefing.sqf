@@ -633,8 +633,8 @@ Shift links + R: Fesseln<br/>
 Shift links + G: einen Spieler K.O. schlagen<br/><br/>
 F: Polizeisirene (nur als Polizist moeglich)<br/>
 Shift links + L: Blaulicht aktivieren (nur als Polizist moeglich).<br/>
-K-Taste: Polizisten koennen mit manchen Helikoptern Boden-Fahrzeuge per EMP warnen oder deaktivieren.<br/><br/>
-Windowstaste links: Haupttaste um zu interagieren (z.B. cash aufheben, Autos reparieren, ...). Polizisten koennen ueber diese Taste mit Zivilisten interagieren.<br/><br/>
+Windowstaste links: Haupttaste um zu interagieren (z.B. Geld aufheben, Autos reparieren, ...).<br/>
+Polizisten koennen ueber diese Taste mit Zivilisten interagieren.<br/><br/>
 "
         ]
     ];

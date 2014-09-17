@@ -41,6 +41,13 @@ class CfgFunctions
 class CfgSounds
 {
 	sounds[] = {};
+	
+	class bank_alarm
+	{
+		name = "bank_alarm";
+		sound[] = {"\sounds\bank.ogg", 1.0, 1};
+		titles[] = {};
+	};
 	class SirenLong
 	{
 		name = "SirenLong";
