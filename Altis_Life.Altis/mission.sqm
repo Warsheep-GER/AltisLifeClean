@@ -32719,7 +32719,7 @@ class Mission
 		class Item15
 		{
 			position[]={22150.52,3.150569,14475.64};
-			name="Correctional Facility";
+			name="prison_1";
 			text="Staatsgefängniss";
 			type="mil_dot";
 			colorName="Color4_FD_F";
