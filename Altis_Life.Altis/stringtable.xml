@@ -223,18 +223,6 @@
 			<Original>Player Markers Enabled.</Original>
 			<German>Spielermarkierung aktiviert.</German>
 			</Key>
-		<Key ID="STR_NOTF_ActionCancel">
-			<Original>Action Cancelled</Original>
-			<German>Aktion abgebrochen</German>
-			</Key>
-		<Key ID="STR_Global_Yes">
-			<Original>Yes</Original>
-			<German>Ja</German>
-			</Key>
-		<Key ID="STR_Global_No">
-			<Original>No</Original>
-			<German>Nein</German>
-			</Key>
 	</Package>
 	<Package name="Admin_Notifications">
 		<Key ID="STR_ANOTF_Query">

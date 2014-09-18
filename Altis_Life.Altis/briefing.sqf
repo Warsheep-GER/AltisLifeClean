@@ -458,7 +458,7 @@ Befehlskette:<br/>
 7. SDAR Rifle<br/>
 8. Schallgedaempfte P07 (Taser)<br/>
 9. Jede Art von Sprengstoff<br/>
-10.saemtliche Polizeiwaffen<br/><br/>
+10. saemtliche Polizeiwaffen<br/><br/>
 "
         ]
     ];
@@ -494,8 +494,8 @@ Befehlskette:<br/>
 - Ernst gemeinte Beleidigung anderer Spieler: Kick als einmalige Verwarnung. Bei Wiederholung Ban!<br/><br/>
 - Aufstand: Inhaftierung aller Beteiligten so wie ein Busscash das vom Ranghoechsten Beamten im Dienst verhaengt wird + Beschlagnahmung von Fahrzeugen und Waffen<br/><br/>
 - Angriff durch Rebellen: Inhaftierung aller Beteiligten so wie ein Busscash das vom Ranghoechsten Beamten im Dienst verhaengt wird + Beschlagnahung bzw.Zerstoerung von Fahrzeugen & Waffen<br/><br/>
-- Der Diebstahlt von Staat´s eigentum ist zu unterlassen wer dies nicht befolgt wir entweder mit einem hohen buscash/haft oder Bann behstraft je nach grad des diligtes 
-- Das betreten des HQ von der Bundeswehr ist zu unterlassen wer dies nicht befolgt wird sofort und ohne wiederede Erschossen.
+- Der Diebstahlt von Staat´s eigentum ist zu unterlassen wer dies nicht befolgt wir entweder mit einem hohen buscash/haft oder Bann behstraft je nach grad des diligtes<br/><br/>
+- Das betreten des HQ von der Bundeswehr ist zu unterlassen wer dies nicht befolgt wird sofort und ohne wiederede Erschossen.<br/><br/>
 "
         ]
     ];
