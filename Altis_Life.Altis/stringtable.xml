@@ -3707,6 +3707,78 @@
 			<Italian>Licenza possesso Casa</Italian>
 			<Portuguese>Licença de Casas</Portuguese>
 		</Key>
+		<Key ID="STR_License_Gang">
+			<Original>Home Owners License</Original>
+			<English>Home Owners License</English>
+			<German>Gangmitglied</German>
+			<French>Droit de Propriété</French>
+			<Italian>Licenza possesso Casa</Italian>
+			<Portuguese>Licença de Casas</Portuguese>
+		</Key>
+		<Key ID="STR_License_Kavala">
+			<Original>Kavala Spawn</Original>
+			<English>Kavala Spawn</English>
+			<German>Kavala Spawn</German>
+			<French>Kavala Spawn</French>
+			<Italian>Kavala Spawn</Italian>
+			<Portuguese>Kavala Spawn</Portuguese>
+		</Key>
+		<Key ID="STR_License_Pyros">
+			<Original>Pyros Spawn</Original>
+			<English>Pyros Spawn</English>
+			<German>Pyros Spawn</German>
+			<French>Pyros Spawn</French>
+			<Italian>Pyros Spawn</Italian>
+			<Portuguese>Pyros Spawn</Portuguese>
+		</Key>
+		<Key ID="STR_License_Sofia">
+			<Original>Sofia Spawn</Original>
+			<English>Sofia Spawn</English>
+			<German>Sofia Spawn</German>
+			<French>Sofia Spawn</French>
+			<Italian>Sofia Spawn</Italian>
+			<Portuguese>Sofia Spawn</Portuguese>
+		</Key>
+		<Key ID="STR_License_Reb1">
+			<Original>Rebellen Nord/West Spawn</Original>
+			<English>Rebellen Nord Spawn</English>
+			<German>Rebellen Nord Spawn</German>
+			<French>Rebellen Nord Spawn</French>
+			<Italian>Rebellen Nord Spawn</Italian>
+			<Portuguese>Rebellen Nord Spawn</Portuguese>
+		</Key>
+		<Key ID="STR_License_Reb2">
+			<Original>Rebellen Sued/West Spawn</Original>
+			<English>Rebellen Sued Spawn</English>
+			<German>Rebellen Sued Spawn</German>
+			<French>Rebellen Sued Spawn</French>
+			<Italian>Rebellen Sued Spawn</Italian>
+			<Portuguese>Rebellen Sued Spawn</Portuguese>
+		</Key>
+		<Key ID="STR_License_Reb3">
+			<Original>Rebellen Sued/Ost Spawn</Original>
+			<English>Rebellen Ost Spawn</English>
+			<German>Rebellen Ost Spawn</German>
+			<French>Rebellen Ost Spawn</French>
+			<Italian>Rebellen Ost Spawn</Italian>
+			<Portuguese>Rebellen Ost Spawn</Portuguese>
+		</Key>
+		<Key ID="STR_License_Reb4">
+			<Original>Rebellen Nord/Ost Spawn</Original>
+			<English>Rebellen Ost Spawn</English>
+			<German>Rebellen Ost Spawn</German>
+			<French>Rebellen Ost Spawn</French>
+			<Italian>Rebellen Ost Spawn</Italian>
+			<Portuguese>Rebellen Ost Spawn</Portuguese>
+		</Key>
+		<Key ID="STR_License_Bund">
+			<Original>Bundeswehr Lizence</Original>
+			<English>Bundeswehr Lizence</English>
+			<German>Bundeswehr Lizence</German>
+			<French>Bundeswehr Lizence</French>
+			<Italian>Bundeswehr Lizence</Italian>
+			<Portuguese>Bundeswehr Lizence</Portuguese>
+		</Key>
 	</Package>
 	<Package name="More_Item_Strings">
 		<Key ID="STR_ISTR_Blast_VaultOnly">
