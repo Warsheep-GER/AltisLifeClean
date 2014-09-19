@@ -221,14 +221,14 @@ life_dp_points = ["dp_1","dp_2","dp_3","dp_4","dp_5","dp_6","dp_7","dp_8","dp_9"
 //[shortVar,reward]
 life_illegal_items = 
 [
-	["heroinu",1200],
-	["heroinp",2500],
-	["cocaine",1500],
-	["cocainep",3500],
-	["marijuana",2000],
-	["turtle",3000],
-	["blastingcharge",10000],
-	["boltcutter",500]
+	["heroinu",5000],
+	["heroinp",6000],
+	["cocaine",4000],
+	["cocainep",5000],
+	["marijuana",4000],
+	["turtle",10000],
+	["blastingcharge",35000],
+	["boltcutter",7500]
 ];
 
 /*
@@ -247,7 +247,7 @@ sell_array =
 	["catshark",300],
 	["rabbit",65],
 	["oilp",3200],
-	["turtle",3000],
+	["turtle",10000],
 	["water",5],
 	["coffee",5],
 	["turtlesoup",1000],

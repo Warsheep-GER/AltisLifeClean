@@ -6,7 +6,6 @@ if(getPosATL _veh select 2 > 20) exitWith {};
 if(!license_civ_driver) exitWith {
 serv_killed = [player,"9023"];
 publicVariableServer "serv_killed";
-cutText[format["Sie sind mit %1 km/h geblitzt wurden und haben keine Fahrerlaubnis! \n\n\n Sie werden jetzt gesucht.",round _speed,[_pay] call life_fnc_numberText],"WHITE OUT"];
 0.0001 cutFadeOut 5;
 sleep 0.7;
 0.0001 cutFadeOut 5;
