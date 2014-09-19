@@ -114,6 +114,9 @@ class Life_Client_Core
 		class robAction {};
 		class captureHideout {};
 		class gather {};
+		//radar
+		class radarFlash {};
+		class radarFlash50 {};
 	};
 	
 	class Housing

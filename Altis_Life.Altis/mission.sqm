@@ -116,7 +116,7 @@ class Mission
 	class Intel
 	{
 		briefingName="Altis Life RPG";
-		overviewText="Altis Life RPG 3.1.4.6";
+		overviewText="Altis Life RPG 3.1.4.8";
 		startWeather=0.099999994;
 		startWind=0.29999998;
 		startWindDir=20;
@@ -137,6 +137,26 @@ class Mission
 		startFogDecay=0.0049333;
 		forecastFogDecay=0.0049333;
 	};
+	class Sensors
+    {
+        items=1;
+        class Item0
+        {
+            position[]={14166.97,16.696758,16522.855};
+            rectangular=1;
+            activationBy="CIV";
+            repeating=1;
+            interruptable=1;
+            age="UNKNOWN";
+            name="rada_1";
+            Text="Radar";
+            expCond="this && (speed player) > 135 && {_x iskindof ""car""} count thislist > 0 && (vehicle player) in thislist && (driver vehicle player == player)";
+            expActiv="nul = [[],""life_fnc_radarFlash"",player,false] spawn life_fnc_MP;";
+            class Effects
+            {
+            };
+        };
+    };
 	class Groups
 	{
 		items=79;
@@ -32680,7 +32700,7 @@ class Mission
 		{
 			position[]={13820.758,19.826002,18969.209};
 			name="cop_spawn_3";
-			text="Polizei Station";
+			text="Polizei Station 2";
 			type="mil_box";
 			colorName="ColorBLUFOR";
 		};
@@ -32728,7 +32748,7 @@ class Mission
 		{
 			position[]={3269.3455,2.1793349,12967.998};
 			name="police_hq_1";
-			text="Polizei HQ";
+			text="Polizei Station Kavala";
 			type="mil_box";
 			colorName="ColorBLUFOR";
 		};
@@ -32736,7 +32756,7 @@ class Mission
 		{
 			position[]={16589.234,11,12763.845};
 			name="police_hq_2";
-			text="Polizei Station";
+			text="Polizei Station 1";
 			type="mil_box";
 			colorName="ColorBLUFOR";
 		};
@@ -33016,7 +33036,7 @@ class Mission
 		};
 		class Item53
 		{
-			position[]={3649.4426,7.00559,13384.339};
+			position[]={14016.111,26.688026,18698.537};
 			name="jail_release";
 			type="Empty";
 			angle=190.78471;

@@ -18,6 +18,10 @@ switch(_type) do
 	case "187V": {_type = ["Vehicular Manslaughter",6500]};
 	case "187": {_type = ["Manslaughter",8500]};
 	case "901": {_type = ["Escaping Jail",4500]};
+	case "902": {_type = ["Speeding",2000]};
+	case "9021": {_type = ["Speeding",5000]};
+	case "9022": {_type = ["Speeding",8000]};
+    case "9023": {_type = ["Speeding with No License",15000]};
 	case "261": {_type = ["Rape",5000]}; //What type of sick bastard would add this?
 	case "261A": {_type = ["Attempted Rape",3000]};
 	case "215": {_type = ["Attempted Auto Theft",2000]};
