@@ -47,6 +47,6 @@ if(_container isKindOf "Man" && !alive _container) exitWith {
 		closeDialog 0;
 	};
 };
-if((playerSide == west) && (uniform player == "U_Rangemaster") || (playerSide == independent) && (uniform player == "U_Rangemaster")|| (uniform player == "U_B_CombatUniform_mcam_worn")) then {
+if((playerSide == west) && (uniform player == "U_Rangemaster") || (playerSide == independent) && (uniform player == "U_Rangemaster")) then {
 	[] call life_fnc_initSkin;
 };
