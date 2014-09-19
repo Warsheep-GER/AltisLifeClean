@@ -23,12 +23,11 @@ onMapSingleClick "if(_alt) then {vehicle player setPos _pos};";
 	detach _var;
 } foreach ["hospital_2","hospital_3","hospital_4"];
 
-private ["_attach","_bar1","_bar2","_bar3","_bar4","_camp","_camp1","_camppos","_camppos1","_center","_dir","_gatenumb","_gatepos","_gatepos1","_gol","_gol1","_golpos","_golpos1","_guard","_guard1","_guard2","_guard3","_guardpos","_guardpos1","_guardpos2","_guardpos3","_hole","_house","_house1","_house10","_house11","_house12","_house13","_house2","_house3","_house4","_house5","_house6","_house7","_house8","_house9","_housepos","_housepos1","_housepos10","_housepos11","_housepos12","_housepos13","_housepos2","_housepos3","_housepos4","_housepos5","_housepos6","_housepos7","_housepos8","_housepos9","_light","_light1","_light2","_light3","_lightdir","_lightpos","_lightpos1","_wall","_walldir","_wallinterval","_wallnumber","_walltype","_wire","_wirenumb","_numb","_m1","_marker","_markpos","_office","_office1","_office2","_office3","_offpos","_offpos1","_offpos2","_offpos3","_park","_park1","_parkpos","_parkpos1","_pos","_sign","_sign1","_signpos","_signpos1","_signpos2","_tr","_try","_trib","_trib1","_tribpos","_tribpos1","_i","_startobject1","_startobject","_sign","_sign1","_signpos","_signpos1","_time","_tower1","_tower2","_tower3","_tower4","_maingate1","_maingate2","_secondgate1","_secondgate2"];
+private ["_attach","_bar1","_bar2","_bar3","_bar4","_camp","_camp1","_camppos","_camppos1","_center","_dir","_gatenumb","_gatepos","_gatepos1","_gol","_gol1","_golpos","_golpos1","_guard","_guard1","_guard2","_guard3","_guardpos","_guardpos1","_guardpos2","_guardpos3","_hole","_house","_house1","_house10","_house11","_house12","_house13","_house2","_house3","_house4","_house5","_house6","_house7","_house8","_house9","_housepos","_housepos1","_housepos10","_housepos11","_housepos12","_housepos13","_housepos2","_housepos3","_housepos4","_housepos5","_housepos6","_housepos7","_housepos8","_housepos9","_light","_light1","_light2","_light3","_lightdir","_lightpos","_lightpos1","_wall","_walldir","_wallinterval","_wallnumber","_walltype","_wire","_wirenumb","_numb","_m1","_marker","_markpos","_office","_office1","_office2","_office3","_offpos","_offpos1","_offpos2","_offpos3","_park","_park1","_parkpos","_parkpos1","[0,0,0]","_sign","_sign1","_signpos","_signpos1","_signpos2","_tr","_try","_trib","_trib1","_tribpos","_tribpos1","_i","_startobject1","_startobject","_sign","_sign1","_signpos","_signpos1","_time","_tower1","_tower2","_tower3","_tower4","_maingate1","_maingate2","_secondgate1","_secondgate2"];
 
 {
 
-_pos = [0,0,0];
-_startobject1 = createVehicle ["land_helipadempty_f", _pos ,[], 0, ""];
+_startobject1 = createVehicle ["land_helipadempty_f", [0,0,0] ,[], 0, ""];
 _startobject1 setdir 0;
 _wallDir = getdir _startObject1  + (90);
 _tr = "Land_Airport_Tower_F";
@@ -55,8 +54,8 @@ _wallInterval = 4;
 for "_i" from 1 to _wallNumber do
 {
 	_dir = vectorDir _startObject1;
-	_pos = [(getPosATL _startObject1 select 0) + (_dir select 0) * (_i * _wallInterval), (getPosATL _startObject1 select 1) + (_dir select 1) * (_i * _wallInterval), getPosATL _startObject1 select 2];
-	_wall = createVehicle [_wallType, _pos, [], 0, "CAN_COLLIDE"];
+	[0,0,0] = [(getPosATL _startObject1 select 0) + (_dir select 0) * (_i * _wallInterval), (getPosATL _startObject1 select 1) + (_dir select 1) * (_i * _wallInterval), getPosATL _startObject1 select 2];
+	_wall = createVehicle [_wallType, [0,0,0], [], 0, "CAN_COLLIDE"];
 	_wall setDir (getDir _startObject1 + _wallDir);
 	_wall setVectorUp vectorUp _startObject1;
 	_wall call bis_fnc_boundingboxmarker;
@@ -90,8 +89,8 @@ _tower2 setdir 180;
 for "_i" from 1 to _wallNumber do
 {
 	_dir = vectorDir _startObject;
-	_pos = [(getPosATL _startObject select 0) + (_dir select 0) * (_i * _wallInterval), (getPosATL _startObject select 1) + (_dir select 1) * (_i * _wallInterval), getPosATL _startObject select 2];
-	_wall = createVehicle [_wallType, _pos, [], 0, "CAN_COLLIDE"];
+	[0,0,0] = [(getPosATL _startObject select 0) + (_dir select 0) * (_i * _wallInterval), (getPosATL _startObject select 1) + (_dir select 1) * (_i * _wallInterval), getPosATL _startObject select 2];
+	_wall = createVehicle [_wallType, [0,0,0], [], 0, "CAN_COLLIDE"];
 	_wall setDir (getDir _startObject + _wallDir);
 	_wall setVectorUp vectorUp _startObject;
 	_wall  call bis_fnc_boundingboxmarker;
@@ -125,8 +124,8 @@ _tower3 setdir 270;
 for "_i" from 1 to _wallNumber do
 {
 	_dir = vectorDir _startObject;
-	_pos = [(getPosATL _startObject select 0) + (_dir select 0) * (_i * _wallInterval), (getPosATL _startObject select 1) + (_dir select 1) * (_i * _wallInterval), getPosATL _startObject select 2];
-	_wall = createVehicle [_wallType, _pos, [], 0, "CAN_COLLIDE"];
+	[0,0,0] = [(getPosATL _startObject select 0) + (_dir select 0) * (_i * _wallInterval), (getPosATL _startObject select 1) + (_dir select 1) * (_i * _wallInterval), getPosATL _startObject select 2];
+	_wall = createVehicle [_wallType, [0,0,0], [], 0, "CAN_COLLIDE"];
 	_wall setDir  (getDir _startObject + _wallDir);
 	_wall setVectorUp vectorUp _startObject;
 	_wall  call bis_fnc_boundingboxmarker;
@@ -169,8 +168,8 @@ for "_i" from 1 to _wallNumber do
 {
 	if (_gatenumb > 22) then {
 	_dir = vectorDir _startObject;
-	_pos = [(getPosATL _startObject select 0) + (_dir select 0) * (_i * _wallInterval), (getPosATL _startObject select 1) + (_dir select 1) * (_i * _wallInterval), getPosATL _startObject select 2];
-	_wall = createVehicle [_wallType, _pos, [], 0, "CAN_COLLIDE"];
+	[0,0,0] = [(getPosATL _startObject select 0) + (_dir select 0) * (_i * _wallInterval), (getPosATL _startObject select 1) + (_dir select 1) * (_i * _wallInterval), getPosATL _startObject select 2];
+	_wall = createVehicle [_wallType, [0,0,0], [], 0, "CAN_COLLIDE"];
 	_wall setDir (getDir _startObject + _wallDir);
 	_wall setVectorUp vectorUp _startObject;
 	_wall  call bis_fnc_boundingboxmarker;
@@ -180,8 +179,8 @@ for "_i" from 1 to _wallNumber do
 	};
 	if (_gatenumb < 18) then {
 	_dir = vectorDir _startObject;
-	_pos = [(getPosATL _startObject select 0) + (_dir select 0) * (_i * _wallInterval), (getPosATL _startObject select 1) + (_dir select 1) * (_i * _wallInterval), getPosATL _startObject select 2];
-	_wall = createVehicle [_wallType, _pos, [], 0, "CAN_COLLIDE"];
+	[0,0,0] = [(getPosATL _startObject select 0) + (_dir select 0) * (_i * _wallInterval), (getPosATL _startObject select 1) + (_dir select 1) * (_i * _wallInterval), getPosATL _startObject select 2];
+	_wall = createVehicle [_wallType, [0,0,0], [], 0, "CAN_COLLIDE"];
 	_wall setDir (getDir _startObject + _wallDir);
 	_wall setVectorUp vectorUp _startObject;
 	_wall  call bis_fnc_boundingboxmarker;
@@ -237,8 +236,8 @@ for "_i" from 1 to _wallNumber do
 {
 	if (_gatenumb > 22) then {
 	_dir = vectorDir _startObject;
-	_pos = [(getPosATL _startObject select 0) + (_dir select 0) * (_i * _wallInterval), (getPosATL _startObject select 1) + (_dir select 1) * (_i * _wallInterval), getPosATL _startObject select 2];
-	_wall = createVehicle [_wallType, _pos, [], 0, "CAN_COLLIDE"];
+	[0,0,0] = [(getPosATL _startObject select 0) + (_dir select 0) * (_i * _wallInterval), (getPosATL _startObject select 1) + (_dir select 1) * (_i * _wallInterval), getPosATL _startObject select 2];
+	_wall = createVehicle [_wallType, [0,0,0], [], 0, "CAN_COLLIDE"];
 	_wall setDir (getDir _startObject + _wallDir);
 	_wall setVectorUp vectorUp _startObject;
 	_wall  call bis_fnc_boundingboxmarker;
@@ -248,8 +247,8 @@ for "_i" from 1 to _wallNumber do
 	};
 	if (_gatenumb < 18) then {
 	_dir = vectorDir _startObject;
-	_pos = [(getPosATL _startObject select 0) + (_dir select 0) * (_i * _wallInterval), (getPosATL _startObject select 1) + (_dir select 1) * (_i * _wallInterval), getPosATL _startObject select 2];
-	_wall = createVehicle [_wallType, _pos, [], 0, "CAN_COLLIDE"];
+	[0,0,0] = [(getPosATL _startObject select 0) + (_dir select 0) * (_i * _wallInterval), (getPosATL _startObject select 1) + (_dir select 1) * (_i * _wallInterval), getPosATL _startObject select 2];
+	_wall = createVehicle [_wallType, [0,0,0], [], 0, "CAN_COLLIDE"];
 	_wall setDir (getDir _startObject + _wallDir);
 	_wall setVectorUp vectorUp _startObject;
 	_wall  call bis_fnc_boundingboxmarker;
