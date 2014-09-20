@@ -139,7 +139,7 @@ class Mission
 	};
 	class Sensors
     {
-        items=1;
+        items=7;
         class Item0
         {
             position[]={14166.97,16.696758,16522.855};
@@ -149,9 +149,105 @@ class Mission
             interruptable=1;
             age="UNKNOWN";
             name="rada_1";
-            Text="Radar";
-            expCond="this && (speed player) > 135 && {_x iskindof ""car""} count thislist > 0 && (vehicle player) in thislist && (driver vehicle player == player)";
-            expActiv="nul = [[],""life_fnc_radarFlash"",player,false] spawn life_fnc_MP;";
+            Text="Radar Flughafen 120";
+            expCond="this && (speed player) > 125 && {_x iskindof ""car""} count thislist > 0 && (vehicle player) in thislist && (driver vehicle player == player)";
+            expActiv="nul = [[],""life_fnc_radarFlash120"",player,false] spawn life_fnc_MP;";
+            class Effects
+            {
+            };
+        };
+		class Item1
+        {
+            position[]={23538.549,13.160051,19945.574};
+            rectangular=1;
+            activationBy="CIV";
+            repeating=1;
+            interruptable=1;
+            age="UNKNOWN";
+            name="rada_1";
+            Text="Radar Autobahn 120";
+            expCond="this && (speed player) > 125 && {_x iskindof ""car""} count thislist > 0 && (vehicle player) in thislist && (driver vehicle player == player)";
+            expActiv="nul = [[],""life_fnc_radarFlash120"",player,false] spawn life_fnc_MP;";
+            class Effects
+            {
+            };
+        };
+		class Item2
+        {
+            position[]={11678,37.754391,15919.1};
+            rectangular=1;
+            activationBy="CIV";
+            repeating=1;
+            interruptable=1;
+            age="UNKNOWN";
+            name="rada_1";
+            Text="Radar Marijuana Verarbeitung 120";
+            expCond="this && (speed player) > 125 && {_x iskindof ""car""} count thislist > 0 && (vehicle player) in thislist && (driver vehicle player == player)";
+            expActiv="nul = [[],""life_fnc_radarFlash120"",player,false] spawn life_fnc_MP;";
+            class Effects
+            {
+            };
+        };
+		class Item3
+        {
+            position[]={0.0.0};
+            rectangular=1;
+            activationBy="CIV";
+            repeating=1;
+            interruptable=1;
+            age="UNKNOWN";
+            name="rada_1";
+            Text="Radar Kavala 30";
+            expCond="this && (speed player) > 30 && {_x iskindof ""car""} count thislist > 0 && (vehicle player) in thislist && (driver vehicle player == player)";
+            expActiv="nul = [[],""life_fnc_radarFlash30"",player,false] spawn life_fnc_MP;";
+            class Effects
+            {
+            };
+        };
+		class Item4
+        {
+            position[]={0.0.0};
+            rectangular=1;
+            activationBy="CIV";
+            repeating=1;
+            interruptable=1;
+            age="UNKNOWN";
+            name="rada_1";
+            Text="Radar Athira 30";
+            expCond="this && (speed player) > 30 && {_x iskindof ""car""} count thislist > 0 && (vehicle player) in thislist && (driver vehicle player == player)";
+            expActiv="nul = [[],""life_fnc_radarFlash30"",player,false] spawn life_fnc_MP;";
+            class Effects
+            {
+            };
+        };
+		class Item5
+        {
+            position[]={0.0.0};
+            rectangular=1;
+            activationBy="CIV";
+            repeating=1;
+            interruptable=1;
+            age="UNKNOWN";
+            name="rada_1";
+            Text="Radar Pyrgos 30";
+            expCond="this && (speed player) > 30 && {_x iskindof ""car""} count thislist > 0 && (vehicle player) in thislist && (driver vehicle player == player)";
+            expActiv="nul = [[],""life_fnc_radarFlash30"",player,false] spawn life_fnc_MP;";
+            class Effects
+            {
+            };
+        };
+		class Item6
+        {
+            position[]={0.0.0};
+            rectangular=1;
+            activationBy="CIV";
+            repeating=1;
+            interruptable=1;
+            age="UNKNOWN";
+            name="rada_1";
+            Text="Radar Sofia 30";
+            expCond="this && (speed player) > 30 && {_x iskindof ""car""} count thislist > 0 && (vehicle player) in thislist && (driver vehicle player == player)";
+            expActiv="nul = [[],""life_fnc_radarFlash30"",player,false] spawn life_fnc_MP;";
             class Effects
             {
             };
@@ -32630,7 +32726,7 @@ class Mission
 	};
 	class Markers
 	{
-		items=234;
+		items=230;
 		class Item0
 		{
 			position[]={8459.6777,104.56568,25131.203};
@@ -32700,7 +32796,7 @@ class Mission
 		{
 			position[]={13820.758,19.826002,18969.209};
 			name="cop_spawn_3";
-			text="Polizei Station 2";
+			text="Polizei Station Athira";
 			type="mil_box";
 			colorName="ColorBLUFOR";
 		};
@@ -32756,7 +32852,7 @@ class Mission
 		{
 			position[]={16589.234,11,12763.845};
 			name="police_hq_2";
-			text="Polizei Station 1";
+			text="Polizei Station Pyrgos";
 			type="mil_box";
 			colorName="ColorBLUFOR";
 		};
@@ -34356,51 +34452,19 @@ class Mission
 		};
 		class Item219
 		{
-			position[]={3866.5381,34.874557,12375.678};
-			name="Prostitution";
-			text="Prostitution";
-			type="hd_dot";
-			colorName="ColorPink";
-		};
-		class Item220
-		{
-			position[]={16801.699,17.252026,12945.78};
-			name="Prostitution.";
-			text="Prostitution";
-			type="hd_dot";
-			colorName="ColorPink";
-		};
-		class Item221
-		{
-			position[]={14598.511,25.301697,17631.82};
-			name="Prostitution..";
-			text="Prostitution";
-			type="hd_dot";
-			colorName="ColorPink";
-		};
-		class Item222
-		{
-			position[]={25727.803,24.996317,21615.885};
-			name="Prostitution....";
-			text="Prostitution";
-			type="hd_dot";
-			colorName="ColorPink";
-		};
-		class Item223
-		{
 			position[]={25394.449,15.222636,20989.199};
 			name="medic_spawn_4";
 			type="Empty";
 			angle=12.349455;
 		};
-		class Item224
+		class Item220
 		{
 			position[]={25369.555,16.22323,21023.813};
 			name="med_car_4";
 			type="Empty";
 			angle=-138.86894;
 		};
-		class Item225
+		class Item221
 		{
 			position[]={25394.836,15.250373,20989.623};
 			name="hospital_4";
@@ -34408,14 +34472,14 @@ class Mission
 			type="loc_Hospital";
 			colorName="ColorRed";
 		};
-		class Item226
+		class Item222
 		{
 			position[]={22331.387,14.839127,18671.439};
 			name="bund_spawn_1";
 			text="Bundeswehr HQ";
 			type="flag_Germany";
 		};
-		class Item227
+		class Item223
 		{
 			position[]={25695.174,34.577457,21860.336};
 			name="peaches_4";
@@ -34423,7 +34487,7 @@ class Mission
 			type="loc_Tree";
 			colorName="Color3_FD_F";
 		};
-		class Item228
+		class Item224
 		{
 			position[]={11556.398,77.697838,7048.0737};
 			name="weed_area";
@@ -34432,28 +34496,28 @@ class Mission
 			a=100;
 			b=100;
 		};
-		class Item229
+		class Item225
 		{
 			position[]={22231.57,14.99,18640.984};
 			name="bund_car_1";
 			type="Empty";
 			angle=-95.485893;
 		};
-		class Item230
+		class Item226
 		{
 			position[]={22318.348,15.558331,18695.939};
 			name="bund_air_1";
 			type="Empty";
 			angle=-95.485893;
 		};
-		class Item231
+		class Item227
 		{
 			position[]={22298.268,15.326885,18696.375};
 			name="bund_air_2";
 			type="Empty";
 			angle=-95.485893;
 		};
-		class Item232
+		class Item228
 		{
 			position[]={14034.074,25.37278,18759.867};
 			name="car1_1";
@@ -34461,7 +34525,7 @@ class Mission
 			type="c_car";
 			colorName="ColorWhite";
 		};
-		class Item233
+		class Item229
 		{
 			position[]={16992.637,16.346601,12867.813};
 			name="car1_1";

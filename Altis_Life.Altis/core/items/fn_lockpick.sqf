@@ -75,6 +75,7 @@ if(!_isVehicle) then {
 	if(_dice < 30) then {
 		titleText[localize "STR_ISTR_Lock_Success","PLAIN"];
 		life_vehicles pushBack _curTarget;
+		_curTarget say3D "caralarm";
 		[[getPlayerUID player,profileName,"487"],"life_fnc_wantedAdd",false,false] spawn life_fnc_MP;
 	} else {
 		[[getPlayerUID player,profileName,"215"],"life_fnc_wantedAdd",false,false] spawn life_fnc_MP;
