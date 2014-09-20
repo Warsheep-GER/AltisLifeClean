@@ -20,6 +20,7 @@ if(typeName _type == typeName []) then
 			case 1: {hint format["%1", _message]};
 			case 2: {titleText[format["%1",_message],"PLAIN"];};
 			case 3: {[_message,(player getVariable["realname",name player])] call life_fnc_AAN;};
+			case 4: {hint parseText format["%1", _message]};//box rightup corner
 		};
 	};
 }
@@ -31,5 +32,6 @@ if(typeName _type == typeName []) then
 		case 1: {hint format["%1", _message]};
 		case 2: {titleText[format["%1",_message],"PLAIN"];};
 		case 3: {[_message,(player getVariable["realname",name player])] call life_fnc_AAN;};
+		case 4: {hint parseText format["%1", _message]};
 	};
 };
