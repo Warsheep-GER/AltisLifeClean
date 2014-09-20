@@ -24,6 +24,7 @@ life_bail_paid = false;
 life_impound_inuse = false;
 life_action_inUse = false;
 life_spikestrip = ObjNull;
+life_radar = ObjNull;
 life_respawn_timer = 0.2; //Scaled in minutes
 life_knockout = false;
 life_interrupted = false;
@@ -165,6 +166,7 @@ life_inv_items =
 	"life_inv_cokep",
 	"life_inv_diamondr",
 	"life_inv_spikeStrip",
+	"life_inv_radar",
 	"life_inv_rock",
 	"life_inv_cement",
 	"life_inv_goldbar",
@@ -268,6 +270,7 @@ sell_array =
 	["glass",1450],
 	["fuelF",500],
 	["spikeStrip",1200],
+	["radar",1200],
 	["cement",1950],
 	["goldbar",100000]
 ];
@@ -295,6 +298,7 @@ buy_array =
 	["fuelF",850],
 	["peach",68],
 	["spikeStrip",2500],
+	["radar",2500],
 	["blastingcharge",35000],
 	["boltcutter",7500],
 	["defusekit",2500],

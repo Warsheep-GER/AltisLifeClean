@@ -65,6 +65,14 @@ switch (true) do
 			[] spawn life_fnc_spikeStrip;
 		};
 	};
+	case (_item == "radar"):
+	{
+		if(!isNull life_radar) exitWith {hint localize "STR_ISTR_radarDeployment"};
+		if(([false,_item,1] call life_fnc_handleInv)) then
+		{
+			[] spawn life_fnc_radar;
+		};
+	};
 	
 	case (_item == "fuelF"):
 	{

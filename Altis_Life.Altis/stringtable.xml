@@ -1794,6 +1794,14 @@
 			<Italian>Hai raccolto una striscia chiodata.</Italian>
 			<Portuguese>Você pegou uma spike strip.</Portuguese>
 		</Key>
+		<Key ID="STR_NOTF_Radar">
+			<Original>You have packed up the spike strip.</Original>
+			<English>You have packed up the spike strip.</English>
+			<German>Du hast das Radar eingepackt.</German>
+			<French>Vous avez emballé la herse.</French>
+			<Italian>Hai raccolto una striscia chiodata.</Italian>
+			<Portuguese>Você pegou uma spike strip.</Portuguese>
+		</Key>
 		<Key ID="STR_NOTF_PickedEvidence">
 			<Original>%1 has been placed in evidence, you have received $%2 as a reward.</Original>
 			<English>%1 has been placed in evidence, you have received $%2 as a reward.</English>
@@ -3545,6 +3553,14 @@
 			<Italian>Striscia Chiodata</Italian>
 			<Portuguese>Spike Strip</Portuguese>
 		</Key>
+		<Key ID="STR_Item_Radar">
+			<Original>Spike Strip</Original>
+			<English>Spike Strip</English>
+			<German>Radar</German>
+			<French>Herse</French>
+			<Italian>Striscia Chiodata</Italian>
+			<Portuguese>Spike Strip</Portuguese>
+		</Key>
 	</Package>
 	<Package name="Life_License">
 		<Key ID="STR_License_Driver">
@@ -4005,10 +4021,26 @@
 			<Italian>Posa striscie chiodate</Italian>
 			<Portuguese>Spike Strip armada.</Portuguese>
 		</Key>
+		<Key ID="STR_ISTR_Radar_Place">
+			<Original>Place Spike Strip</Original>
+			<English>Place Spike Strip</English>
+			<German>Radar platzieren</German>
+			<French>Placer la herse</French>
+			<Italian>Posa striscie chiodate</Italian>
+			<Portuguese>Spike Strip armada.</Portuguese>
+		</Key>
 		<Key ID="STR_ISTR_Spike_Pack">
 			<Original>Pack up Spike Strip</Original>
 			<English>Pack up Spike Strip</English>
 			<German>Nagelband zusammenpacken</German>
+			<French>Ranger la herse</French>
+			<Italian>Recupera striscie chiodate</Italian>
+			<Portuguese>Pegar Spike Strip.</Portuguese>
+		</Key>
+		<Key ID="STR_ISTR_Radar_Pack">
+			<Original>Pack up Spike Strip</Original>
+			<English>Pack up Spike Strip</English>
+			<German>Radar zusammenpacken</German>
 			<French>Ranger la herse</French>
 			<Italian>Recupera striscie chiodate</Italian>
 			<Portuguese>Pegar Spike Strip.</Portuguese>
@@ -4057,6 +4089,14 @@
 			<Original>You already have a Spike Strip active in deployment</Original>
 			<English>You already have a Spike Strip active in deployment</English>
 			<German>Du stellst bereits ein Nagelband auf</German>
+			<French>You already have a Spike Strip active in deployment</French>
+			<Italian>You already have a Spike Strip active in deployment</Italian>
+			<Portuguese>You already have a Spike Strip active in deployment</Portuguese>
+		</Key>
+		<Key ID="STR_ISTR_RadarDeployment">
+			<Original>You already have a Spike Strip active in deployment</Original>
+			<English>You already have a Spike Strip active in deployment</English>
+			<German>Du stellst bereits ein Radar auf</German>
 			<French>You already have a Spike Strip active in deployment</French>
 			<Italian>You already have a Spike Strip active in deployment</Italian>
 			<Portuguese>You already have a Spike Strip active in deployment</Portuguese>
