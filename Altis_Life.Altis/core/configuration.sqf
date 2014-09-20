@@ -223,8 +223,8 @@ life_dp_points = ["dp_1","dp_2","dp_3","dp_4","dp_5","dp_6","dp_7","dp_8","dp_9"
 //[shortVar,reward]
 life_illegal_items = 
 [
-	["heroinu",5000],
-	["heroinp",6000],
+	["heroinu",5],
+	["heroinp",6],
 	["cocaine",4000],
 	["cocainep",5000],
 	["marijuana",4000],

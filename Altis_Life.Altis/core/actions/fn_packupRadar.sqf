@@ -1,9 +1,9 @@
 /*
-	File: fn_packupRadar.sqf
+	File: fn_packupradar.sqf
 	Author: Bryan "Tonic" Boardwine
 	
 	Description:
-	Packs up a deployed spike strip.
+	Packs up a deployed Radar.
 */
 private["_radar"];
 _radar = nearestObjects[getPos player,["Land_Runway_PAPI_4"],8] select 0;

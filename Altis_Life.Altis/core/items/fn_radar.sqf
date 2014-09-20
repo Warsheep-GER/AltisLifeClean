@@ -18,6 +18,6 @@ if(!isNil "life_action_radarDeploy") then {player removeAction life_action_radar
 if(isNull _radar) exitWith {life_radar = ObjNull;};
 _radar setPos [(getPos _radar select 0),(getPos _radar select 1),0];
 _radar setDamage 1;
-life_action_radarPickup = player addAction[localize "STR_ISTR_radar_Pack",life_fnc_packupradars,"",0,false,false,"",
-' _radars = nearestObjects[getPos player,["Land_Razorwire_F"],8] select 0; !isNil "_radars" && !isNil {(_radars getVariable "item")}'];
+life_action_radarPickup = player addAction[localize "STR_ISTR_Radar_Pack",life_fnc_packupradar,"",0,false,false,"",
+' _radar = nearestObjects[getPos player,["Land_Razorwire_F"],8] select 0; !isNil "_radar" && !isNil {(_radar getVariable "item")}'];
 [[_radar],"TON_fnc_radar",false,false] spawn life_fnc_MP; //Send it to the server for monitoring.

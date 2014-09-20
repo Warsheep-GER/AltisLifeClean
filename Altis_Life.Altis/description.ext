@@ -47,7 +47,8 @@ class CfgSounds
 		name = "bank_alarm";
 		sound[] = {"\sounds\bank.ogg", 1.0, 1};
 		titles[] = {};
-	};class bank_alarm
+	};
+	class caralarm
 	{
 		name = "caralarm";
 		sound[] = {"\sounds\caralarm.ogg", 1.0, 1};
