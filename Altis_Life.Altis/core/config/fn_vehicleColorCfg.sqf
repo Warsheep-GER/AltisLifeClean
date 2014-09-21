@@ -28,7 +28,6 @@ switch (_vehicle) do
 			["\A3\Soft_F_beta\Quadbike_01\Data\quadbike_01_indp_co.paa","reb"],
 			["\a3\soft_f_bootcamp\Quadbike_01\Data\quadbike_01_ig_co.paa","reb"],
 			["\a3\soft_f_bootcamp\Quadbike_01\Data\quadbike_01_indp_hunter_co.paa","reb"],
-			["\a3\soft_f_gamma\Quadbike_01\data\quadbike_01_indp_hunter_co.paa","reb"],
 			["\a3\soft_f_gamma\Quadbike_01\data\quadbike_01_indp_hunter_co.paa","reb"]
 			
 		];
@@ -47,10 +46,10 @@ switch (_vehicle) do
 			["\A3\soft_F\Offroad_01\Data\offroad_01_ext_BASE03_CO.paa","civ"],
 			["\A3\soft_F\Offroad_01\Data\offroad_01_ext_BASE04_CO.paa","civ"],
 			["\A3\soft_F\Offroad_01\Data\offroad_01_ext_BASE05_CO.paa","civ"],
-			[_med + "offroad_notarzt.paa","med"],
-			[_cop + "police_offroad.paa","cop"],
 			["\A3\soft_f_bootcamp\Offroad_01\Data\offroad_01_ext_repair_civ_co.paa","civ"],
-			["\A3\soft_f_gamma\Offroad_01\Data\offroad_01_ext_ig01_co.paa","reb"]
+			["\A3\soft_f_gamma\Offroad_01\Data\offroad_01_ext_ig01_co.paa","reb"],
+			[_med + "offroad_notarzt.paa","med"],
+			[_cop + "police_offroad.paa","cop"]
 		];
 	};
 	case "B_G_Offroad_01_armed_F":
@@ -60,17 +59,8 @@ switch (_vehicle) do
 		_civ = "vehskins\civ\";
 		_ret = 
 		[
-			["\A3\soft_f_bootcamp\Offroad_01\Data\offroad_01_ext_ig_01_co.paa","reb"],
-			["\A3\soft_f_bootcamp\Offroad_01\Data\offroad_01_ext_ig_02_co.paa","reb"],
-			["\A3\soft_f_bootcamp\Offroad_01\Data\offroad_01_ext_ig_03_co.paa","reb"],
-			["\A3\soft_f_bootcamp\Offroad_01\Data\offroad_01_ext_ig_04_co.paa","reb"],
 			["\A3\soft_f_bootcamp\Offroad_01\Data\offroad_01_ext_ig_05_co.paa","reb"],
 			["\A3\soft_f_bootcamp\Offroad_01\Data\offroad_01_ext_ig_06_co.paa","reb"],
-			["\A3\soft_f_bootcamp\Offroad_01\Data\offroad_01_ext_ig_07_co.paa","reb"],
-			["\A3\soft_f_bootcamp\Offroad_01\Data\offroad_01_ext_ig_08_co.paa","reb"],
-			["\A3\soft_f_bootcamp\Offroad_01\Data\offroad_01_ext_ig_09_co.paa","reb"],
-			["\A3\soft_f_bootcamp\Offroad_01\Data\offroad_01_ext_ig_10_co.paa","reb"],
-			["\A3\soft_f_bootcamp\Offroad_01\Data\offroad_01_ext_ig_11_co.paa","reb"],
 			["\A3\soft_f_bootcamp\Offroad_01\Data\offroad_01_ext_ig_12_co.paa","reb"],
 			["\A3\soft_f_gamma\Offroad_01\Data\offroad_01_ext_ig01_co.paa","reb"]
 		];
@@ -177,7 +167,8 @@ switch (_vehicle) do
 		_civ = "vehskins\civ\";
 		_ret = 
 		[
-			["\A3\soft_f\MRAP_02\Data\mrap_02_ext_01_co.paa","reb"]
+			["\A3\soft_f\MRAP_02\Data\mrap_02_ext_01_co.paa","reb"],
+			[_civ + "civ_ifrid_01.paa","reb",_civ + "civ_ifrid_02.paa"]
 		];
 	};
 	
@@ -290,7 +281,7 @@ switch (_vehicle) do
 		_ret = 
 		[
 			[_path + "Skins\heli_light_01_ext_sheriff_co.paa","reb"],
-			[_path + "heli_light_01_ext_ion_co.paa","civ"],
+			[_path + "heli_light_01_ext_ion_co.paa","reb"],
 			[_path + "heli_light_01_ext_blue_co.paa","civ"],
 			[_path + "heli_light_01_ext_co.paa","civ"],
 			[_path + "heli_light_01_ext_indp_co.paa","reb"],
