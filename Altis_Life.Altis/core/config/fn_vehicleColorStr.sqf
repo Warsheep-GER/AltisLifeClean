@@ -101,6 +101,24 @@ switch (_vehicle) do
 		};
 	};
 	
+	case "B_MRAP_02_F":
+	{
+		switch (_index) do
+		{
+			case 0: {_color = "Regular"};
+			case 1: {_color = "Black"};
+		};
+	};
+	case "B_MRAP_03_F":
+	{
+		switch (_index) do
+		{
+			case 0: {_color = "Regular"};
+			case 1: {_color = "Camo"};
+			case 2: {_color = "Black"};
+		};
+	};
+	
 	case "C_Van_01_box_F":
 	{
 		switch (_index) do

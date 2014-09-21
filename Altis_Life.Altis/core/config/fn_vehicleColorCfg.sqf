@@ -96,9 +96,28 @@ switch (_vehicle) do
 	{
 		_ret = 
 		[
-			["\A3\Soft_F\MRAP_01\Data\mrap_01_base_co.paa","cop"],
+			["\A3\soft_f\MRAP_01\Data\mrap_01_base_co.paa","cop"],
 			["#(argb,8,8,3)color(0.05,0.05,0.05,1)","cop"],
-			["vehskins\cop\cop_hunter_v1.paa","cop","vehskins\cop\cop_hunter_h1.paa"],
+			["vehskins\cop\cop_hunter_v1.paa","cop","vehskins\cop\cop_hunter_h1.paa"]
+		];
+	};
+	
+	case "B_MRAP_02_F":
+	{
+		_ret = 
+		[
+			["\A3\soft_f\MRAP_02\Data\mrap_02_ext_01_co.paa","reb","\A3\soft_f\MRAP_02\Data\mrap_02_ext_02_co.paa"],
+			["#(argb,8,8,3)color(0.05,0.05,0.05,1)","cop"]
+		];
+	};
+	
+	case "B_MRAP_03_F":
+	{
+		_ret = 
+		[
+			["\A3\soft_f_beta\MRAP_03\Data\mrap_03_ext_co.paa","cop"],
+			["\A3\soft_f_beta\MRAP_03\Data\mrap_03_ext_indp_co.paa","reb"],
+			["#(argb,8,8,3)color(0.05,0.05,0.05,1)","cop"]
 		];
 	};
 	
