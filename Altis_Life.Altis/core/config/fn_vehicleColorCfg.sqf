@@ -41,9 +41,6 @@ switch (_vehicle) do
 			["\A3\soft_F\Offroad_01\Data\offroad_01_ext_BASE03_CO.paa","civ"],
 			["\A3\soft_F\Offroad_01\Data\offroad_01_ext_BASE04_CO.paa","civ"],
 			["\A3\soft_F\Offroad_01\Data\offroad_01_ext_BASE05_CO.paa","civ"],
-			["#(ai,64,64,1)Fresnel(0.3,3)","civ"],
-			["#(ai,64,64,1)Fresnel(1.3,7)","reb"],
-			["#(argb,8,8,3)color(0.6,0.3,0.01,1)","civ"],
 			["vehskins\med\offroad_notarzt.paa","med"],
 			["vehskins\cop\police_offroad.paa","cop"],
 			["\A3\soft_f_bootcamp\Offroad_01\Data\offroad_01_ext_repair_civ_co.paa","civ"],
@@ -78,8 +75,7 @@ switch (_vehicle) do
 			["\A3\soft_f_bootcamp\Offroad_01\Data\offroad_01_ext_ig_10_co.paa","reb"],
 			["\A3\soft_f_bootcamp\Offroad_01\Data\offroad_01_ext_ig_11_co.paa","reb"],
 			["\A3\soft_f_bootcamp\Offroad_01\Data\offroad_01_ext_ig_12_co.paa","reb"],
-			["\A3\soft_f_gamma\Offroad_01\Data\offroad_01_ext_ig01_co.paa","reb"],
-			["#(ai,64,64,1)Fresnel(1.3,7)","reb"]
+			["\A3\soft_f_gamma\Offroad_01\Data\offroad_01_ext_ig01_co.paa","reb"]
 		];
 	};
 	
@@ -111,7 +107,6 @@ switch (_vehicle) do
 			[_path + "hatchback_01_ext_sport04_co.paa","reb"],
 			[_path + "hatchback_01_ext_sport05_co.paa","reb"],
 			[_path + "hatchback_01_ext_sport06_co.paa","reb"],
-			["#(ai,64,64,1)Fresnel(1.3,7)","reb"],
 			["\a3\soft_f_gamma\Hatchback_01\data\hatchback_01_ext_co.paa","reb"],
 			["vehskins\cop\hatchback_Polizei.paa","cop"]
 		];
@@ -125,7 +120,6 @@ switch (_vehicle) do
 			["\a3\soft_f_gamma\SUV_01\Data\suv_01_ext_02_co.paa","civ"],
 			["\a3\soft_f_gamma\SUV_01\Data\suv_01_ext_03_co.paa","civ"],
 			["\a3\soft_f_gamma\SUV_01\Data\suv_01_ext_04_co.paa","civ"],
-			["#(ai,64,64,1)Fresnel(1.3,7)","civ"],
 			["vehskins\cop\cop_suv.paa","cop"],
 			["vehskins\med\suv_medik.paa","med"]
 		];
@@ -136,8 +130,8 @@ switch (_vehicle) do
 		_ret = 
 		[
 			["\A3\soft_f\MRAP_01\Data\mrap_01_base_co.paa","reb"],
-			["#(argb,8,8,3)color(0.05,0.05,0.05,1)","cop"],
-			["vehskins\cop\cop_hunter_v1.paa","cop","vehskins\cop\cop_hunter_h1.paa"]
+			["vehskins\cop\cop_hunter_v1.paa","cop","vehskins\cop\cop_hunter_h1.paa"],
+			["vehskins\med\med_hunter_base.paa","med","vehskins\med\med_hunter_adds.paa"]
 		];
 	};
 	
@@ -146,9 +140,7 @@ switch (_vehicle) do
 		_ret = 
 		[
 			["\A3\soft_f\MRAP_01\Data\mrap_01_base_co.paa","reb"],
-			["#(argb,8,8,3)color(0.05,0.05,0.05,1)","cop"],
-			["vehskins\cop\cop_hunter_base.paa","cop","vehskins\cop\cop_hunter_adds.paa"],
-			["vehskins\med\med_hunter_base.paa","med","vehskins\med\med_hunter_adds.paa"]
+			["vehskins\cop\cop_hunter_base.paa","cop","vehskins\cop\cop_hunter_adds.paa"]
 		];
 	};
 	
@@ -156,16 +148,14 @@ switch (_vehicle) do
 	{
 		_ret = 
 		[
-			["\A3\soft_f\MRAP_02\Data\mrap_02_ext_01_co.paa","reb"],
-			["#(argb,8,8,3)color(0.05,0.05,0.05,1)","reb"]
+			["\A3\soft_f\MRAP_02\Data\mrap_02_ext_01_co.paa","reb"]
 		];
 	};
 	case "O_MRAP_02_hmg_F":
 	{
 		_ret = 
 		[
-			["\A3\soft_f\MRAP_02\Data\mrap_02_ext_01_co.paa","reb"],
-			["#(argb,8,8,3)color(0.05,0.05,0.05,1)","reb"]
+			["\A3\soft_f\MRAP_02\Data\mrap_02_ext_01_co.paa","reb"]
 		];
 	};
 	
@@ -174,8 +164,7 @@ switch (_vehicle) do
 		_ret = 
 		[
 			["\A3\soft_f_beta\MRAP_03\Data\mrap_03_ext_co.paa","cop"],
-			["\A3\soft_f_beta\MRAP_03\Data\mrap_03_ext_indp_co.paa","reb"],
-			["#(argb,8,8,3)color(0.05,0.05,0.05,1)","cop"]
+			["\A3\soft_f_beta\MRAP_03\Data\mrap_03_ext_indp_co.paa","reb"]
 		];
 	};
 	case "I_MRAP_03_hmg_F":
@@ -183,8 +172,7 @@ switch (_vehicle) do
 		_ret = 
 		[
 			["\A3\soft_f_beta\MRAP_03\Data\mrap_03_ext_co.paa","cop"],
-			["\A3\soft_f_beta\MRAP_03\Data\mrap_03_ext_indp_co.paa","reb"],
-			["#(argb,8,8,3)color(0.05,0.05,0.05,1)","cop"]
+			["\A3\soft_f_beta\MRAP_03\Data\mrap_03_ext_indp_co.paa","reb"]
 		];
 	};
 	case "I_MRAP_03_gmg_F":
@@ -192,8 +180,7 @@ switch (_vehicle) do
 		_ret = 
 		[
 			["\A3\soft_f_beta\MRAP_03\Data\mrap_03_ext_co.paa","cop"],
-			["\A3\soft_f_beta\MRAP_03\Data\mrap_03_ext_indp_co.paa","reb"],
-			["#(argb,8,8,3)color(0.05,0.05,0.05,1)","cop"]
+			["\A3\soft_f_beta\MRAP_03\Data\mrap_03_ext_indp_co.paa","reb"]
 		];
 	};
 	
@@ -232,7 +219,6 @@ switch (_vehicle) do
 		_ret = 
 		[
 			["\A3\Soft_F_Beta\Truck_02\data\truck_02_kab_co.paa","civ","\a3\soft_f_beta\Truck_02\data\truck_02_kuz_co.paa"],
-			["#(argb,8,8,3)color(0.05,0.05,0.05,1)","civ"],
 			["\A3\Soft_F_Beta\Truck_02\data\truck_02_kab_co.paa","reb","\a3\soft_f_beta\Truck_02\data\truck_02_kuz_indp_co.paa"],
 			["\A3\Soft_F_Beta\Truck_02\data\truck_02_kab_co.paa","reb","\a3\soft_f_beta\Truck_02\data\truck_02_kuz_opfor_co.paa"]
 		];
@@ -243,7 +229,6 @@ switch (_vehicle) do
 		_ret = 
 		[
 			["\A3\Soft_F_Beta\Truck_02\data\truck_02_kab_co.paa","civ","\a3\soft_f_beta\Truck_02\data\truck_02_kuz_co.paa"],
-			["#(argb,8,8,3)color(0.05,0.05,0.05,1)","civ"],
 			["\A3\Soft_F_Beta\Truck_02\data\truck_02_kab_co.paa","reb","\a3\soft_f_beta\Truck_02\data\truck_02_kuz_indp_co.paa"],
 			["\A3\Soft_F_Beta\Truck_02\data\truck_02_kab_co.paa","reb","\a3\soft_f_beta\Truck_02\data\truck_02_kuz_opfor_co.paa"]
 		];
@@ -267,7 +252,6 @@ switch (_vehicle) do
 			["\a3\air_f\Heli_Light_01\Data\Skins\heli_light_01_ext_vrana_co.paa","civ"],
 			["\a3\air_f\Heli_Light_01\Data\Skins\heli_light_01_ext_wave_co.paa","civ"],
 			["\a3\air_f\Heli_Light_01\Data\Skins\heli_light_01_ext_digital_co.paa","reb"],
-			["#(argb,8,8,3)color(1,1,1,0.8)","reb"],
 			["vehskins\cop\Polizei_Hummingbird.paa","cop"],
 			["vehskins\med\Notarzt_Hummingbird.paa","med"]
 		];
@@ -281,7 +265,6 @@ switch (_vehicle) do
 			["\a3\air_f\Heli_Light_02\Data\heli_light_02_ext_civilian_co.paa","civ"],
 			["\a3\air_f\Heli_Light_02\Data\heli_light_02_ext_indp_co.paa","reb"],
 			["\a3\air_f\Heli_Light_02\Data\heli_light_02_ext_opfor_co.paa","reb"],
-			["#(argb,8,8,3)color(1,1,1,0.8)","reb"],
 			["vehskins\med\orca_notarzt.paa","med"],
 			["vehskins\cop\orca_polizei.paa","cop"]
 		];

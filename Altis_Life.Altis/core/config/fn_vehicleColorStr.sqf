@@ -40,25 +40,22 @@ switch (_vehicle) do
 			case 3: {_color = "Blau";};
 			case 4: {_color = "Dunkelrot";};
 			case 5: {_color = "Blau/Weiss"};
-			case 6: {_color = "Schwarz"};
-			case 7: {_color = "Schwarz2"};
-			case 8: {_color = "Gelb"};
-			case 9: {_color = "Notarzt"};
-			case 10: {_color = "Polizei"};
-			case 11: {_color = "ADAC"};
-			case 12: {_color = "Rebel1"};
-			case 13: {_color = "Rebel2"};
-			case 14: {_color = "Rebel3"};
-			case 15: {_color = "Rebel4"};
-			case 16: {_color = "Rebel5"};
-			case 17: {_color = "Rebel6"};
-			case 18: {_color = "Rebel7"};
-			case 19: {_color = "Rebel8"};
-			case 20: {_color = "Rebel9"};
-			case 21: {_color = "Rebel10"};
-			case 22: {_color = "Rebel11"};
-			case 23: {_color = "Rebel12"};
-			case 24: {_color = "Rebel13"};
+			case 6: {_color = "Notarzt"};
+			case 7: {_color = "Polizei"};
+			case 8: {_color = "ADAC"};
+			case 9: {_color = "Rebel1"};
+			case 10: {_color = "Rebel2"};
+			case 11: {_color = "Rebel3"};
+			case 12: {_color = "Rebel4"};
+			case 13: {_color = "Rebel5"};
+			case 14: {_color = "Rebel6"};
+			case 15: {_color = "Rebel7"};
+			case 16: {_color = "Rebel8"};
+			case 17: {_color = "Rebel9"};
+			case 18: {_color = "Rebel10"};
+			case 19: {_color = "Rebel11"};
+			case 20: {_color = "Rebel12"};
+			case 21: {_color = "Rebel13"};
 		};
 	};
 	case "B_G_Offroad_01_armed_F" :
@@ -78,7 +75,6 @@ switch (_vehicle) do
 			case 10: {_color = "Rebel11"};
 			case 11: {_color = "Rebel12"};
 			case 12: {_color = "Rebel13"};
-			case 13: {_color = "Schwarz"};
 		};
 	};
 	
@@ -94,8 +90,7 @@ switch (_vehicle) do
 			case 5: {_color = "White"};
 			case 6: {_color = "Grey"};
 			case 7: {_color = "Black"};
-			case 9: {_color = "Polizei"};
-			case 8: {_color = "Weiss"};
+			case 8: {_color = "Polizei"};
 		};
 	};
 	
@@ -109,7 +104,6 @@ switch (_vehicle) do
 			case 3: {_color = "Black / White"};
 			case 4: {_color = "Tan"};
 			case 5: {_color = "Green"};
-			case 6: {_color = "Schwarz"};
 			case 7: {_color = "Weiss"};
 			case 8: {_color = "Polizei"};
 		};
@@ -123,7 +117,6 @@ switch (_vehicle) do
 			case 1: {_color = "Black";};
 			case 2: {_color = "Silver";};
 			case 3: {_color = "Orange";};
-			case 4: {_color = "Schwarz";};
 			case 5: {_color = "Polizei";};
 			case 6: {_color = "Notarzt";};
 		};
@@ -134,9 +127,8 @@ switch (_vehicle) do
 		switch (_index) do
 		{
 			case 0: {_color = "Regular"};
-			case 1: {_color = "Black"};
-			case 2: {_color = "Polizei"};
-			case 3: {_color = "Notarzt"};
+			case 1: {_color = "Polizei"};
+			case 2: {_color = "Notarzt"};
 		};
 	};
 	case "B_MRAP_01_hmg_F":
@@ -144,8 +136,7 @@ switch (_vehicle) do
 		switch (_index) do
 		{
 			case 0: {_color = "Regular"};
-			case 1: {_color = "Black"};
-			case 2: {_color = "Polizei"};
+			case 1: {_color = "Polizei"};
 		};
 	};
 	
@@ -154,7 +145,6 @@ switch (_vehicle) do
 		switch (_index) do
 		{
 			case 0: {_color = "Regular"};
-			case 1: {_color = "Black"};
 		};
 	};
 	case "O_MRAP_02_hmg_F":
@@ -162,7 +152,6 @@ switch (_vehicle) do
 		switch (_index) do
 		{
 			case 0: {_color = "Regular"};
-			case 1: {_color = "Black"};
 		};
 	};
 	case "I_MRAP_03_F":
@@ -171,7 +160,6 @@ switch (_vehicle) do
 		{
 			case 0: {_color = "Regular"};
 			case 1: {_color = "Camo"};
-			case 2: {_color = "Black"};
 		};
 	};
 	case "I_MRAP_03_hmg_F":
@@ -180,7 +168,6 @@ switch (_vehicle) do
 		{
 			case 0: {_color = "Regular"};
 			case 1: {_color = "Camo"};
-			case 2: {_color = "Black"};
 		};
 	};
 	case "I_MRAP_03_gmg_F":
@@ -189,7 +176,6 @@ switch (_vehicle) do
 		{
 			case 0: {_color = "Regular"};
 			case 1: {_color = "Camo"};
-			case 2: {_color = "Black"};
 		};
 	};
 	
@@ -228,9 +214,8 @@ switch (_vehicle) do
 		switch (_index) do
 		{
 			case 0: {_color = "Orange"};
-			case 1: {_color = "Black"};
-			case 2: {_color = "Camo"};
-			case 3: {_color = "Camo2"};
+			case 1: {_color = "Camo"};
+			case 2: {_color = "Camo2"};
 		};
 	};
 	
@@ -239,9 +224,8 @@ switch (_vehicle) do
 		switch (_index) do
 		{
 			case 0: {_color = "Orange"};
-			case 1: {_color = "Black"};
-			case 2: {_color = "Camo"};
-			case 3: {_color = "Camo2"};
+			case 1: {_color = "Camo"};
+			case 2: {_color = "Camo2"};
 		};
 	};
 	
@@ -263,7 +247,6 @@ switch (_vehicle) do
 			case 11: {_color = "Vrana"};
 			case 12: {_color = "Waves Blue"};
 			case 13: {_color = "Rebel Digital"};
-			case 14: {_color = "White"};
 			case 15: {_color = "Polizei"};
 			case 16: {_color = "Notarzt"};
 		};
@@ -277,9 +260,8 @@ switch (_vehicle) do
 			case 1: {_color = "White / Blue"};
 			case 2: {_color = "Digi Green"};
 			case 3: {_color = "Desert Digi"};
-			case 4: {_color = "White"};
-			case 5: {_color = "Notarzt"};
-			case 6: {_color = "Polizei"};
+			case 4: {_color = "Notarzt"};
+			case 5: {_color = "Polizei"};
 		};
 	};
 	
