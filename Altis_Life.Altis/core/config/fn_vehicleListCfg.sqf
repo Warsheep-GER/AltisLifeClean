@@ -73,6 +73,7 @@ switch (_shop) do
 		[
 			["B_Quadbike_01_F",2500],
 			["B_G_Offroad_01_F",15000],
+			["C_Hatchback_01_sport_F",50000],
 			["B_G_Offroad_01_armed_F",750000],
 			["B_MRAP_01_F",500000],
 			["I_MRAP_03_F",500000],
@@ -90,6 +91,7 @@ switch (_shop) do
 	case "med_shop":
 	{
 		_return = [
+			["B_Quadbike_01_F",1000],
 			["C_Offroad_01_F",10000]
 		];
 		if(__GETC__(life_mediclevel) > 1) then
@@ -102,6 +104,12 @@ switch (_shop) do
 		{
 			_return set[count _return,
 			["I_Truck_02_medical_F",25000]
+			];
+		};
+		if(__GETC__(life_mediclevel) >4) then
+		{
+			_return set[count _return,
+			["B_MRAP_01_F",30000]
 			];
 		};
 	};
@@ -119,6 +127,12 @@ switch (_shop) do
 			case (!license_med_bund): {"Du bist nicht in der Bundeswehr!"};
 			default
 			{
+			if(__GETC__(life_mediclevel) >2) then
+			{
+				_return set[count _return,
+				["B_MRAP_01_F",30000]
+				];
+			};
 			if(__GETC__(life_mediclevel) > 3) then
 			{
 				_return set[count _return,
