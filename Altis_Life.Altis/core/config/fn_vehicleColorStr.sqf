@@ -80,6 +80,7 @@ switch (_vehicle) do
 			case 7: {_color = "Black"};
 			case 8: {_color = "Weiss"};
 			case 9: {_color = "Polizei"};
+			case 10: {_color = "Notarzt"};
 		};
 	};
 	
@@ -95,6 +96,7 @@ switch (_vehicle) do
 			case 5: {_color = "Green"};
 			case 6: {_color = "Weiss"};
 			case 7: {_color = "Polizei"};
+			case 8: {_color = "Notarzt"};
 		};
 	};
 	
@@ -134,14 +136,16 @@ switch (_vehicle) do
 	{
 		switch (_index) do
 		{
-			case 0: {_color = "Regular"};
+			case 0: {_color = "Camo"};
+			case 1: {_color = "Camo Blau"};
 		};
 	};
 	case "O_MRAP_02_hmg_F":
 	{
 		switch (_index) do
 		{
-			case 0: {_color = "Regular"};
+			case 0: {_color = "Camo"};
+			case 1: {_color = "Navi Camo"};
 		};
 	};
 	case "I_MRAP_03_F":
@@ -263,6 +267,7 @@ switch (_vehicle) do
 		{
 			case 0: {_color = "Ion"};
 			case 1: {_color = "Dahoman"};
+			case 2: {_color = "Camo"};
 		};
 	};
 };

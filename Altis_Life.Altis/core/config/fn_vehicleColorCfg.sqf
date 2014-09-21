@@ -92,7 +92,8 @@ switch (_vehicle) do
 			["\a3\soft_f_gamma\Hatchback_01\data\hatchback_01_ext_base08_co.paa","civ"],
 			["\a3\soft_f_gamma\Hatchback_01\data\hatchback_01_ext_base09_co.paa","civ"],
 			["\a3\soft_f_gamma\Hatchback_01\data\hatchback_01_ext_co.paa","civ"],
-			[_cop + "hatchback_Polizei.paa","cop"]
+			[_cop + "hatchback_Polizei.paa","cop"],
+			[_med + "hatchback_Notarzt.paa","med"]
 		];
 	};
 	
@@ -111,7 +112,8 @@ switch (_vehicle) do
 			[_path + "hatchback_01_ext_sport05_co.paa","reb"],
 			[_path + "hatchback_01_ext_sport06_co.paa","reb"],
 			[_path + "hatchback_01_ext_co.paa","reb"],
-			[_cop + "hatchback_Polizei.paa","cop"]
+			[_cop + "hatchback_Polizei.paa","cop"],
+			[_med + "hatchback_Notarzt.paa","med"]
 		];
 	};
 		
@@ -126,7 +128,7 @@ switch (_vehicle) do
 			["\a3\soft_f_gamma\SUV_01\Data\suv_01_ext_02_co.paa","civ"],
 			["\a3\soft_f_gamma\SUV_01\Data\suv_01_ext_03_co.paa","civ"],
 			["\a3\soft_f_gamma\SUV_01\Data\suv_01_ext_04_co.paa","civ"],
-			[_cop + "cop_suv.paa","cop"],
+			[_cop + "suv_cop.paa","cop"],
 			[_med + "suv_medik.paa","med"],
 			[_civ + "suv_tuned.paa","civ"]
 		];
@@ -164,7 +166,8 @@ switch (_vehicle) do
 		_civ = "vehskins\civ\";
 		_ret = 
 		[
-			["\A3\soft_f\MRAP_02\Data\mrap_02_ext_01_co.paa","reb"]
+			["\A3\soft_f\MRAP_02\Data\mrap_02_ext_01_co.paa","reb"],
+			[_civ + "civ_ifrid_01.paa","reb",_civ + "civ_ifrid_02.paa"]
 		];
 	};
 	case "O_MRAP_02_hmg_F":
@@ -329,11 +332,12 @@ switch (_vehicle) do
 		_cop = "vehskins\cop\";
 		_med = "vehskins\med\";
 		_civ = "vehskins\civ\";
-		_path = "\a3\air_f_beta\Heli_Transport_02\Data\Skins\";
+		_path = "\a3\air_f_beta\Heli_Transport_02\Data\";
 		_ret =
 		[
-			[_path + "heli_transport_02_1_ion_co.paa","civ",_path + "heli_transport_02_2_ion_co.paa",_path + "heli_transport_02_3_ion_co.paa"],
-			[_path + "heli_transport_02_1_dahoman_co.paa","civ",_path + "heli_transport_02_2_dahoman_co.paa",_path + "heli_transport_02_3_dahoman_co.paa"]
+			[_path + "Skins\heli_transport_02_1_ion_co.paa","civ",_path + "Skins\heli_transport_02_2_ion_co.paa",_path + "Skins\heli_transport_02_3_ion_co.paa"],
+			[_path + "Skins\heli_transport_02_1_dahoman_co.paa","civ",_path + "Skins\heli_transport_02_2_dahoman_co.paa",_path + "Skins\heli_transport_02_3_dahoman_co.paa"],
+			[_path + "heli_transport_02_1_indp_co","reb",_path + "heli_transport_02_2_indp_co",_path + "heli_transport_02_3_indp_co"]
 		];
 	};
 };
