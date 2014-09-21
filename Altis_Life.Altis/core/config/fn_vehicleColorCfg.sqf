@@ -50,18 +50,6 @@ switch (_vehicle) do
 			[_med + "offroad_notarzt.paa","med"],
 			[_cop + "police_offroad.paa","cop"],
 			["\A3\soft_f_bootcamp\Offroad_01\Data\offroad_01_ext_repair_civ_co.paa","civ"],
-			["\A3\soft_f_bootcamp\Offroad_01\Data\offroad_01_ext_ig_01_co.paa","reb"],
-			["\A3\soft_f_bootcamp\Offroad_01\Data\offroad_01_ext_ig_02_co.paa","reb"],
-			["\A3\soft_f_bootcamp\Offroad_01\Data\offroad_01_ext_ig_03_co.paa","reb"],
-			["\A3\soft_f_bootcamp\Offroad_01\Data\offroad_01_ext_ig_04_co.paa","reb"],
-			["\A3\soft_f_bootcamp\Offroad_01\Data\offroad_01_ext_ig_05_co.paa","reb"],
-			["\A3\soft_f_bootcamp\Offroad_01\Data\offroad_01_ext_ig_06_co.paa","reb"],
-			["\A3\soft_f_bootcamp\Offroad_01\Data\offroad_01_ext_ig_07_co.paa","reb"],
-			["\A3\soft_f_bootcamp\Offroad_01\Data\offroad_01_ext_ig_08_co.paa","reb"],
-			["\A3\soft_f_bootcamp\Offroad_01\Data\offroad_01_ext_ig_09_co.paa","reb"],
-			["\A3\soft_f_bootcamp\Offroad_01\Data\offroad_01_ext_ig_10_co.paa","reb"],
-			["\A3\soft_f_bootcamp\Offroad_01\Data\offroad_01_ext_ig_11_co.paa","reb"],
-			["\A3\soft_f_bootcamp\Offroad_01\Data\offroad_01_ext_ig_12_co.paa","reb"],
 			["\A3\soft_f_gamma\Offroad_01\Data\offroad_01_ext_ig01_co.paa","reb"]
 		];
 	};
@@ -122,7 +110,7 @@ switch (_vehicle) do
 			[_path + "hatchback_01_ext_sport04_co.paa","reb"],
 			[_path + "hatchback_01_ext_sport05_co.paa","reb"],
 			[_path + "hatchback_01_ext_sport06_co.paa","reb"],
-			["\a3\soft_f_gamma\Hatchback_01\data\hatchback_01_ext_co.paa","reb"],
+			[_path + "hatchback_01_ext_co.paa","reb"],
 			[_cop + "hatchback_Polizei.paa","cop"]
 		];
 	};
@@ -140,7 +128,6 @@ switch (_vehicle) do
 			["\a3\soft_f_gamma\SUV_01\Data\suv_01_ext_04_co.paa","civ"],
 			[_cop + "cop_suv.paa","cop"],
 			[_med + "suv_medik.paa","med"],
-			[_civ + "suv_Ghostrider.paa","civ"],
 			[_civ + "suv_tuned.paa","civ"]
 		];
 	};
@@ -279,38 +266,40 @@ switch (_vehicle) do
 	
 	case "I_Truck_02_transport_F":
 	{
+		_path = "\A3\Soft_F_Beta\Truck_02\data\";
 		_cop = "vehskins\cop\";
 		_med = "vehskins\med\";
 		_civ = "vehskins\civ\";
 		_ret = 
 		[
-			["\A3\Soft_F_Beta\Truck_02\data\truck_02_kab_co.paa","civ","\a3\soft_f_beta\Truck_02\data\truck_02_kuz_co.paa"],
-			["\A3\Soft_F_Beta\Truck_02\data\truck_02_kab_co.paa","reb","\a3\soft_f_beta\Truck_02\data\truck_02_kuz_indp_co.paa"],
-			["\A3\Soft_F_Beta\Truck_02\data\truck_02_kab_co.paa","reb","\a3\soft_f_beta\Truck_02\data\truck_02_kuz_opfor_co.paa"]
+			[_path + "truck_02_kab_co.paa","civ",_path + "truck_02_kuz_co.paa"],
+			[_path + "truck_02_kab_co.paa","reb",_path + "truck_02_kuz_indp_co.paa"],
+			[_path + "truck_02_kab_co.paa","reb",_path + "truck_02_kuz_opfor_co.paa"]
 		];
 	};
 	
 	case "B_Heli_Light_01_F":
 	{
+		_path = "\a3\air_f\Heli_Light_01\Data\";
 		_cop = "vehskins\cop\";
 		_med = "vehskins\med\";
 		_civ = "vehskins\civ\";
 		_ret = 
 		[
-			["\a3\air_f\Heli_Light_01\Data\Skins\heli_light_01_ext_sheriff_co.paa","reb"],
-			["\a3\air_f\Heli_Light_01\Data\heli_light_01_ext_ion_co.paa","civ"],
-			["\a3\air_f\Heli_Light_01\Data\heli_light_01_ext_blue_co.paa","civ"],
-			["\a3\air_f\Heli_Light_01\Data\heli_light_01_ext_co.paa","civ"],
-			["\a3\air_f\Heli_Light_01\Data\heli_light_01_ext_indp_co.paa","reb"],
-			["\a3\air_f\Heli_Light_01\Data\Skins\heli_light_01_ext_blueline_co.paa","civ"],
-			["\a3\air_f\Heli_Light_01\Data\Skins\heli_light_01_ext_elliptical_co.paa","civ"],
-			["\a3\air_f\Heli_Light_01\Data\Skins\heli_light_01_ext_furious_co.paa","civ"],
-			["\a3\air_f\Heli_Light_01\Data\Skins\heli_light_01_ext_jeans_co.paa","civ"],
-			["\a3\air_f\Heli_Light_01\Data\Skins\heli_light_01_ext_speedy_co.paa","civ"],
-			["\a3\air_f\Heli_Light_01\Data\Skins\heli_light_01_ext_sunset_co.paa","civ"],
-			["\a3\air_f\Heli_Light_01\Data\Skins\heli_light_01_ext_vrana_co.paa","civ"],
-			["\a3\air_f\Heli_Light_01\Data\Skins\heli_light_01_ext_wave_co.paa","civ"],
-			["\a3\air_f\Heli_Light_01\Data\Skins\heli_light_01_ext_digital_co.paa","reb"],
+			[_path + "Skins\heli_light_01_ext_sheriff_co.paa","reb"],
+			[_path + "heli_light_01_ext_ion_co.paa","civ"],
+			[_path + "heli_light_01_ext_blue_co.paa","civ"],
+			[_path + "heli_light_01_ext_co.paa","civ"],
+			[_path + "heli_light_01_ext_indp_co.paa","reb"],
+			[_path + "Skins\heli_light_01_ext_blueline_co.paa","civ"],
+			[_path + "Skins\heli_light_01_ext_elliptical_co.paa","civ"],
+			[_path + "Skins\heli_light_01_ext_furious_co.paa","civ"],
+			[_path + "Skins\heli_light_01_ext_jeans_co.paa","civ"],
+			[_path + "Skins\heli_light_01_ext_speedy_co.paa","civ"],
+			[_path + "Skins\heli_light_01_ext_sunset_co.paa","civ"],
+			[_path + "Skins\heli_light_01_ext_vrana_co.paa","civ"],
+			[_path + "Skins\heli_light_01_ext_wave_co.paa","civ"],
+			[_path + "Skins\heli_light_01_ext_digital_co.paa","reb"],
 			[_cop + "Polizei_Hummingbird.paa","cop"],
 			[_med + "Notarzt_Hummingbird.paa","med"]
 		];

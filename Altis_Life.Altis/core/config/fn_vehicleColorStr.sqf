@@ -43,19 +43,7 @@ switch (_vehicle) do
 			case 6: {_color = "Notarzt"};
 			case 7: {_color = "Polizei"};
 			case 8: {_color = "ADAC"};
-			case 9: {_color = "Rebel1"};
-			case 10: {_color = "Rebel2"};
-			case 11: {_color = "Rebel3"};
-			case 12: {_color = "Rebel4"};
-			case 13: {_color = "Rebel5"};
-			case 14: {_color = "Rebel6"};
-			case 15: {_color = "Rebel7"};
-			case 16: {_color = "Rebel8"};
-			case 17: {_color = "Rebel9"};
-			case 18: {_color = "Rebel10"};
-			case 19: {_color = "Rebel11"};
-			case 20: {_color = "Rebel12"};
-			case 21: {_color = "Rebel13"};
+			case 9: {_color = "Rebel"};
 		};
 	};
 	case "B_G_Offroad_01_armed_F" :
@@ -87,10 +75,11 @@ switch (_vehicle) do
 			case 2: {_color = "Blue";};
 			case 3: {_color = "Dark Blue";};
 			case 4: {_color = "Yellow";};
-			case 5: {_color = "White"};
+			case 5: {_color = "Silber"};
 			case 6: {_color = "Grey"};
 			case 7: {_color = "Black"};
-			case 8: {_color = "Polizei"};
+			case 8: {_color = "Weiss"};
+			case 9: {_color = "Polizei"};
 		};
 	};
 	
@@ -104,8 +93,8 @@ switch (_vehicle) do
 			case 3: {_color = "Black / White"};
 			case 4: {_color = "Tan"};
 			case 5: {_color = "Green"};
-			case 7: {_color = "Weiss"};
-			case 8: {_color = "Polizei"};
+			case 6: {_color = "Weiss"};
+			case 7: {_color = "Polizei"};
 		};
 	};
 	
@@ -117,10 +106,9 @@ switch (_vehicle) do
 			case 1: {_color = "Black";};
 			case 2: {_color = "Silver";};
 			case 3: {_color = "Orange";};
-			case 5: {_color = "Polizei";};
-			case 6: {_color = "Notarzt";};
-			case 7: {_color = "Rider";};
-			case 8: {_color = "Tuned";};
+			case 4: {_color = "Polizei";};
+			case 5: {_color = "Notarzt";};
+			case 6: {_color = "Weiss tuning";};
 		};
 	};
 	
@@ -249,8 +237,8 @@ switch (_vehicle) do
 			case 11: {_color = "Vrana"};
 			case 12: {_color = "Waves Blue"};
 			case 13: {_color = "Rebel Digital"};
-			case 15: {_color = "Polizei"};
-			case 16: {_color = "Notarzt"};
+			case 14: {_color = "Polizei"};
+			case 15: {_color = "Notarzt"};
 		};
 	};
 	
