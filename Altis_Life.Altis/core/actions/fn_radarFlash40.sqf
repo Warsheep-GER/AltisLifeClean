@@ -25,7 +25,7 @@ if(life_atmcash < _pay) exitWith {
 		[[getPlayerUID player,profileName,"9022"],"life_fnc_wantedAdd",false,false] spawn life_fnc_MP;
 	};
 	cutText[format["Sie sind mit %1 km/h geblitzt wurden und bekommen eine Geldstraffe von %2 $ ! \n\n\n Sie werden jetzt gesucht. \n\n\n Ihnen wurde die Fahrerlaubnis entzogen.",round _speed,[_pay] call life_fnc_numberText],"WHITE OUT"];
-	0.0001 cutFadeOut 5;
+	0.0001 cutFadeOut 1;
 	sleep 0.7;
 	0.0001 cutFadeOut 5;
 	license_civ_driver = false;
@@ -33,17 +33,17 @@ if(life_atmcash < _pay) exitWith {
 if((round _speed > 45) && (round _speed < 81)) then {
 	if(life_atmcash >= _pay) then {
 		cutText[format["Sie sind mit %1 km/h geblitzt wurden und bekommen eine Geldstraffe von %2 $ ! \n\n\n  %2 $ wurden vom Konto abgebucht.",round _speed,[_pay] call life_fnc_numberText],"WHITE OUT"];
-		0.0001 cutFadeOut 5;
+		0.0001 cutFadeOut 1;
 		sleep 0.7;
-	0.0001 cutFadeOut 5;
-	life_atmcash = life_atmcash - _pay;
+		0.0001 cutFadeOut 5;
+		life_atmcash = life_atmcash - _pay;
 	};
 };
 
 if((round _speed > 80) && (round _speed < 121)) then {
 	if(life_atmcash >= _pay) then {
 		cutText[format["Sie sind mit %1 km/h geblitzt wurden und bekommen eine Geldstraffe von %2 $ ! \n\n\n %2 $ wurden vom Konto abgebucht.",round _speed,[_pay] call life_fnc_numberText],"WHITE OUT"];
-		0.0001 cutFadeOut 5;
+		0.0001 cutFadeOut 1;
 		sleep 0.7;
 		0.0001 cutFadeOut 5;
 		life_atmcash = life_atmcash - _pay;
@@ -53,7 +53,7 @@ if((round _speed > 80) && (round _speed < 121)) then {
 if(round _speed > 120) then {
 	if(life_atmcash >= _pay) then {
 		cutText[format["Sie sind mit %1 km/h geblitzt wurden und bekommen eine Geldstraffe von %2 $ ! \n\n\n %2 $ wurden vom Konto abgebucht. \n\n\n Ihnen wurde die Fahrerlaubnis entzogen.",round _speed,[_pay] call life_fnc_numberText],"WHITE OUT"];
-		0.0001 cutFadeOut 5;
+		0.0001 cutFadeOut 1;
 		sleep 0.7;
 		0.0001 cutFadeOut 5;
 		license_civ_driver = false;

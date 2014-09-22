@@ -346,7 +346,7 @@ switch (_vehicle) do
 		_path = "\a3\air_f_beta\Heli_Transport_02\Data\";
 		_cop = "vehskins\cop\cop_";
 		_med = "vehskins\med\med_";
-		_civ = "vehskins\civ\_civ";
+		_civ = "vehskins\civ\civ_";
 		_ret =
 		[
 			[_path + "Skins\heli_transport_02_1_ion_co.paa","civ",_path + "Skins\heli_transport_02_2_ion_co.paa",_path + "Skins\heli_transport_02_3_ion_co.paa"],
