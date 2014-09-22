@@ -79,6 +79,7 @@ if (_speed > _limit) then {
 			};
 		} else {
 			life_speedCaught = life_speedCaught + 1;
+			life_speedTicket = life_speedTicket + 1;
 			if(life_speedCaught <= 5) then {
 				systemChat format["Sie wurden %1 mal beim zu schnellen fahren ohne Führerschein erwischt",life_speedCaught];
 			};
@@ -88,7 +89,7 @@ if (_speed > _limit) then {
 			if(life_speedCaught > 6 && life_speedCaught <= 8) exitWith {
 				systemChat format["Das ist dein %1. Blitzer Foto!",life_speedCaught];
 				hint parseText format ["<t color='#ffffff'><t size='2'><t align='center'>Blitzer<br/><t color='#ff0000'><t align='center'><t size='1.5'>Geschwindigkeit: %1 km/h<br/><t color='#ffffff'><t align='center'><t size='1'>Begrenzung: %2 km/h<br/><t color='#ffffff'><t align='center'><t size='1'>Fahrer: %3<br/>Nach ihnen wird jetzt wegen ,wiederholt zu schnelles Fahren ohne Führerschein, gesucht.",round _speed,_limit,name _driver];
-				[[getPlayerUID _driver,name _driver,"120FWL"],"life_fnc_wantedAdd",false,false] spawn life_fnc_MP;
+				[[getPlayerUID _driver,name _driver,"120HWL"],"life_fnc_wantedAdd",false,false] spawn life_fnc_MP;
 					
 			};
 			if(life_speedCaught > 8) exitWith {
