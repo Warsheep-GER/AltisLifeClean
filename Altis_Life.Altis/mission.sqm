@@ -4142,7 +4142,7 @@ class Mission
 	};
 	class Vehicles
 	{
-		items=2999;
+		items=3006;
 		class Item0
 		{
 			position[]={8065.1616,35.674362,24985.314};
@@ -32720,6 +32720,76 @@ class Mission
 			id=3255;
 			side="EMPTY";
 			vehicle="Oil_Spill_F";
+			leader=1;
+			skill=0.60000002;
+		};
+		class Item2999
+		{
+			position[]={0.0.0};
+			azimut=180;
+			id=3256;
+			side="EMPTY";
+			vehicle="Land_Runway_PAPI_4";
+			leader=1;
+			skill=0.60000002;
+		};
+		class Item3000
+		{
+			position[]={0.0.0};
+			azimut=180;
+			id=3257;
+			side="EMPTY";
+			vehicle="Land_Runway_PAPI_4";
+			leader=1;
+			skill=0.60000002;
+		};
+		class Item3001
+		{
+			position[]={0.0.0};
+			azimut=180;
+			id=3258;
+			side="EMPTY";
+			vehicle="Land_Runway_PAPI_4";
+			leader=1;
+			skill=0.60000002;
+		};
+		class Item3002
+		{
+			position[]={0.0.0};
+			azimut=180;
+			id=3259;
+			side="EMPTY";
+			vehicle="Land_Runway_PAPI_4";
+			leader=1;
+			skill=0.60000002;
+		};
+		class Item3003
+		{
+			position[]={0.0.0};
+			azimut=180;
+			id=3260;
+			side="EMPTY";
+			vehicle="Land_Runway_PAPI_4";
+			leader=1;
+			skill=0.60000002;
+		};
+		class Item3004
+		{
+			position[]={0.0.0};
+			azimut=180;
+			id=3261;
+			side="EMPTY";
+			vehicle="Land_Runway_PAPI_4";
+			leader=1;
+			skill=0.60000002;
+		};
+		class Item3005
+		{
+			position[]={0.0.0};
+			azimut=180;
+			id=3262;
+			side="EMPTY";
+			vehicle="Land_Runway_PAPI_4";
 			leader=1;
 			skill=0.60000002;
 		};
