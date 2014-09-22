@@ -9,9 +9,9 @@ if(!license_civ_driver) exitWith {
 	sleep 0.7;
 	0.0001 cutFadeOut 5;
 };
-if((round _speed > 125) && (round _speed < 145)) then {_pay = 2000;};
-if((round _speed > 144) && (round _speed < 161)) then {_pay = 5000;};
-if(round _speed > 160) then {_pay = 10000;};
+if((round _speed > 125) && (round _speed < 150)) then {_pay = 2500;};
+if((round _speed > 151) && (round _speed < 181)) then {_pay = 5000;};
+if(round _speed > 180) then {_pay = 10000;};
 
 if(life_atmcash < _pay) exitWith {
 	if(_pay == 2000) then {
@@ -29,7 +29,7 @@ if(life_atmcash < _pay) exitWith {
 	0.0001 cutFadeOut 5;
 	license_civ_driver = false;
 };
-if((round _speed > 125) && (round _speed < 145)) then {
+if((round _speed > 125) && (round _speed < 150)) then {
 	if(life_atmcash >= _pay) then {
 		cutText[format["Sie sind mit %1 km/h geblitzt wurden und bekommen eine Geldstraffe von %2 $ ! \n\n\n  %2 $ wurden vom Konto abgebucht.",round _speed,[_pay] call life_fnc_numberText],"WHITE OUT"];
 		0.0001 cutFadeOut 5;
@@ -39,7 +39,7 @@ if((round _speed > 125) && (round _speed < 145)) then {
 	};
 };
 
-if((round _speed > 144) && (round _speed < 161)) then {
+if((round _speed > 150) && (round _speed < 181)) then {
 	if(life_atmcash >= _pay) then {
 		cutText[format["Sie sind mit %1 km/h geblitzt wurden und bekommen eine Geldstraffe von %2 $ ! \n\n\n %2 $ wurden vom Konto abgebucht.",round _speed,[_pay] call life_fnc_numberText],"WHITE OUT"];
 		0.0001 cutFadeOut 5;
@@ -49,7 +49,7 @@ if((round _speed > 144) && (round _speed < 161)) then {
 	};
 };
 
-if(round _speed > 160) then {
+if(round _speed > 180) then {
 	if(life_atmcash >= _pay) then {
 		cutText[format["Sie sind mit %1 km/h geblitzt wurden und bekommen eine Geldstraffe von %2 $ ! \n\n\n %2 $ wurden vom Konto abgebucht. \n\n\n Ihnen wurde die Fahrerlaubnis entzogen.",round _speed,[_pay] call life_fnc_numberText],"WHITE OUT"];
 		0.0001 cutFadeOut 5;

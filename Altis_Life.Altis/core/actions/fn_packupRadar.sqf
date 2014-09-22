@@ -6,7 +6,7 @@
 	Packs up a deployed Radar.
 */
 private["_radar"];
-_radar = nearestObjects[getPos player,["Land_Runway_PAPI_4"],8] select 0;
+_radar = nearestObjects[getPos player,["Land_runway_edgelight_blue_F"],8] select 0;
 if(isNil "_radar") exitWith {};
 
 if(([true,"spikeStrip",1] call life_fnc_handleInv)) then

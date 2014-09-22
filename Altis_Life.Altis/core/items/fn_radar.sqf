@@ -6,7 +6,7 @@
 	Creates a radar and preps it.
 */
 private["_position","_radar"];
-_radar = "Land_Runway_PAPI_4" createVehicle [0,0,0];
+_radar = "Land_runway_edgelight_blue_F" createVehicle [0,0,0];
 _radar attachTo[player,[0,5.5,0]];
 _radar setDir 90;
 _radar setVariable["item","radarDeployed",true];

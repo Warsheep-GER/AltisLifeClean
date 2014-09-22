@@ -6,7 +6,7 @@ player createDiarySubject ["Serverregeln","Serverregeln"];
 player createDiarySubject ["Bundeswehr","Bundeswehr"];
 player createDiarySubject ["Polizeiregeln","Polizeiregeln"];
 player createDiarySubject ["illegalitems","Illegale Items"];
-player createDiarySubject ["Busscash-Katalog","Busscash-Katalog"];
+player createDiarySubject ["BussGeld-Katalog","BussGeld-Katalog"];
 player createDiarySubject ["controls","Controls"];
 
  
@@ -43,7 +43,7 @@ player createDiarySubject ["controls","Controls"];
                 "<br/>Folgende Exploits fuehren ohne Vorwarnung zu einem permanenten Serverban:<br/><br/>
 1. Ausbruch aus dem Gefaengnis ohne die Nutzung eines Helikopters oder dem Bezahlen der faelligen Summe.<br/><br/>
 2. Suizid mit dem Ziel dem RP zu entgehen. Sich aus dem Status getazert, gefesselt, eingesperrt, etc. zu sein. Das Log gibt uns Auskunft darueber, ob du verhaftet wurdest und dann direkt gestorben bist.<br/><br/>
-3. Duplizieren/Cheaten von cash und Items. Wenn dir jemand einen extrem hohen cashbetrag sendet, melde dies UMGEHEND einem Admin (Ingame/Forum) und ueberweise das cash an ihn. Tue dies SOFORT!!!<br/><br/>
+3. Duplizieren/Cheaten von Geld und Items. Wenn dir jemand einen extrem hohen Geldbetrag sendet, melde dies UMGEHEND einem Admin (Ingame/Forum) und ueberweise das Geld an ihn. Tue dies SOFORT!!!<br/><br/>
 4. Nutzung von offensichtlich gehackten Gegenstaenden. Betritt ein Hacker den Server und spawnt besagte Gegenstaende, kannst du fuer die Nutzung dieser gebannt werden. Melde die Gegenstaende einem Admin und halte dich von ihnen fern.<br/><br/>
 5. Missbrauch von Bugs und Glitches, um einen Vorteil zu erhalten. Dupliziert sich irgendwo eine Waffe? Melde sie und lass sie liegen. Erwischt dich ein Admin bei der Benutzung, wirst du gebannt.<br/>
                 "
@@ -58,7 +58,7 @@ player createDiarySubject ["controls","Controls"];
 2.Jeder Waffenshop<br/>
 3.Alle Polizeireviere<br/>
 4.Rebellen Outposts<br/>
-5.cashautomaten/ATMs<br/>
+5.Geldautomaten/ATMs<br/>
 6.Donator Shops<br/>
 "
         ]
@@ -260,7 +260,7 @@ Ablauf einer Kontrolle:<br/><br/>
 6. Bejaht der Zivilist diese Frage, durchsuchen Sie ihn.<br/><br/>
 7. Verneint der Zivilist die Frage, duerfen Sie ihn nicht durchsuchen. Haben Sie jedoch einen begruendeten Verdacht, ist Ihr Vorgesetzter zu informieren. Dieser entscheidet, ob eine Durchsuchung stattfindet, oder nicht.<br/><br/>
 8. Werden bei der Durchsuchung keine illegalen Gegenstaende gefunden, ist die Gruppe aus der Kontrolle zu entlassen.<br/><br/>
-9. Finden Sie illegale Gegenstaende, so ist ein Ticket bzw. ggf. eine Gefaengnisstrafe zu erteilen. Einzelheiten entnehmen Sie die Busscash- und Strafenkatalog im Forum.<br/><br/>
+9. Finden Sie illegale Gegenstaende, so ist ein Ticket bzw. ggf. eine Gefaengnisstrafe zu erteilen. Einzelheiten entnehmen Sie die BussGeld- und Strafenkatalog im Forum.<br/><br/>
 "
         ]
     ];
@@ -309,17 +309,17 @@ Highway (rote Strasse auf der Karte): 150km/h<br/><br/>
     
     player createDiaryRecord ["Polizeiregeln",
         [
-            "Verhaftung und Busscasher",
+            "Verhaftung und BussGelder",
                 "<br/>Verhaftet werden sollen nur Personen, die eines Verbrechens bezichtigt werden, oder eine Gefahr fuer sich und andere darstellen.<br/><br/>
-1. Wird jemandem ein Busscash ausgestellt und der Verdaechtige bezahlt dieses, ist er nicht zu verhaften.<br/><br/>
+1. Wird jemandem ein BussGeld ausgestellt und der Verdaechtige bezahlt dieses, ist er nicht zu verhaften.<br/><br/>
 2. Verdaechtigen muss der Grund ihrer Verhaftung mitgeteilt werden.<br/><br/>
 3. Steht ein Zivilist auf der Fahndungsliste, ist er zu verhaften. Der Einsatz toedlicher Gewalt ist nicht gestattet, solange keine Notwehrsituation vorliegt, oder der ranghoechste Vorgesetzte die entsprechende Erlaubnis erteilt hat.<br/><br/>
-Das Ausstellen eines Busscashes dient als Verwarnung an den Zivilisten. Brechen sie das Gesetz, stellen aber keine Gefahr fuer andere dar, reicht das Ausstellen eines Busscashes vollkommen aus.<br/><br/>
+Das Ausstellen eines BussGeldes dient als Verwarnung an den Zivilisten. Brechen sie das Gesetz, stellen aber keine Gefahr fuer andere dar, reicht das Ausstellen eines BussGeldes vollkommen aus.<br/><br/>
  
-1. Die Busscasher sollen sich am Busscashkatalog orientieren. Dieser ist im Forum zu finden.<br/><br/>
-2. Die Busscasher basieren auf den begangenen Verbrechen des Verdaechtigen.<br/><br/>
-3. Weigert sich der Verdaechtige das Busscash zu bezahlen, ist er zu verhaften.<br/><br/>
-4. Stellen Sie einem Verdaechtigen ein unverhaeltnismaessig hohes Busscash aus (z.B. 100.000$ fuer eine Geschwindigkeitsuebertretung), werden sie abgemahnt. Entsprechende Konsequenzen entnehmen Sie dem Busscashkatalog.<br/><br/>
+1. Die BussGelder sollen sich am BussGeldkatalog orientieren. Dieser ist im Forum zu finden.<br/><br/>
+2. Die BussGelder basieren auf den begangenen Verbrechen des Verdaechtigen.<br/><br/>
+3. Weigert sich der Verdaechtige das BussGeld zu bezahlen, ist er zu verhaften.<br/><br/>
+4. Stellen Sie einem Verdaechtigen ein unverhaeltnismaessig hohes BussGeld aus (z.B. 100.000$ fuer eine Geschwindigkeitsuebertretung), werden sie abgemahnt. Entsprechende Konsequenzen entnehmen Sie dem BussGeldkatalog.<br/><br/>
 "
         ]
     ];
@@ -358,7 +358,7 @@ Jede andere Waffe (dazu zaehlt auch die schallgedaempfte P07, die dies eine auss
                 "<br/>Raiding bezeichnet das Eindringen von einer Gruppe Polizisten in ein illegales Gebiet, um die dortigen Verdaechtigen von illegalen Aktivitaeten abzuhalten.<br/><br/>
 1. Um ein Gebiet raiden zu koennen, muessen mindestens drei Polizisten teilnehmen, von denen einer mindestens Polizeimeister sein muss.<br/><br/>
 2. Alle Zivilisten in einem geraideten Gebiet muessen festgenommen werden. Werden keine illegalen Aktivitaeten nachgewiesen bzw. keine illegalen Gegenstaende gefunden, muessen sie unverzueglich freigelassen werden.<br/><br/>
-3. Werden illegale Gegenstaende gefunden, werden die Verdaechtigen gemaess des Busscash- und Strafenkataloges sanktioniert.<br/><br/>
+3. Werden illegale Gegenstaende gefunden, werden die Verdaechtigen gemaess des BussGeld- und Strafenkataloges sanktioniert.<br/><br/>
 4. Der Einsatz toedlicher Gewalt ist nur in Faellen von Notwehr oder nach der Authorisierung des Polizeipraesidenten und seines Stellvertreters genehmigt.<br/><br/>
 5. Sobald das Gebiet gesichert ist, muss es von den Polizisten verlassen werden.<br/><br/>
 6. Ein Gebiet darf fuer 20 Minuten nicht geraidet werden, wenn es geraidet wurde.<br/><br/>
@@ -436,7 +436,7 @@ Befehlskette:<br/>
     player createDiaryRecord ["illegalitems",
         [
             "Illegale Fahrzeuge",
-                "<br/>Ein Zivilist, der folgende Fahrzeuge ohne Genehmigung fuehrt, wird nach den entsprechenden Strafen im Busscash- und Strafenkatalog bestraft.<br/><br/>
+                "<br/>Ein Zivilist, der folgende Fahrzeuge ohne Genehmigung fuehrt, wird nach den entsprechenden Strafen im BussGeld- und Strafenkatalog bestraft.<br/><br/>
 1. Rebellen Off-road<br/>
 2. Rebellen Off-road + Waffe<br/>
 3. Ifrit<br/>
@@ -448,7 +448,7 @@ Befehlskette:<br/>
     player createDiaryRecord ["illegalitems",
         [
             "Illegale Waffen",
-                "<br/>Ein Zivilist, der folgende Waffen am Koerper oder in seinem Rucksack traegt, wird nach dem Busscash- und Strafenkatalog bestraft, welcher im Forum einsehbar ist.<br/><br/>
+                "<br/>Ein Zivilist, der folgende Waffen am Koerper oder in seinem Rucksack traegt, wird nach dem BussGeld- und Strafenkatalog bestraft, welcher im Forum einsehbar ist.<br/><br/>
 1. MX Series<br/>
 2. Katiba Series<br/>
 3. Sniper<br/>
@@ -475,8 +475,8 @@ Befehlskette:<br/>
         ]
     ];
  
-// Bußcash-Katalog
-    player createDiaryRecord ["Busscash-Katalog", 
+// BußGeld-Katalog
+    player createDiaryRecord ["BussGeld-Katalog", 
         [
             "oeffentliche Ordnung", //Subsection
                 "<br/>- Drohungen an Spieler max 5.000$ bei Wiederholung bis max 20.000$ + Inhaftierung<br/><br/>
@@ -492,16 +492,16 @@ Befehlskette:<br/>
 - Versuchter / Diebstahl aus Rucksack: 10.000$<br/><br/>
 - Betteln und Hausieren: 10.000$ / Bei Wiederholung 10.000$ + Inhaftierung<br/><br/>
 - Ernst gemeinte Beleidigung anderer Spieler: Kick als einmalige Verwarnung. Bei Wiederholung Ban!<br/><br/>
-- Aufstand: Inhaftierung aller Beteiligten so wie ein Busscash das vom Ranghoechsten Beamten im Dienst verhaengt wird + Beschlagnahmung von Fahrzeugen und Waffen<br/><br/>
-- Angriff durch Rebellen: Inhaftierung aller Beteiligten so wie ein Busscash das vom Ranghoechsten Beamten im Dienst verhaengt wird + Beschlagnahung bzw.Zerstoerung von Fahrzeugen & Waffen<br/><br/>
-- Der Diebstahlt von Staat´s eigentum ist zu unterlassen wer dies nicht befolgt wir entweder mit einem hohen buscash/haft oder Bann behstraft je nach grad des diligtes<br/><br/>
+- Aufstand: Inhaftierung aller Beteiligten so wie ein BussGeld das vom Ranghoechsten Beamten im Dienst verhaengt wird + Beschlagnahmung von Fahrzeugen und Waffen<br/><br/>
+- Angriff durch Rebellen: Inhaftierung aller Beteiligten so wie ein BussGeld das vom Ranghoechsten Beamten im Dienst verhaengt wird + Beschlagnahung bzw.Zerstoerung von Fahrzeugen & Waffen<br/><br/>
+- Der Diebstahlt von Staat´s eigentum ist zu unterlassen wer dies nicht befolgt wir entweder mit einem hohen busGeld/haft oder Bann behstraft je nach grad des diligtes<br/><br/>
 - Das betreten des HQ von der Bundeswehr ist zu unterlassen wer dies nicht befolgt wird sofort und ohne wiederede Erschossen.<br/><br/>
 "
         ]
     ];
 
 
-    player createDiaryRecord ["Busscash-Katalog", 
+    player createDiaryRecord ["BussGeld-Katalog", 
         [
             "Waffendelikte", //Subsection
                 "<br/>Waffendelikte (nicht der alleinige Besitz) werden immer mit Inhaftierung bestraft<br/><br/>
@@ -516,21 +516,21 @@ Befehlskette:<br/>
     ];
 
 
-    player createDiaryRecord ["Busscash-Katalog", 
+    player createDiaryRecord ["BussGeld-Katalog", 
         [
             "Drogen Delikte", //Subsection
-                "<br/>- Drogenschmuggel/-handel/-schwarzcash bis 100.000$ Warenwert: Beschlagnahmung des Fahrzeugs + Inhaftierung + Beschlagnahmung der Waren + 50.000$<br/><br/>
-- Drogenschmuggel/-handel/-schwarzcash ab 100.000$ Warenwert: Beschlagnahmung des Fahrzeugs + Inhaftierung + Beschlagnahmung der Waren + 100.000$<br/><br/>
-- Drogenschmuggel/-handel/-schwarzcash bei Info durch Dealer/ Wanted Liste: 20.000$<br/><br/>
+                "<br/>- Drogenschmuggel/-handel/-schwarzGeld bis 100.000$ Warenwert: Beschlagnahmung des Fahrzeugs + Inhaftierung + Beschlagnahmung der Waren + 50.000$<br/><br/>
+- Drogenschmuggel/-handel/-schwarzGeld ab 100.000$ Warenwert: Beschlagnahmung des Fahrzeugs + Inhaftierung + Beschlagnahmung der Waren + 100.000$<br/><br/>
+- Drogenschmuggel/-handel/-schwarzGeld bei Info durch Dealer/ Wanted Liste: 20.000$<br/><br/>
 - Schmuggel mit verbotenen Tieren (Schildkroeten): Beschlagnahmung des Fahrzeugs + Inhaftierung + Beschlagnahmung der Waren + 100.000$<br/><br/>
 "
         ]
     ];
 
-    player createDiaryRecord ["Busscash-Katalog", 
+    player createDiaryRecord ["BussGeld-Katalog", 
         [
             "Umgang mit der Polizei", //Subsection
-                "<br/>Das Betreten von gesperrten Zonen ist verboten und wird mit Busscash und oder einer Haftstrafe geahndet! Wenn sich Polizisten um ihr eigenes Leben bedroht fuehlen, steht ihnen der Gebrauch von scharfen Schusswaffen frei.<br/><br/>
+                "<br/>Das Betreten von gesperrten Zonen ist verboten und wird mit BussGeld und oder einer Haftstrafe geahndet! Wenn sich Polizisten um ihr eigenes Leben bedroht fuehlen, steht ihnen der Gebrauch von scharfen Schusswaffen frei.<br/><br/>
 - Das Tragen oder Besitzen von Polizeiausruestung: 2.000$ 180.000$ + Beschlagnahmen der Ausruestung<br/><br/>
 - Widerstand gegen die Staatsgewalt: 5.000$ - 20.000$<br/><br/>
 - Behinderung der Polizei: 5.000$<br/><br/>
@@ -551,73 +551,78 @@ Befehlskette:<br/>
 - Toeten eines Beamten: 150.000$ + Inhaftierung<br/><br/>
 - Zerstoerung von Polizeieigentum: 30.000$ - 1.000.000$ + Erstattung des entstandenen Schadens<br/><br/>
 - Einlagern von PKW's waehrend einer Kontrolle bzw. einer Verfolgung: 100.000$<br/><br/>
-- Einlagern von Helis waehrend einer Kontrolle bzw. einer Verfolgung: 150.000$<br/><br/>
+- Einlagern von Helis waehrend einer Kontrolle bzw. einer Verfolgung: 150.000$ + Inhaftierung<br/><br/>
 - Einlagern von LKW's waehrend einer Kontrolle bzw. einer Verfolgung: 200.000$ + Inhaftierung<br/><br/><br/>
 "
         ]
     ];
 
-player createDiaryRecord ["Busscash-Katalog",
+player createDiaryRecord ["BussGeld-Katalog",
         [
             "Verkehrsdelikte - Luft:", //Subsection
-                "<br/>- Landen in Flugverbotszonen: 50.000$ + Fahrzeug Zerstoerung<br/>
-- Schweben ueber bewohnten Gebiet unter 100m: 7.000$<br/>
-- Landen auf Strassen: 25.000$<br/>
-- Landen in gesperrten Gebieten (z.B. Polizei, Bank): 50.000$<br/>
-- Heli-Rettung / Sicherung vor der Polizei: 30.000$<br/>
-- Fliegen ohne Beleuchtung: 20.000$<br/>
-- Fliegen ohne Lizenz: 50.000$<br/>
-"
+			"
+				<br/>- Landen in Flugverbotszonen: 50.000$ + Fahrzeug Zerstoerung<br/>
+				- Schweben ueber bewohnten Gebiet unter 100m: 7.000$<br/>
+				- Landen auf Strassen: 25.000$<br/>
+				- Landen in gesperrten Gebieten (z.B. Polizei, Bank): 50.000$<br/>
+				- Heli-Rettung / Sicherung vor der Polizei: 30.000$<br/>
+				- Fliegen ohne Beleuchtung: 20.000$<br/>
+				- Fliegen ohne Lizenz: 50.000$<br/>
+			"
         ]
     ];
 
-    player createDiaryRecord ["Busscash-Katalog", 
+    player createDiaryRecord ["BussGeld-Katalog", 
         [
             "Verkehrsdelikte - Boden", //Subsection
-                "<br/>Geschwindigkeit Innerorts:<br/>
-- 50-60km/h: 2.500$<br/>
-- 60-85km/h: 3.000$<br/>
-- 85-100km/h: 5.000$<br/>
-- 100-130km/h: 10.000$<br/><br/>
-Geschwindigkeit Ausserorts:
-- ueber 130km/h+: 10.000$<br/><br/>
-Sonstiges:<br/>
-- Laermbelaestigung: 10.000$<br/>
-- Schilder missachten: 500-1500$<br/>
-- falsche Strassenseite: max. 2.000$<br/>
-- Offroadfahrten: max. 5000$<br/>
-- Fahrerflucht bei Unfall: min 1.000$-6.000$<br/>
-- Flucht vor der Polizei: 2.000$-8.000$<br/>
-- Ueberfahren anderen Spielers: 50.000$ + Haft<br/>
-- Fahrlaessiges Ueberfahren eines Spielers: 25.000$<br/>
-- Illegale Strassensperre Beteiligte: 30.000$<br/>
-- Fuehren von illegalen Fahrzeugen: 100.000$ + evtl. Zerstoerung<br/>
-- Fahren ohne Fuehrerschein: 1000$-5.000$<br/>
-- Fahren ohne Licht bei Dunkelheit oder Daemmerung: max. 1.500$<br/><br/>
-"
+            "
+				<br/>Geschwindigkeit Innerorts:<br/>
+				- 40-80km/h: 2.500$<br/>
+				- 80-120km/h: 5.000$<br/>
+				- >120km/h: 10.000$<br/><br/>
+				Geschwindigkeit Ausserorts:
+				- 120-150km/h: 2.500$<br/>
+				- 150-180km/h: 5.000$<br/>
+				- >180km/h: 10.000$<br/><br/>
+				Sonstiges:<br/>
+				- Laermbelaestigung: 10.000$<br/>
+				- Schilder missachten: 500-1500$<br/>
+				- falsche Strassenseite: max. 2.000$<br/>
+				- Offroadfahrten: max. 5000$<br/>
+				- Fahrerflucht bei Unfall: min 1.000$-6.000$<br/>
+				- Flucht vor der Polizei: 2.000$-8.000$<br/>
+				- Ueberfahren anderen Spielers: 50.000$ + Haft<br/>
+				- Fahrlaessiges Ueberfahren eines Spielers: 25.000$<br/>
+				- Illegale Strassensperre Beteiligte: 30.000$<br/>
+				- Fuehren von illegalen Fahrzeugen: 100.000$ + evtl. Zerstoerung<br/>
+				- Fahren ohne Fuehrerschein: 1000$-5.000$<br/>
+				- Fahren ohne Licht bei Dunkelheit oder Daemmerung: max. 1.500$<br/><br/>
+			"
         ]
     ];
-    player createDiaryRecord ["Busscash-Katalog", 
+    player createDiaryRecord ["BussGeld-Katalog", 
         [
             "Illegale Fahrzeuge", //Subsection
-                "<br/>Alle Fahrzeuge im Rebellenshops bis auf das Quad sind illegal.<br/>"
+                "<br/>Alle Fahrzeuge im Rebellenshops sind illegal.<br/>"
         ]
     ]; 
 
-    player createDiaryRecord ["Busscash-Katalog", 
+    player createDiaryRecord ["BussGeld-Katalog", 
         [
             "Grundlegendes", //Subsection
-                "<br/>- Ist es einem Spieler nicht moeglich das Busscash zu zahlen, wird die Haftstrafe entsprechend verlaengert.<br/><br/>
-Bsp.:<br/>
-Bis 50.000$ Strafe: 15 Minuten<br/>
-Bis 100.000$ Strafe: 20 Minuten<br/>
-Bis 150.000$ Strafe: 25 Minuten<br/>
-Bis 200.000$ Strafe: 30 Minuten<br/>
-Ab 200.000$ Strafe: 45 Minuten<br/><br/>
-- Das Entziehen der Strafe durch Ausloggen oder Disconnecten vom Server gilt als Banngrund.<br/><br/>
-- Alle Polizisten koennen die Hoehe des Busscashes selbst bestimmen wenn ein minimaler und ein maximaler Wert vorhanden ist. In geringfuegigen Vergehen kann man es bei einer Verwarnung belassen. Dies gilt nur bei Taten bei denen nicht automatisch eine Haftstrafe angeordnet wird.<br/><br/>
-Aenderungen Vorbehalten! <br/><br/>
-"
+            "
+				<br/>- Ist es einem Spieler nicht moeglich das BussGeld zu zahlen, wird die Haftstrafe entsprechend verlaengert.<br/><br/>
+				Bsp.:<br/>
+				Bis 50.000$ Strafe: 15 Minuten<br/>
+				Bis 100.000$ Strafe: 20 Minuten<br/>
+				Bis 150.000$ Strafe: 25 Minuten<br/>
+				Bis 200.000$ Strafe: 30 Minuten<br/>
+				Ab 200.000$ Strafe: 45 Minuten<br/><br/>
+				- Das Entziehen der Strafe durch Ausloggen oder Disconnecten vom Server gilt als Banngrund.<br/><br/>
+				- Alle Polizisten koennen die Hoehe des BussGeldes selbst bestimmen wenn ein minimaler und ein maximaler Wert vorhanden ist.<br/>
+				In geringfuegigen Vergehen kann man es bei einer Verwarnung belassen. Dies gilt nur bei Taten bei denen nicht automatisch eine Haftstrafe angeordnet wird.<br/><br/>
+				Aenderungen Vorbehalten! <br/><br/>
+			"
         ]
     ]; 
   
@@ -625,16 +630,49 @@ Aenderungen Vorbehalten! <br/><br/>
  
     player createDiaryRecord ["controls",
         [
-            "",
-                "Z: oeffnen des Spielermenues<br/>
-U: oeffnen und Verschliessen von Fahrzeugen<br/>
-T: Kofferraum eines Fahrzeugs oeffnen<br/>
-Shift links + R: Fesseln<br/>
-Shift links + G: einen Spieler K.O. schlagen<br/><br/>
-F: Polizeisirene (nur als Polizist moeglich)<br/>
-Shift links + L: Blaulicht aktivieren (nur als Polizist moeglich).<br/>
-Windowstaste links: Haupttaste um zu interagieren (z.B. Geld aufheben, Autos reparieren, ...).<br/>
-Polizisten koennen ueber diese Taste mit Zivilisten interagieren.<br/><br/>
-"
+            "Civ",
+            "
+				Z: oeffnen des Spielermenues<br/>
+				U: oeffnen und Verschliessen von Fahrzeugen<br/>
+				T: Kofferraum eines Fahrzeugs oeffnen<br/>
+				Shift links + G: einen Spieler K.O. schlagen<br/><br/>
+				/*Shift links + R: Fesseln<br/>*/
+				Windowstaste links: Haupttaste um zu interagieren (z.B. Geld aufheben, Autos reparieren, ...).<br/>
+				Meistens geht das Aufheben von Sachen mit Windows + T besser.<br/><br/>
+			"
+        ]
+    ]; 
+    player createDiaryRecord ["controls",
+        [
+            "Cop",
+            "
+				Z: oeffnen des Spielermenues<br/>
+				U: oeffnen und Verschliessen von Fahrzeugen<br/>
+				T: Kofferraum eines Fahrzeugs oeffnen<br/>
+				Shift links + G: einen Spieler K.O. schlagen<br/><br/>
+				Shift links + R: Fesseln<br/>
+				F: Polizeisirene <br/>
+				Shift links + L: Blaulicht aktivieren<br/>
+				Windowstaste links: Haupttaste um zu interagieren (z.B. Geld aufheben, Autos reparieren, ...).<br/>
+				Polizisten koennen ueber diese Taste mit Zivilisten interagieren.<br/>
+				Meistens geht das Aufheben von Sachen mit Windows + T besser.<br/><br/>
+			"
+        ]
+    ]; 
+    player createDiaryRecord ["controls",
+        [
+            "Med",
+            "
+				Z: oeffnen des Spielermenues<br/>
+				U: oeffnen und Verschliessen von Fahrzeugen<br/>
+				T: Kofferraum eines Fahrzeugs oeffnen<br/>
+				Shift links + G: einen Spieler K.O. schlagen<br/><br/>
+				/*Shift links + R: Fesseln<br/>*/
+				F: Notarztsirene<br/>
+				Shift links + L: Rotlicht aktivieren<br/>
+				Windowstaste links: Haupttaste um zu interagieren (z.B. Geld aufheben, Autos reparieren, ...).<br/>
+				Notartzt koennen ueber diese Taste mit Zivilisten interagieren.<br/>
+				Meistens geht das Aufheben von Sachen mit Windows + T besser.<br/><br/>
+			"
         ]
     ];

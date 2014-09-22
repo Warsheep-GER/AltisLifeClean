@@ -4,6 +4,7 @@
 	
 	Description:
 	Master configuration for vehicle colors.
+	Dont used our Coustume vehicle skins without perm
 */
 private["_vehicle","_ret","_path"];
 _vehicle = [_this,0,"",[""]] call BIS_fnc_param;
