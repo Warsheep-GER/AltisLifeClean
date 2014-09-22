@@ -3709,13 +3709,13 @@ class Mission
 				};
 				class Item104
 				{
-					position[]={22160.629,3.0809033,14480.969};
+					position[]={0.0.0};
 					azimut=-89.569389;
 					id=229;
 					side="WEST";
 					vehicle="B_RangeMaster_F";
 					skill=0.60000002;
-					init="removeAllWeapons this; this enableSimulation false; this allowDamage false; this addAction[""Pay Bail"",life_fnc_postBail,"""",0,false,false,"""",' isNil ""life_canpay_bail"" && life_is_arrested '];";
+					init="removeAllWeapons this; this enableSimulation false; this allowDamage false; this addAction[""Kaution Bezahlen"",life_fnc_postBail,"""",0,false,false,"""",' isNil ""life_canpay_bail"" && life_is_arrested '];";
 				};
 				class Item105
 				{
@@ -3953,7 +3953,7 @@ class Mission
 					vehicle="B_RangeMaster_F";
 					skill=0.60000002;
 					text="h1_3";
-					init="this enableSimulation false;  this allowDamage false;this addAction[""Bundeswehr Markt"",life_fnc_virt_menu,""cop"",0,false,false,"""",'license_cop_bund && playerSide == west'];this addAction[""Bundeswehr Waffen"",life_fnc_weaponShopMenu,""bund"",0,false,false,"""",'license_cop_bund && playerSide == west'];this addAction[""Bundeswehr Kleidung"",life_fnc_clothingMenu,""cop"",0,false,false,"""",'license_cop_bund && playerSide == west'];this addAction[""Sanitäter Kleidung"",life_fnc_clothingMenu,""med"",0,false,false,"""",'license_med_bund && playerSide == independent'];this addAction[""Sanitäter Ausrüstung"",life_fnc_weaponShopMenu,""med_bund"",0,false,false,"""",'license_med_bund && playerSide == independent'];this addAction[format[""%1 ($%2)"",[""license_cop_air""] call life_fnc_varToStr,[([""cair""] call life_fnc_licensePrice)] call life_fnc_numberText],life_fnc_buyLicense,""cair"",0,false,false,"""",' !license_cop_air && playerSide == west '];this addAction[format[""%1 ($%2)"",[""license_cop_cg""] call life_fnc_varToStr,[([""cg""] call life_fnc_licensePrice)] call life_fnc_numberText],life_fnc_buyLicense,""cg"",0,false,false,"""",' !license_cop_cg && playerSide == west '];this setObjectTexture [0,""closkins\cop\bund.paa""];this setVariable[""realname"",""Bundeswehr Markt""];";
+					init="this enableSimulation false;  this allowDamage false;this addaction [""Hund"",{[(_this select 1)] execVM ""\core\actions\fn_dog.sqf""}];this addAction[""Bundeswehr Markt"",life_fnc_virt_menu,""cop"",0,false,false,"""",'license_cop_bund && playerSide == west'];this addAction[""Bundeswehr Waffen"",life_fnc_weaponShopMenu,""bund"",0,false,false,"""",'license_cop_bund && playerSide == west'];this addAction[""Bundeswehr Kleidung"",life_fnc_clothingMenu,""cop"",0,false,false,"""",'license_cop_bund && playerSide == west'];this addAction[""Sanitäter Kleidung"",life_fnc_clothingMenu,""med"",0,false,false,"""",'license_med_bund && playerSide == independent'];this addAction[""Sanitäter Ausrüstung"",life_fnc_weaponShopMenu,""med_bund"",0,false,false,"""",'license_med_bund && playerSide == independent'];this addAction[format[""%1 ($%2)"",[""license_cop_air""] call life_fnc_varToStr,[([""cair""] call life_fnc_licensePrice)] call life_fnc_numberText],life_fnc_buyLicense,""cair"",0,false,false,"""",' !license_cop_air && playerSide == west '];this addAction[format[""%1 ($%2)"",[""license_cop_cg""] call life_fnc_varToStr,[([""cg""] call life_fnc_licensePrice)] call life_fnc_numberText],life_fnc_buyLicense,""cg"",0,false,false,"""",' !license_cop_cg && playerSide == west '];this setObjectTexture [0,""closkins\med\bund.paa""];this setVariable[""realname"",""Bundeswehr Markt""];";
 				};
 				class Item126
 				{
@@ -32455,6 +32455,7 @@ class Mission
 			vehicle="Land_Runway_PAPI";
 			leader=1;
 			skill=0.60000002;
+			init="this allowDamage false; this enableSimulation false;";
 		};
 		class Item2988
 		{
@@ -32465,6 +32466,7 @@ class Mission
 			vehicle="Land_Runway_PAPI";
 			leader=1;
 			skill=0.60000002;
+			init="this allowDamage false; this enableSimulation false;";
 		};
 		class Item2989
 		{
@@ -32475,6 +32477,7 @@ class Mission
 			vehicle="Land_Runway_PAPI";
 			leader=1;
 			skill=0.60000002;
+			init="this allowDamage false; this enableSimulation false;";
 		};
 		class Item2990
 		{
@@ -32485,6 +32488,7 @@ class Mission
 			vehicle="Land_Runway_PAPI";
 			leader=1;
 			skill=0.60000002;
+			init="this allowDamage false; this enableSimulation false;";
 		};
 		class Item2991
 		{
@@ -32495,6 +32499,7 @@ class Mission
 			vehicle="Land_Runway_PAPI";
 			leader=1;
 			skill=0.60000002;
+			init="this allowDamage false; this enableSimulation false;";
 		};
 		class Item2992
 		{
@@ -32505,6 +32510,7 @@ class Mission
 			vehicle="Land_Runway_PAPI";
 			leader=1;
 			skill=0.60000002;
+			init="this allowDamage false; this enableSimulation false;";
 		};
 		class Item2993
 		{
@@ -32515,6 +32521,7 @@ class Mission
 			vehicle="Land_Runway_PAPI";
 			leader=1;
 			skill=0.60000002;
+			init="this allowDamage false; this enableSimulation false;";
 		};
 		class Item2994
 		{
@@ -32525,6 +32532,7 @@ class Mission
 			vehicle="Land_Runway_PAPI";
 			leader=1;
 			skill=0.60000002;
+			init="this allowDamage false; this enableSimulation false;";
 		};
 		class Item2995
 		{
@@ -32535,6 +32543,7 @@ class Mission
 			vehicle="Land_Runway_PAPI";
 			leader=1;
 			skill=0.60000002;
+			init="this allowDamage false; this enableSimulation false;";
 		};
 		class Item2996
 		{
@@ -32545,6 +32554,7 @@ class Mission
 			vehicle="Land_Runway_PAPI";
 			leader=1;
 			skill=0.60000002;
+			init="this allowDamage false; this enableSimulation false;";
 		};
 		class Item2997
 		{
@@ -32555,6 +32565,7 @@ class Mission
 			vehicle="Land_Runway_PAPI";
 			leader=1;
 			skill=0.60000002;
+			init="this allowDamage false; this enableSimulation false;";
 		};
 		class Item2998
 		{
@@ -32565,6 +32576,7 @@ class Mission
 			vehicle="Land_Runway_PAPI";
 			leader=1;
 			skill=0.60000002;
+			init="this allowDamage false; this enableSimulation false;";
 		};
 		class Item2999
 		{
@@ -32575,6 +32587,7 @@ class Mission
 			vehicle="Land_Runway_PAPI";
 			leader=1;
 			skill=0.60000002;
+			init="this allowDamage false; this enableSimulation false;";
 		};
 		class Item3000
 		{
@@ -32585,6 +32598,7 @@ class Mission
 			vehicle="Land_Runway_PAPI";
 			leader=1;
 			skill=0.60000002;
+			init="this allowDamage false; this enableSimulation false;";
 		};
 		class Item3001
 		{
@@ -32595,6 +32609,7 @@ class Mission
 			vehicle="Land_Runway_PAPI";
 			leader=1;
 			skill=0.60000002;
+			init="this allowDamage false; this enableSimulation false;";
 		};
 		class Item3002
 		{
@@ -32605,6 +32620,7 @@ class Mission
 			vehicle="Land_Runway_PAPI";
 			leader=1;
 			skill=0.60000002;
+			init="this allowDamage false; this enableSimulation false;";
 		};
 		class Item3003
 		{
