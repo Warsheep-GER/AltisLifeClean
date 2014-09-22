@@ -50818,7 +50818,7 @@ class Mission
 			text="Radar Athira 40";
 			name="rada_1";
 			expCond="this && (speed player) > 45 && {_x iskindof ""car""} count thislist > 0 && (vehicle player) in thislist && (driver vehicle player == player)";
-			expActiv="nul = [[player,speed player,125],""life_fnc_radarFlash"",player,false] spawn life_fnc_MP;";
+			expActiv="nul = [[player,speed player,45],""life_fnc_radarFlash"",player,false] spawn life_fnc_MP;";
 			class Effects
 			{
 			};

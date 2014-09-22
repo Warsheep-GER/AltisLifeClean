@@ -184,7 +184,7 @@ switch (_vehicle) do
 		_ret = 
 		[
 			[_path + "mrap_02_ext_01_co.paa","reb"],
-			[_civ + "civ_ifrid_01.paa","reb",_civ + "civ_ifrid_02.paa"]
+			[_civ + "ifrid_navy_01.paa","reb",_civ + "ifrid_navy_02.paa"]
 		];
 	};
 	

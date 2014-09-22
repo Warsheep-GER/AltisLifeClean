@@ -14,7 +14,7 @@ if(isNull _radar) exitWith {}; //Bad vehicle type passed.
 _trg=createTrigger["radar",getPos _radar];
 _trg setTriggerArea[30,30,0,false];
 _trg setTriggerActivation["CIV","PRESENT",true];
-_trg setTriggerText "Radar"
+_trg setTriggerText "Radar";
 _trg setEffectCondition "this && (speed player) > 125 && {_x iskindof ""car""} count thislist > 0 && (vehicle player) in thislist && (driver vehicle player == player)";
 if (triggeractivated trg1) then {
 	nul = [[],""life_fnc_radarFlash"",player,false] spawn life_fnc_MP;
