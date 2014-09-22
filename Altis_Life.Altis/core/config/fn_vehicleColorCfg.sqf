@@ -126,10 +126,10 @@ switch (_vehicle) do
 		_civ = "vehskins\civ\civ_";
 		_ret =
 		[
-			["_path + "suv_01_ext_co.paa","civ"],
-			["_path + "suv_01_ext_02_co.paa","civ"],
-			["_path + "suv_01_ext_03_co.paa","civ"],
-			["_path + "suv_01_ext_04_co.paa","civ"],
+			[_path + "suv_01_ext_co.paa","civ"],
+			[_path + "suv_01_ext_02_co.paa","civ"],
+			[_path + "suv_01_ext_03_co.paa","civ"],
+			[_path + "suv_01_ext_04_co.paa","civ"],
 			[_cop + "suv.paa","cop"],
 			[_med + "suv.paa","med"],
 			[_civ + "suv_tuned.paa","civ"]
