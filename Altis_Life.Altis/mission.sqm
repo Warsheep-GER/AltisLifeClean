@@ -2936,7 +2936,7 @@ class Mission
 					side="CIV";
 					vehicle="C_man_p_beggar_F_afro";
 					skill=0.60000002;
-					init="this enableSimulation false; this allowDamage false; this addAction[""Autohändler"",life_fnc_vehicleShopMenu,[""civ_car"",civilian,""civ_car_2"",""civ"",""Bruce's New & Used Auto's""]];";
+					init="this enableSimulation false; this allowDamage false; this addAction[""Autohändler"",life_fnc_vehicleShopMenu,[""civ_car"",civilian,""civ_car_2"",""civ"",""Bruce's New & Used Auto's""]]; this setVariable[""realname"", ""Autohändler""];";
 				};
 				class Item37
 				{
@@ -3121,7 +3121,7 @@ class Mission
 					vehicle="C_man_p_beggar_F_afro";
 					skill=0.60000002;
 					text="carshop4";
-					init="this enableSimulation false; this allowDamage false; this addAction[""Autohändler"",life_fnc_vehicleShopMenu,[""civ_car"",civilian,""civ_car_4"",""civ"",""Bruce's New & Used Auto's""]];";
+					init="this enableSimulation false; this allowDamage false; this addAction[""Autohändler"",life_fnc_vehicleShopMenu,[""civ_car"",civilian,""civ_car_4"",""civ"",""Bruce's New & Used Auto's""]]; this setVariable[""realname"", ""Autohändler""];";
 				};
 				class Item53
 				{
@@ -3905,7 +3905,7 @@ class Mission
 					side="CIV";
 					vehicle="C_man_p_beggar_F_afro";
 					skill=0.60000002;
-					init="this enableSimulation false; this allowDamage false; this addAction[""Autohändler"",life_fnc_vehicleShopMenu,[""civ_car"",civilian,""civ_car_3"",""civ"",""Bruce's New & Used Auto's""]];";
+					init="this enableSimulation false; this allowDamage false; this addAction[""Autohändler"",life_fnc_vehicleShopMenu,[""civ_car"",civilian,""civ_car_3"",""civ"",""Bruce's New & Used Auto's""]]; this setVariable[""realname"", ""Autohändler""];";
 				};
 				class Item122
 				{
@@ -45430,7 +45430,7 @@ class Mission
 	};
 	class Markers
 	{
-		items=255;
+		items=256;
 		class Item0
 		{
 			position[]={8459.6777,104.56568,25131.203};
@@ -47437,6 +47437,13 @@ class Mission
 			text="Genze ";
 			type="mil_warning";
 			colorName="ColorRed";
+		};
+		class Item255
+		{
+			position[]={14037.903,25.621716,18750.951};
+			name="civ_car_3";
+			type="Empty";
+			angle=126.40627;
 		};
 	};
 	class Sensors
