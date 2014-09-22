@@ -352,7 +352,7 @@ switch (_vehicle) do
 			[_path + "Skins\heli_transport_02_1_ion_co.paa","civ",_path + "Skins\heli_transport_02_2_ion_co.paa",_path + "Skins\heli_transport_02_3_ion_co.paa"],
 			[_path + "Skins\heli_transport_02_1_dahoman_co.paa","civ",_path + "Skins\heli_transport_02_2_dahoman_co.paa",_path + "Skins\heli_transport_02_3_dahoman_co.paa"],
 			[_path + "heli_transport_02_1_indp_co","reb",_path + "heli_transport_02_2_indp_co",_path + "heli_transport_02_3_indp_co"],
-			[_civ + "mohawk_rot_1.paa","civ",_civ + "mohawk_rot_2.paa",_path + "Skins\heli_transport_02_3_dahoman_co.paa"]
+			[_civ + "mohawk_rot_1.paa","civ",_civ + "mohawk_rot_2.paa",_civ + "mohawk_rot_3.paa"]
 		];
 	};
 };

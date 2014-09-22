@@ -576,14 +576,13 @@ player createDiaryRecord ["BussGeld-Katalog",
         [
             "Verkehrsdelikte - Boden", //Subsection
             "
-				<br/>Geschwindigkeit Innerorts:<br/>
-				- 40-80km/h: 2.500$<br/>
-				- 80-120km/h: 5.000$<br/>
-				- >120km/h: 10.000$<br/><br/>
-				Geschwindigkeit Ausserorts:
-				- 120-150km/h: 2.500$<br/>
-				- 150-180km/h: 5.000$<br/>
-				- >180km/h: 10.000$<br/><br/>
+				<br/>Geschwindigkeit mit Fahrerlaubnis:<br/>
+				Innerorts erlaubt: 40km/h<br/>
+				Außerorts erlaubt: 120km/h<br/>
+				5km/h überschreitung für Blitzer<br/>
+				- pro >1km/h 100$<br/><br/>
+				Geschwindigkeit ohne Fahrerlaubnis:<br/>
+				- pro >1km/h 200$<br/><br/>
 				Sonstiges:<br/>
 				- Laermbelaestigung: 10.000$<br/>
 				- Schilder missachten: 500-1500$<br/>

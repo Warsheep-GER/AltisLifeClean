@@ -47460,7 +47460,7 @@ class Mission
 			text="Radar Flughafen 120";
 			name="rada_1";
 			expCond="this && (speed player) > 125 && {_x iskindof ""car""} count thislist > 0 && (vehicle player) in thislist && (driver vehicle player == player)";
-			expActiv="nul = [[],""life_fnc_radarFlash120"",player,false] spawn life_fnc_MP;";
+			expActiv="nul = [[],""life_fnc_radarFlash"",player,false] spawn life_fnc_MP;";
 			class Effects
 			{
 			};
@@ -47476,7 +47476,7 @@ class Mission
 			text="Radar Autobahn 120";
 			name="rada_1";
 			expCond="this && (speed player) > 125 && {_x iskindof ""car""} count thislist > 0 && (vehicle player) in thislist && (driver vehicle player == player)";
-			expActiv="nul = [[],""life_fnc_radarFlash120"",player,false] spawn life_fnc_MP;";
+			expActiv="nul = [[],""life_fnc_radarFlash"",player,false] spawn life_fnc_MP;";
 			class Effects
 			{
 			};
@@ -47492,7 +47492,7 @@ class Mission
 			text="Radar Marijuana Verarbeitung 120";
 			name="rada_1";
 			expCond="this && (speed player) > 125 && {_x iskindof ""car""} count thislist > 0 && (vehicle player) in thislist && (driver vehicle player == player)";
-			expActiv="nul = [[],""life_fnc_radarFlash120"",player,false] spawn life_fnc_MP;";
+			expActiv="nul = [[],""life_fnc_radarFlash"",player,false] spawn life_fnc_MP;";
 			class Effects
 			{
 			};
@@ -47508,7 +47508,7 @@ class Mission
 			text="Radar Kavala 40";
 			name="rada_1";
 			expCond="this && (speed player) > 45 && {_x iskindof ""car""} count thislist > 0 && (vehicle player) in thislist && (driver vehicle player == player)";
-			expActiv="nul = [[],""life_fnc_radarFlash40"",player,false] spawn life_fnc_MP;";
+			expActiv="nul = [[],""life_fnc_radarFlash"",player,false] spawn life_fnc_MP;";
 			class Effects
 			{
 			};
@@ -47524,7 +47524,7 @@ class Mission
 			text="Radar Athira 40";
 			name="rada_1";
 			expCond="this && (speed player) > 45 && {_x iskindof ""car""} count thislist > 0 && (vehicle player) in thislist && (driver vehicle player == player)";
-			expActiv="nul = [[],""life_fnc_radarFlash40"",player,false] spawn life_fnc_MP;";
+			expActiv="nul = [[],""life_fnc_radarFlash"",player,false] spawn life_fnc_MP;";
 			class Effects
 			{
 			};
@@ -47540,7 +47540,7 @@ class Mission
 			text="Radar Pyrgos 40";
 			name="rada_1";
 			expCond="this && (speed player) > 45 && {_x iskindof ""car""} count thislist > 0 && (vehicle player) in thislist && (driver vehicle player == player)";
-			expActiv="nul = [[],""life_fnc_radarFlash40"",player,false] spawn life_fnc_MP;";
+			expActiv="nul = [[],""life_fnc_radarFlash"",player,false] spawn life_fnc_MP;";
 			class Effects
 			{
 			};
@@ -47556,7 +47556,7 @@ class Mission
 			text="Radar Sofia 40";
 			name="rada_1";
 			expCond="this && (speed player) > 45 && {_x iskindof ""car""} count thislist > 0 && (vehicle player) in thislist && (driver vehicle player == player)";
-			expActiv="nul = [[],""life_fnc_radarFlash40"",player,false] spawn life_fnc_MP;";
+			expActiv="nul = [[],""life_fnc_radarFlash"",player,false] spawn life_fnc_MP;";
 			class Effects
 			{
 			};
@@ -47572,7 +47572,7 @@ class Mission
 			text="Bundesstrase 120";
 			name="rada_1_1";
 			expCond="this && (speed player) > 125 && {_x iskindof ""car""} count thislist > 0 && (vehicle player) in thislist && (driver vehicle player == player)";
-			expActiv="nul = [[],""life_fnc_radarFlash120"",player,false] spawn life_fnc_MP;";
+			expActiv="nul = [[],""life_fnc_radarFlash"",player,false] spawn life_fnc_MP;";
 			class Effects
 			{
 			};

@@ -2241,6 +2241,12 @@
 		</Key>
 	</Package>
 	<Package name="Civ_Strings">
+		<Key ID="STR_Civ_LicenseRemove_1a">
+			<Original>You have lost all your motor vehicle licenses for habitual speeding.</Original>
+			<English>You have lost all your motor vehicle licenses for habitual speeding</English>
+            <German>Durch Deine wiederholte Überschreitung der Geschwindigkeit, wurde Dir dein Führerschein entzogen</German>
+            <French>Vous avez perdu toutes vos licences de vehicules pour excès de vitesses fréquent</French>
+		</Key> 
 		<Key ID="STR_Civ_KnockedOut">
 			<Original>%1 has knocked you out.</Original>
 			<English>%1 has knocked you out.</English>

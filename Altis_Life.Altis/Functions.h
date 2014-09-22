@@ -116,8 +116,7 @@ class Life_Client_Core
 		class captureHideout {};
 		class gather {};
 		//radar
-		class radarFlash40 {};
-		class radarFlash120 {};
+		class radarFlash {};
 	};
 	
 	class Housing
