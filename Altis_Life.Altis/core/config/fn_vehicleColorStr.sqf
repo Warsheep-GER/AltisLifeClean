@@ -147,6 +147,7 @@ switch (_vehicle) do
 		{
 			case 0: {_color = "Regular"};
 			case 1: {_color = "Camo"};
+			case 2: {_color = "Polizei"};
 		};
 	};
 	case "I_MRAP_03_hmg_F":
@@ -155,6 +156,7 @@ switch (_vehicle) do
 		{
 			case 0: {_color = "Regular"};
 			case 1: {_color = "Camo"};
+			case 2: {_color = "Polizei"};
 		};
 	};
 	case "I_MRAP_03_gmg_F":
@@ -163,6 +165,7 @@ switch (_vehicle) do
 		{
 			case 0: {_color = "Regular"};
 			case 1: {_color = "Camo"};
+			case 2: {_color = "Polizei"};
 		};
 	};
 	

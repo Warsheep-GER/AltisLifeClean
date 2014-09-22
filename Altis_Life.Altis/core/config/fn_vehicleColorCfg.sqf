@@ -198,8 +198,9 @@ switch (_vehicle) do
 		_civ = "vehskins\civ\civ_";
 		_ret = 
 		[
-			[_path + "mrap_03_ext_co.paa","cop"],
-			[_path + "mrap_03_ext_indp_co.paa","reb"]
+			[_path + "mrap_03_ext_co.paa","reb"],
+			[_path + "mrap_03_ext_indp_co.paa","reb"],
+			[_cop + "strider.paa","cop"]
 		];
 	};
 	case "I_MRAP_03_hmg_F":
@@ -210,8 +211,9 @@ switch (_vehicle) do
 		_civ = "vehskins\civ\civ_";
 		_ret = 
 		[
-			[_path + "mrap_03_ext_co.paa","cop"],
-			[_path + "mrap_03_ext_indp_co.paa","reb"]
+			[_path + "mrap_03_ext_co.paa","reb"],
+			[_path + "mrap_03_ext_indp_co.paa","reb"],
+			[_cop + "strider.paa","cop"]
 		];
 	};
 	case "I_MRAP_03_gmg_F":
@@ -222,8 +224,9 @@ switch (_vehicle) do
 		_civ = "vehskins\civ\civ_";
 		_ret = 
 		[
-			[_path + "mrap_03_ext_co.paa","cop"],
-			[_path + "mrap_03_ext_indp_co.paa","reb"]
+			[_path + "mrap_03_ext_co.paa","reb"],
+			[_path + "mrap_03_ext_indp_co.paa","reb"],
+			[_cop + "strider.paa","cop"]
 		];
 	};
 	
