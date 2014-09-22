@@ -26,14 +26,16 @@ switch (_vehicle) do
 		[
 			[_path + "Quadbike_01_co.paa","civ"],
 			[_path + "quadbike_01_opfor_co.paa","reb"],
-			[_path2 + "quadbike_01_civ_black_co.paa","cop"],
+			[_path2 + "quadbike_01_civ_black_co.paa","civ"],
 			[_path2 + "quadbike_01_civ_blue_co.paa","civ"],
-			[_path2 + "quadbike_01_civ_red_co.paa","med"],
+			[_path2 + "quadbike_01_civ_red_co.paa","civ"],
 			[_path2 + "quadbike_01_civ_white_co.paa","civ"],
 			[_path2 + "quadbike_01_indp_co.paa","reb"],
 			[_path3 + "quadbike_01_ig_co.paa","reb"],
 			[_path3 + "quadbike_01_indp_hunter_co.paa","reb"],
-			[_path4 + "quadbike_01_indp_hunter_co.paa","reb"]
+			[_path4 + "quadbike_01_indp_hunter_co.paa","reb"],
+			[_cop + "quad.paa","cop"],
+			[_med + "quad.paa","med"]
 			
 		];
 	};

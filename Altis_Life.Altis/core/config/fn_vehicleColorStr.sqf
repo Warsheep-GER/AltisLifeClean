@@ -20,13 +20,15 @@ switch (_vehicle) do
 			case 0: {_color = "Braun"};
 			case 1: {_color = "Rebel Desert"};
 			case 2: {_color = "Schwarz"};
-			case 3: {_color = "Polizei"};
-			case 4: {_color = "Notarzt"};
+			case 3: {_color = "Blau"};
+			case 4: {_color = "Rot"};
 			case 5: {_color = "Weiss"};
 			case 6: {_color = "Rebel Green"};
 			case 7: {_color = "Rebel1"};
 			case 8: {_color = "Rebel2"};
 			case 9: {_color = "Rebel1 Camo"};
+			case 10: {_color = "Polizei"};
+			case 11: {_color = "Notarzt"};
 		};
 	};
 	
