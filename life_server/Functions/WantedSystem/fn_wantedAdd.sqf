@@ -18,10 +18,12 @@ switch(_type) do
 	case "187V": {_type = ["Fahrlässige Tötung",6500]};
 	case "187": {_type = ["Totschlag",8500]};
 	case "901": {_type = ["Gefängnisflucht ",4500]};
-	case "120S": {_type = ["grenzwärtiges Zu schnelles Fahren",5000]};
-	case "120H": {_type = ["Zu schnelles Fahren",8000]};
-	case "120WL": {_type = ["Fahren ohne Führerschein",8000]};
-	case "120FS": {_type = ["vorsätzlich Zu schnelles Fahren",10000]};
+	case "120S": {_type = ["Zu schnelles Fahren ohne bezahlen.",5000]};
+	case "120WL": {_type = ["Fahren ohne Führerschein",5000]};
+	case "120H": {_type = ["wiederholt Zu schnelles Fahren",8000]};
+	case "120FS": {_type = ["häufiges zu schnelles Fahren",10000]};
+	case "120FWL": {_type = ["wiederholt zu schnelles Fahren ohne Führerschein",12000]};
+	case "120FSWL": {_type = ["häufiges zu schnelles Fahren ohne Führerschein",14000]};
 	case "261": {_type = ["Vergewaltigung",5000]}; //What type of sick bastard would add this?
 	case "261A": {_type = ["Versuchte Vergewaltigung",3000]};
 	case "215": {_type = ["Versuchter Auto Diebstahl",2000]};
