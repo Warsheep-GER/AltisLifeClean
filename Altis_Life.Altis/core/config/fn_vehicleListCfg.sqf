@@ -115,8 +115,10 @@ switch (_shop) do
 		if(__GETC__(life_mediclevel) >4) then
 		{
 			_return set[count _return,
-			["I_Truck_02_medical_F",25000],
 			["B_MRAP_01_F",30000]
+			];
+			_return set[count _return,
+			["I_Truck_02_medical_F",35000]
 			];
 		};
 	};
