@@ -64,7 +64,7 @@ switch (_shop) do
 		[
 			["B_Heli_Light_01_F",253000],
 			["O_Heli_Light_02_unarmed_F",750000],
-			["I_Heli_Transport_02_F",8000000]
+			["I_Heli_Transport_02_F",1000000]
 		];
 	};
 	case "reb_car":
@@ -82,10 +82,10 @@ switch (_shop) do
 			["B_Heli_Light_01_F",325000],
 			["B_Heli_Light_01_armed_F",2500000],
 			["O_Heli_Light_02_unarmed_F",5000000],
-			["I_Heli_Transport_02_F",8000000],
+			["I_Heli_Transport_02_F",1000000],
 			["O_Truck_03_covered_F",2000000],
-			["O_Truck_03_device_F",8000000],
-			["O_Truck_03_transport_F",8000000]
+			["O_Truck_03_device_F",1000000],
+			["O_Truck_03_transport_F",5000000]
 		];
 	};
 	case "med_shop":

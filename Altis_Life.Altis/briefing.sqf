@@ -493,8 +493,8 @@ Befehlskette:<br/>
 - Betteln und Hausieren: 10.000$ / Bei Wiederholung 10.000$ + Inhaftierung<br/><br/>
 - Ernst gemeinte Beleidigung anderer Spieler: Kick als einmalige Verwarnung. Bei Wiederholung Ban!<br/><br/>
 - Aufstand: Inhaftierung aller Beteiligten so wie ein BussGeld das vom Ranghoechsten Beamten im Dienst verhaengt wird + Beschlagnahmung von Fahrzeugen und Waffen<br/><br/>
-- Angriff durch Rebellen: Inhaftierung aller Beteiligten so wie ein BussGeld das vom Ranghoechsten Beamten im Dienst verhaengt wird + Beschlagnahung bzw.Zerstoerung von Fahrzeugen & Waffen<br/><br/>
-- Der Diebstahlt von Staat´s eigentum ist zu unterlassen wer dies nicht befolgt wir entweder mit einem hohen busGeld/haft oder Bann behstraft je nach grad des diligtes<br/><br/>
+- Angriff durch Rebellen: Inhaftierung aller Beteiligten so wie ein BussGeld das vom Ranghoechsten Beamten im Dienst verhaengt wird + Beschlagnahung bzw.Zerstoerung von Fahrzeugen/Waffen<br/><br/>
+- Der Diebstahlt von Staat´s eigentum ist zu unterlassen wer dies nicht befolgt wir entweder mit einem hohen busgeld/haft oder Bann behstraft je nach grad des diligtes<br/><br/>
 - Das betreten des HQ von der Bundeswehr ist zu unterlassen wer dies nicht befolgt wird sofort und ohne wiederede Erschossen.<br/><br/>
 "
         ]
@@ -576,13 +576,14 @@ player createDiaryRecord ["BussGeld-Katalog",
         [
             "Verkehrsdelikte - Boden", //Subsection
             "
-				<br/>Geschwindigkeit mit Fahrerlaubnis:<br/>
+				<br/>Geschwindigkeit<br/>
 				Innerorts erlaubt: 40km/h<br/>
 				Außerorts erlaubt: 120km/h<br/>
-				5km/h überschreitung für Blitzer<br/>
-				- pro >1km/h 100$<br/><br/>
-				Geschwindigkeit ohne Fahrerlaubnis:<br/>
-				- pro >1km/h 200$<br/><br/>
+				5km/h überschreitung für Blitzer<br/><br/>
+				Geschwindigkeitsrechner mits Fahrerlaubnis:<br/>
+				- pro >1km/h * 100$<br/>
+				Geschwindigkeitsrechner ohne Fahrerlaubnis:<br/>
+				- pro >1km/h * 200$<br/><br/>
 				Sonstiges:<br/>
 				- Laermbelaestigung: 10.000$<br/>
 				- Schilder missachten: 500-1500$<br/>
@@ -634,8 +635,7 @@ player createDiaryRecord ["BussGeld-Katalog",
 				Z: oeffnen des Spielermenues<br/>
 				U: oeffnen und Verschliessen von Fahrzeugen<br/>
 				T: Kofferraum eines Fahrzeugs oeffnen<br/>
-				Shift links + G: einen Spieler K.O. schlagen<br/><br/>
-				/*Shift links + R: Fesseln<br/>*/
+				Shift links + G: einen Spieler K.O. schlagen<br/>
 				Windowstaste links: Haupttaste um zu interagieren (z.B. Geld aufheben, Autos reparieren, ...).<br/>
 				Meistens geht das Aufheben von Sachen mit Windows + T besser.<br/><br/>
 			"
@@ -665,8 +665,7 @@ player createDiaryRecord ["BussGeld-Katalog",
 				Z: oeffnen des Spielermenues<br/>
 				U: oeffnen und Verschliessen von Fahrzeugen<br/>
 				T: Kofferraum eines Fahrzeugs oeffnen<br/>
-				Shift links + G: einen Spieler K.O. schlagen<br/><br/>
-				/*Shift links + R: Fesseln<br/>*/
+				Shift links + G: einen Spieler K.O. schlagen<br/>
 				F: Notarztsirene<br/>
 				Shift links + L: Rotlicht aktivieren<br/>
 				Windowstaste links: Haupttaste um zu interagieren (z.B. Geld aufheben, Autos reparieren, ...).<br/>
