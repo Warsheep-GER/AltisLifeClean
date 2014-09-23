@@ -5,6 +5,8 @@
 	Description:
 	Checks for known cheat menus and closes them then reports them to the server.
 */
+
+if(__GETC__(life_adminlevel) < 1) exitWith {};
 //Wookie Menu V1-3 and other Copy-Pasted menu-based cheats.
 [] spawn {
 	waitUntil {!isNull (findDisplay 3030)};

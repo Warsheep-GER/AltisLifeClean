@@ -1187,7 +1187,7 @@
 		<Key ID="STR_PM_SyncData">
 			<Original>Sync Data</Original>
 			<English>Sync Data</English>
-			<German>Daten speichern</German>
+			<German>Speichern</German>
 			<French>Sync Data</French>
 			<Italian>Salva Dati</Italian>
 			<Portuguese>Sincronizar Dados</Portuguese>
@@ -3559,10 +3559,18 @@
 			<Italian>Striscia Chiodata</Italian>
 			<Portuguese>Spike Strip</Portuguese>
 		</Key>
-		<Key ID="STR_Item_Radar">
+		<Key ID="STR_Item_Radar40">
 			<Original>Spike Strip</Original>
 			<English>Spike Strip</English>
-			<German>Radar</German>
+			<German>Radar40</German>
+			<French>Herse</French>
+			<Italian>Striscia Chiodata</Italian>
+			<Portuguese>Spike Strip</Portuguese>
+		</Key>
+		<Key ID="STR_Item_Radar120">
+			<Original>Spike Strip</Original>
+			<English>Spike Strip</English>
+			<German>Radar120</German>
 			<French>Herse</French>
 			<Italian>Striscia Chiodata</Italian>
 			<Portuguese>Spike Strip</Portuguese>

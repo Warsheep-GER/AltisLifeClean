@@ -17,21 +17,18 @@ switch (_side) do
 	case west:
 	{
 		_return = [
-			["civ_spawn_3","Athira","\a3\ui_f\data\map\MapControl\watertower_ca.paa"]
-		];
-		if(license_cop_bund) then
-		{
-		_return = _return + [
-			["bund_spawn_1","Bundeswehr HQ","\a3\ui_f\data\map\Markers\NATO\b_air.paa"]
-			];
-		};
-		_return = _return + [
 			["cop_spawn_3","Athira HQ","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"],
 			["cop_spawn_1","Kavala HQ","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
 			["cop_spawn_2","Pyrgos HQ","\a3\ui_f\data\map\MapControl\fuelstation_ca.paa"],
 			["cop_spawn_4","Flughafen","\a3\ui_f\data\map\Markers\NATO\b_air.paa"],
 			["cop_spawn_5","Autobahn","\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa"]
 		];	
+		if(license_cop_bund) then
+		{
+		_return = _return + [
+			["bund_spawn_1","Bundeswehr HQ","\a3\ui_f\data\map\Markers\NATO\b_air.paa"]
+			];
+		};
 	};
 	
 	case civilian:
@@ -94,14 +91,17 @@ switch (_side) do
 	
 	case independent: {
 		_return = [
-			["civ_spawn_3","Athira","\a3\ui_f\data\map\MapControl\watertower_ca.paa"]
-		];	
-		_return = _return + [
 			["medic_spawn_2","Athira Krankenhaus","\a3\ui_f\data\map\MapControl\hospital_ca.paa"],
 			["medic_spawn_1","Kavala Krankenhaus","\a3\ui_f\data\map\MapControl\hospital_ca.paa"],
 			["medic_spawn_3","Pygros Krankenhaus","\a3\ui_f\data\map\MapControl\hospital_ca.paa"],
 			["medic_spawn_4","Sofia Krankenhaus","\a3\ui_f\data\map\MapControl\hospital_ca.paa"]
 		];
+		if(license_med_bund) then
+		{
+		_return = _return + [
+			["bund_spawn_1","Bundeswehr HQ","\a3\ui_f\data\map\Markers\NATO\b_air.paa"]
+			];
+		};
 	};
 };
 

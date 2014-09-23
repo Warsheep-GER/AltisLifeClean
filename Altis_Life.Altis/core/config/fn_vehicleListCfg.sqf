@@ -100,7 +100,7 @@ switch (_shop) do
 			["C_Hatchback_01_F",15000]
 			];
 		};
-		if(__GETC__(life_mediclevel) >2) then
+		if(__GETC__(life_mediclevel) > 2) then
 		{
 			_return set[count _return,
 			["C_SUV_01_F",20000]
@@ -112,7 +112,7 @@ switch (_shop) do
 			["C_Hatchback_01_sport_F",25000]
 			];
 		};
-		if(__GETC__(life_mediclevel) >4) then
+		if(__GETC__(life_mediclevel) > 4) then
 		{
 			_return set[count _return,
 			["B_MRAP_01_F",30000]
