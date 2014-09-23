@@ -15,7 +15,7 @@ _trg=createTrigger["radar120",getPos _radar120];
 _trg setTriggerArea[30,30,0,false];
 _trg setTriggerActivation["CIV","PRESENT",true];
 _trg setTriggerText "Radar120";
-_trg setEffectCondition "this && (speed player) > 120 && {_x iskindof "car"} count thislist > 0 && (vehicle player) in thislist && (driver vehicle player == player)";
+_trg setEffectCondition "this && (speed player) > 120 && {_x iskindof ""car""} count thislist > 0 && (vehicle player) in thislist && (driver vehicle player == player)";
 if (triggeractivated trg1) then {
 	nul = [[player,speed player,120],"life_fnc_radarFlash",player,false] spawn life_fnc_MP;
 };
@@ -27,5 +27,3 @@ _vehicle = _nearVehicles select 0;
 
 if(isNil "_vehicle") exitWith {deleteVehicle _radar120;deleteVehicle _trg;};
 [[_vehicle],"life_fnc_radarEffect",_vehicle,false] spawn life_fnc_MP;
-deleteVehicle _radar120;
-deleteVehicle _trg;

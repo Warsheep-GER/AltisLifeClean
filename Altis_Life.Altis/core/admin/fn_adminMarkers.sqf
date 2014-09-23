@@ -24,7 +24,7 @@ if(life_markers) then {
 				_pSee setMarkerPosLocal getPos _x;
 				_pSee setMarkerSizeLocal [1,1];
 				_pSee setMarkerTextLocal format['%1',_x getVariable["realname",name _x]];
-				_pSee setMarkerColorLocal ("ColorRed");
+				_pSee setMarkerColorLocal ("ColorRlue");
 				PlayerMarkers = PlayerMarkers + [_x];
 		};
 	} forEach allUnits;

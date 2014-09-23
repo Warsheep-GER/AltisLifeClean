@@ -110,8 +110,7 @@ class Life_Client_Core
 		class pickupMoney {};
 		class ticketAction {};
 		class packupSpikes {};
-		class packupRadar40 {};
-		class packupRadar120 {};
+		class packupRadar {};
 		class storeVehicle {};
 		class robAction {};
 		class captureHideout {};

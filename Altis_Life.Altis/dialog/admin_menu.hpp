@@ -125,20 +125,20 @@ class life_admin_menu {
 			w = (6.25 / 40);
 			h = (1 / 25);
 		};
-		class God : Life_RscButtonMenu {
+		class Freeze : Life_RscButtonMenu {
 			idc = 2909;
-			text = "$STR_Admin_God";
-			onButtonClick = "[] call life_fnc_adminGodMode;";
-			x = 0.26 + (6.25 / 40) + (1 / 250 / (safezoneW / safezoneH));
+			text = "$STR_Admin_Freeze";
+			onButtonClick = "[] call life_fnc_adminFreeze;";
+			x = 0.42 + (6.25 / 40) + (1 / 250 / (safezoneW / safezoneH));
 			y = 0.885;
 			w = (6.25 / 40);
 			h = (1 / 25);
 		};
-		class Freeze : Life_RscButtonMenu {
+		class God : Life_RscButtonMenu {
 			idc = 2910;
-			text = "$STR_Admin_Freeze";
-			onButtonClick = "[] call life_fnc_adminFreeze;";
-			x = 0.42 + (6.25 / 40) + (1 / 250 / (safezoneW / safezoneH));
+			text = "$STR_Admin_God";
+			onButtonClick = "[] call life_fnc_adminGodMode;";
+			x = 0.26 + (6.25 / 40) + (1 / 250 / (safezoneW / safezoneH));
 			y = 0.885;
 			w = (6.25 / 40);
 			h = (1 / 25);
@@ -152,20 +152,11 @@ class life_admin_menu {
 			w = (6.25 / 40);
 			h = (1 / 25);
 		};
-		class CleanupPpl : Life_RscButtonMenu {
-			idc = 2913;
-			text = "$STR_Admin_CleanupPpl";
-			onButtonClick = "[] spawn life_fnc_adminCleanupPpl;";
-			x = -0.06 + (6.25 / 40) + (1 / 250 / (safezoneW / safezoneH));
-			y = 0.94;
-			w = (6.25 / 40);
-			h = (1 / 25);
-		};
 		class Debug : Life_RscButtonMenu {
-			idc = 2914;
+			idc = 2912;
 			text = "$STR_Admin_Debug";
-			onButtonClick = "[] call life_fnc_adminDebugCon;";
-			x = 0.26 + (6.25 / 40) + (1 / 250 / (safezoneW / safezoneH));
+			onButtonClick = "[] spawn life_fnc_adminDebugCon;";
+			x = -0.06 + (6.25 / 40) + (1 / 250 / (safezoneW / safezoneH));
 			y = 0.94;
 			w = (6.25 / 40);
 			h = (1 / 25);
