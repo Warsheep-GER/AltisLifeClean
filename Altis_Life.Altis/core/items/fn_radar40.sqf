@@ -7,8 +7,8 @@
 */
 private["_position","_radar40"];
 _radar40 = "Land_Runway_PAPI" createVehicle [0,0,0];
-_radar40 attachTo[player,[0,5.5,0]];
-_radar40 setDir 90;
+_radar40 attachTo[player,[0,1.5,0.5]];
+_radar40 setDir 0;
 _radar40 setVariable["item","radar40Deployed",true];
 
 life_action_radar40Deploy = player addAction[localize "STR_ISTR_Radar_Place",{if(!isNull life_radar40) then {detach life_radar40; life_radar40 = ObjNull;}; player removeAction life_action_radar40Deploy; life_action_radar40Deploy = nil;},"",999,false,false,"",'!isNull life_radar40'];
