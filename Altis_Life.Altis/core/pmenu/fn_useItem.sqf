@@ -65,12 +65,20 @@ switch (true) do
 			[] spawn life_fnc_spikeStrip;
 		};
 	};
-	case (_item == "radar"):
+	case (_item == "radar40"):
 	{
-		if(!isNull life_radar) exitWith {hint localize "STR_ISTR_radarDeployment"};
+		if(!isNull life_radar40) exitWith {hint localize "STR_ISTR_RadarDeployment"};
 		if(([false,_item,1] call life_fnc_handleInv)) then
 		{
-			[] spawn life_fnc_radar;
+			[] spawn life_fnc_radar40;
+		};
+	};
+	case (_item == "radar120"):
+	{
+		if(!isNull life_radar120) exitWith {hint localize "STR_ISTR_RadarDeployment"};
+		if(([false,_item,1] call life_fnc_handleInv)) then
+		{
+			[] spawn life_fnc_radar120;
 		};
 	};
 	

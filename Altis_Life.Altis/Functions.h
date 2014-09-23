@@ -110,7 +110,8 @@ class Life_Client_Core
 		class pickupMoney {};
 		class ticketAction {};
 		class packupSpikes {};
-		class packupRadar {};
+		class packupRadar40 {};
+		class packupRadar120 {};
 		class storeVehicle {};
 		class robAction {};
 		class captureHideout {};
@@ -357,7 +358,8 @@ class Life_Client_Core
 		class pickaxeUse {};
 		class lockpick {};
 		class spikeStrip {};
-		class radar {};
+		class radar40 {};
+		class radar120 {};
 		class jerryRefuel {};
 		class flashbang {};
 		class boltcutter {};

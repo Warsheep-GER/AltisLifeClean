@@ -98,7 +98,8 @@ class CfgFunctions
 			class vehicleStore {};
 			class vehicleDelete {};
 			class spikeStrip {};
-			class radar {};
+			class radar30 {};
+			class radar120 {};
 			class logIt {};
 			class federalUpdate {};
 			class chopShopSell {};
