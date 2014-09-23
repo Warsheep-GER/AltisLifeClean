@@ -7,7 +7,6 @@
 	if a non white-listed menu is active it will close it and report it
 	to the server and active admins.
 */
-if(__GETC__(life_adminlevel) < 1) exitWith {};
 private["_validMenus","_lastMenu"];
 _validMenus = [
 	"RscDisplayDebugPublic","RscMainMenu","RscMoveHigh","#WATCH","#WATCH0","RscWatchDir","RscWatchMoveDir","#GETIN","#RscStatus","RscCallSupport","#ACTION",

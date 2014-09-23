@@ -167,7 +167,7 @@ class life_admin_menu {
 			onButtonClick = "[] call life_fnc_adminDebugCon;";
 			x = 0.26 + (6.25 / 40) + (1 / 250 / (safezoneW / safezoneH));
 			y = 0.94;
-			w = 0.48;
+			w = (6.25 / 40);
 			h = (1 / 25);
 		};
 	};

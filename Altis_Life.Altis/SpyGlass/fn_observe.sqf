@@ -8,7 +8,6 @@
 */
 private["_pName","_pUID","_pReason"];
 
-if(__GETC__(life_adminlevel) < 1) exitWith {};
 _pName = [_this,0,"",[""]] call BIS_fnc_param;
 _pUID = [_this,1,"",[""]] call BIS_fnc_param;
 _pReason = [_this,2,"",[""]] call BIS_fnc_param;

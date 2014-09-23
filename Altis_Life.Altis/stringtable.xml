@@ -150,7 +150,7 @@
 		<Key ID="STR_Admin_Debug">
 			<Original>Debug</Original>
 			<English>Debug</English>
-			<German>Debug Monitor (Achtung SpyGlass)</German>
+			<German>Debug Monitor</German>
 			<French>Debug</French>
 		</Key>
 		<Key ID="STR_Admin_Compensate">

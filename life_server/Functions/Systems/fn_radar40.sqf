@@ -15,9 +15,9 @@ _trg=createTrigger["radar",getPos _radar40];
 _trg setTriggerArea[30,30,0,false];
 _trg setTriggerActivation["CIV","PRESENT",true];
 _trg setTriggerText "Radar40";
-_trg setEffectCondition "this && (speed player) > 45 && {_x iskindof ""car""} count thislist > 0 && (vehicle player) in thislist && (driver vehicle player == player)";
+_trg setEffectCondition "this && (speed player) > 45 && {_x iskindof "car"} count thislist > 0 && (vehicle player) in thislist && (driver vehicle player == player)";
 if (triggeractivated trg1) then {
-	nul = [[player,speed player,45],""life_fnc_radarFlash"",player,false] spawn life_fnc_MP;
+	nul = [[player,speed player,45],"life_fnc_radarFlash",player,false] spawn life_fnc_MP;
 };
 
 waitUntil {_nearVehicles = nearestObjects[getPos _radar40,["Car"],5]; count _nearVehicles > 0 OR isNull _radar40};
