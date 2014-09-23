@@ -116,7 +116,7 @@ switch (_mode) do
 			case "life_inv_cokep": {"cocainep"};
 			case "life_inv_spikeStrip": {"spikeStrip"};
 			case "life_inv_radar40": {"radar40"};
-			case "life_inv_radar20": {"radar120"};
+			case "life_inv_radar120": {"radar120"};
 			case "life_inv_cement": {"cement"};
 			case "life_inv_rock": {"rock"};
 			case "life_inv_goldbar": {"goldbar"};

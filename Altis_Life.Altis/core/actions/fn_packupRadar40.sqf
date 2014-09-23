@@ -13,6 +13,6 @@ if(([true,"radar40",1] call life_fnc_handleInv)) then
 {
 	titleText[localize "STR_NOTF_Radar","PLAIN"];
 	player removeAction life_action_radar40Pickup;
-	life_action_radarPickup40 = nil;
-	deleteVehicle _radar;
+	life_action_radar40Pickup = nil;
+	deleteVehicle _radar40;
 };
