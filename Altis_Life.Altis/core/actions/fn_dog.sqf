@@ -6,7 +6,7 @@ pass in the calling unit
 made by: 
 |TG-355th| Yink
 */
-
+if(playerSide != west) exitWith {"Du kannst dir kein Hund holen!"};//if not a cop, then no
 _unit = _this select 0;
 _side = side _unit;
 sleep 2;
@@ -49,7 +49,7 @@ _dogWhistle =
 		_idle 		= (_this select 3) select 3;
 		_vehicle 	= (_this select 3) select 4;
 		_sound = ["whistle",_unit, 20] spawn play;
-        hint "Jessie, here girl!";
+        hint "Jessy,komm her!";
         sleep 1;
         _unit setvariable ["follow",'false'];
         _tempPos = [(getpos _unit) select 0,((getpos _unit) select 1) + 1,0];
