@@ -81,7 +81,6 @@ switch (true) do
 			[] spawn life_fnc_radar120;
 		};
 	};
-	
 	case (_item == "fuelF"):
 	{
 		if(vehicle player != player) exitWith {hint localize "STR_ISTR_RefuelInVehicle"};
