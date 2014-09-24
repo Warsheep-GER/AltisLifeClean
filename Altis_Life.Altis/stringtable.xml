@@ -2303,12 +2303,12 @@
 			<Portuguese>Alguem já está acessando o cofre.</Portuguese>
 		</Key>
 		<Key ID="STR_Civ_NotEnoughCops">
-			<Original>There needs to be 5 or more cops online to continue.</Original>
-			<English>There needs to be 5 or more cops online to continue.</English>
-			<German>Es müssen 5 oder mehr Polizisten online sein, um fortfahren zu können.</German>
-			<French>Il faut au minimum 5 flic pour continuer</French>
-			<Italian>Servono almeno 5 poliziotti online per continuare.</Italian>
-			<Portuguese>É necessário ter pelo menos 5 Policiais online para continuar.</Portuguese>
+			<Original>There needs to be 3 or more cops online to continue.</Original>
+			<English>There needs to be 3 or more cops online to continue.</English>
+			<German>Es müssen 3 oder mehr Polizisten online sein, um fortfahren zu können.</German>
+			<French>Il faut au minimum 3 flic pour continuer</French>
+			<Italian>Servono almeno 3 poliziotti online per continuare.</Italian>
+			<Portuguese>É necessário ter pelo menos 3 Policiais online para continuar.</Portuguese>
 		</Key>
 		<Key ID="STR_Civ_SafeInv">
 			<Original>Safe Inventory</Original>
@@ -2343,6 +2343,12 @@
 			<French>Impossible d'ouvrir l'interface d'amendement</French>
 			<Italian>Impossibile aprire l'interfaccia per le multe</Italian>
 			<Portuguese>Não foi possível abrir o bloco de multa</Portuguese>
+		</Key>
+		<Key ID="STR_Cop_DriverSeat">
+			<Original>driver's seat</Original>
+			<English>driver's seat</English>
+			<German>Auf den Fahrersitz</German>
+			<French>Place conducteur</French>
 		</Key>
 		<Key ID="STR_Cop_Ticket">
 			<Original>Ticketing %1</Original>
