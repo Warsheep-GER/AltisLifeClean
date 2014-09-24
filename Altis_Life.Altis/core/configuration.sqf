@@ -34,6 +34,7 @@ life_fatigue = 0.5; //Set the max fatigue limit (50%)
 life_spikestrip = ObjNull;
 life_radar40 = ObjNull;
 life_radar120 = ObjNull;
+life_handcuffs = ObjNull;
 
 //Adminmenue
 life_god = false; //Add this
@@ -177,6 +178,7 @@ life_inv_items =
 	"life_inv_goldbar",
 	"life_inv_blastingcharge",
 	"life_inv_boltcutter",
+	"life_inv_handcuffs",
 	"life_inv_defusekit",
 	"life_inv_storagesmall",
 	"life_inv_storagebig"

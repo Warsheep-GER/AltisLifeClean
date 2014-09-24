@@ -40162,7 +40162,7 @@ class Mission
 	};
 	class Markers
 	{
-		items=232;
+		items=233;
 		class Item0
 		{
 			position[]={8459.6777,104.56568,25131.203};
@@ -41989,7 +41989,7 @@ class Mission
 			text="ZOLL/MAUT";
 			type="flag_Germany";
 		};
-		class Item217
+		class Item232
 		{
 			position[]={0,0,0};
 			name="Einwohnermeldeamt2";
