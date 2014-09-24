@@ -12,8 +12,8 @@ private["_nearVehicles","_radar40"];
 _radar40 = [_this,0,ObjNull,[ObjNull]] call BIS_fnc_param;
 if(isNull _radar40) exitWith {}; //Bad vehicle type passed.
 
-waitUntil {_nearVehicles = nearestObjects[getPos _radar40,["Car"],15]; count _nearVehicles > 0 OR isNull _radar40};
-if (vehicle player isKindOf "Car" && speed player > 45 && driver vehicle player == player && side player == civilian) then
+waitUntil {_nearVehicles = nearestObjects[getPos _radar40,["Car"],10]; count _nearVehicles > 0 OR isNull _radar40};
+if ((speed player > 45) && (driver vehicle player == player) && (side player == civilian)) then
 	nul = [[player,speed player,45],"life_fnc_radarFlash",player,false] spawn life_fnc_MP;
 };
 

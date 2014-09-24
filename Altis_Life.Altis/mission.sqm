@@ -3956,7 +3956,7 @@ class Mission
 					vehicle="B_RangeMaster_F";
 					skill=0.60000002;
 					text="h1_3";
-					init="this enableSimulation false;  this allowDamage false;this addaction [""Hund"",{[(_this select 1)] execVM ""core\actions\fn_dog.sqf""}];this addAction[""Bundeswehr Markt"",life_fnc_virt_menu,""cop"",0,false,false,"""",'license_cop_bund && playerSide == west'];this addAction[""Bundeswehr Waffen"",life_fnc_weaponShopMenu,""bund"",0,false,false,"""",'license_cop_bund && playerSide == west'];this addAction[""Bundeswehr Kleidung"",life_fnc_clothingMenu,""cop"",0,false,false,"""",'license_cop_bund && playerSide == west'];this addAction[""Sanitäter Kleidung"",life_fnc_clothingMenu,""med"",0,false,false,"""",'license_med_bund && playerSide == independent'];this addAction[""Sanitäter Ausrüstung"",life_fnc_weaponShopMenu,""med_bund"",0,false,false,"""",'license_med_bund && playerSide == independent'];this addAction[format[""%1 ($%2)"",[""license_cop_air""] call life_fnc_varToStr,[([""cair""] call life_fnc_licensePrice)] call life_fnc_numberText],life_fnc_buyLicense,""cair"",0,false,false,"""",' !license_cop_air && playerSide == west '];this addAction[format[""%1 ($%2)"",[""license_cop_cg""] call life_fnc_varToStr,[([""cg""] call life_fnc_licensePrice)] call life_fnc_numberText],life_fnc_buyLicense,""cg"",0,false,false,"""",' !license_cop_cg && playerSide == west '];this setObjectTexture [0,""closkins\med\bund.paa""];this setVariable[""realname"",""Bundeswehr Markt""];";
+					init="this enableSimulation false;  this allowDamage false;this addAction[""Bundeswehr Markt"",life_fnc_virt_menu,""cop"",0,false,false,"""",'license_cop_bund && playerSide == west'];this addAction[""Bundeswehr Waffen"",life_fnc_weaponShopMenu,""bund"",0,false,false,"""",'license_cop_bund && playerSide == west'];this addAction[""Bundeswehr Kleidung"",life_fnc_clothingMenu,""cop"",0,false,false,"""",'license_cop_bund && playerSide == west'];this addAction[""Sanitäter Kleidung"",life_fnc_clothingMenu,""med"",0,false,false,"""",'license_med_bund && playerSide == independent'];this addAction[""Sanitäter Ausrüstung"",life_fnc_weaponShopMenu,""med_bund"",0,false,false,"""",'license_med_bund && playerSide == independent'];this addAction[format[""%1 ($%2)"",[""license_cop_air""] call life_fnc_varToStr,[([""cair""] call life_fnc_licensePrice)] call life_fnc_numberText],life_fnc_buyLicense,""cair"",0,false,false,"""",' !license_cop_air && playerSide == west '];this addAction[format[""%1 ($%2)"",[""license_cop_cg""] call life_fnc_varToStr,[([""cg""] call life_fnc_licensePrice)] call life_fnc_numberText],life_fnc_buyLicense,""cg"",0,false,false,"""",' !license_cop_cg && playerSide == west '];this setObjectTexture [0,""closkins\med\bund.paa""];this setVariable[""realname"",""Bundeswehr Markt""];";
 				};
 				class Item126
 				{
@@ -41985,6 +41985,8 @@ class Mission
 		class Item0
 		{
 			position[]={14496.708,17.147991,16880.238};
+			a=10;
+			b=10;
 			rectangular=1;
 			activationBy="CIV";
 			repeating=1;
@@ -42001,6 +42003,8 @@ class Mission
 		class Item1
 		{
 			position[]={23102.02,14.01237,19516.523};
+			a=10;
+			b=10;
 			rectangular=1;
 			activationBy="CIV";
 			repeating=1;
@@ -42017,6 +42021,8 @@ class Mission
 		class Item2
 		{
 			position[]={7190.6587,1.2752088,11036.501};
+			a=10;
+			b=10;
 			rectangular=1;
 			activationBy="CIV";
 			repeating=1;
@@ -42033,6 +42039,8 @@ class Mission
 		class Item3
 		{
 			position[]={3627.7913,9.9596272,13136.703};
+			a=10;
+			b=10;
 			rectangular=1;
 			activationBy="CIV";
 			repeating=1;
@@ -42049,6 +42057,8 @@ class Mission
 		class Item4
 		{
 			position[]={14025.222,24.414225,18786.232};
+			a=10;
+			b=10;
 			rectangular=1;
 			activationBy="CIV";
 			repeating=1;
@@ -42065,6 +42075,8 @@ class Mission
 		class Item5
 		{
 			position[]={16793.295,23.156343,12646.963};
+			a=10;
+			b=10;
 			rectangular=1;
 			activationBy="CIV";
 			repeating=1;
@@ -42081,6 +42093,8 @@ class Mission
 		class Item6
 		{
 			position[]={25693.668,20.350864,21335.777};
+			a=10;
+			b=10;
 			rectangular=1;
 			activationBy="CIV";
 			repeating=1;
@@ -42097,6 +42111,8 @@ class Mission
 		class Item7
 		{
 			position[]={6329.438,31.970795,15154.966};
+			a=10;
+			b=10;
 			rectangular=1;
 			activationBy="CIV";
 			repeating=1;
