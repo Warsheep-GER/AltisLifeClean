@@ -4001,6 +4001,14 @@
 			<Italian>Sei ora in possesso delle chiavi di questo veicolo.</Italian>
 			<Portuguese>Agora você tem as chaves do veiculo.</Portuguese>
 		</Key>
+		<Key ID="STR_ISTR_LockHandcuffs_Success">
+			<Original>You now have keys to this vehicle.</Original>
+			<English>You now have keys to this vehicle.</English>
+			<German>Du hast die Person befreit.</German>
+			<French>Vous avez maintenant les clés de ce véhicule</French>
+			<Italian>Sei ora in possesso delle chiavi di questo veicolo.</Italian>
+			<Portuguese>Agora você tem as chaves do veiculo.</Portuguese>
+		</Key>
 		<Key ID="STR_ISTR_Lock_Failed">
 			<Original>The lockpick broke.</Original>
 			<English>The lockpick broke.</English>

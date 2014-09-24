@@ -30,7 +30,9 @@ switch(_type) do
 	case "213": {_type = ["Gebrauch von illegalen Sprengstoff",10000]};
 	case "211": {_type = ["Raub",1000]};
 	case "207": {_type = ["Entführung",3500]};
-	case "207A": {_type = ["Versuchte Entführung",2000]};
+	case "207A": {_type = ["Versuchte Entführung",5000]};
+	case "485": {_type = ["veruchte Flucht hilfe",2500]};
+	case "486": {_type = ["Zur Flucht geholfen",5000]};
 	case "487": {_type = ["schwerer Diebstahl",1500]};
 	case "488": {_type = ["Kleiner Diebstahl",700]};
 	case "480": {_type = ["Fahrerflucht",1300]};
