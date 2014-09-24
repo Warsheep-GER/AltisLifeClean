@@ -3135,6 +3135,14 @@
 		</Key>
 	</Package>
 	<Package name="Life_Items">
+		<Key ID="STR_Item_Handcuffs">
+			<Original>Handcuffs</Original>
+			<English>Handcuffs</English>
+			<German>Handschellen</German>
+			<French>Handcuffs</French>
+			<Italian>Handcuffs</Italian>
+			<Portuguese>Maconha não Processada</Portuguese>
+		</Key>
 		<Key ID="STR_Item_Cannabis">
 			<Original>Cannabis</Original>
 			<English>Cannabis</English>

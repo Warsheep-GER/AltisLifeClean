@@ -64,6 +64,7 @@ switch (_mode) do
 			case "goldbar": {"life_inv_goldbar"};
 			case "blastingcharge": {"life_inv_blastingcharge"};
 			case "boltcutter": {"life_inv_boltcutter"};
+			case "handcuffs": {"life_inv_handcuffs"};
 			case "defusekit": {"life_inv_defusekit"};
 			case "storagesmall": {"life_inv_storagesmall"};
 			case "storagebig": {"life_inv_storagebig"};
@@ -123,6 +124,7 @@ switch (_mode) do
 			case "life_inv_blastingcharge": {"blastingcharge"};
 			case "life_inv_boltcutter": {"boltcutter"};
 			case "life_inv_defusekit": {"defusekit"};
+			case "life_inv_handcuffs": {"handcuffs"};
 			case "life_inv_storagesmall": {"storagesmall"};
 			case "life_inv_storagebig": {"storagebig"};
 		};

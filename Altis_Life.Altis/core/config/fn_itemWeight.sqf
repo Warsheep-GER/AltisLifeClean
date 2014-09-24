@@ -55,6 +55,7 @@ switch (_item) do
 	case "goldbar": {12};
 	case "blastingcharge": {15};
 	case "boltcutter": {5};
+	case "handcuffs": {2};
 	case "defusekit": {2};
 	case "storagesmall": {5};
 	case "storagebig": {10};
