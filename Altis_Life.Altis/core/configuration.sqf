@@ -28,6 +28,7 @@ life_knockout = false;
 life_interrupted = false;
 life_respawned = false;
 life_removeWanted = false;
+life_fatigue = 0.5; //Set the max fatigue limit (50%)
 
 //copitems
 life_spikestrip = ObjNull;
