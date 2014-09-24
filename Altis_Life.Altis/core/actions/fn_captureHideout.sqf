@@ -83,6 +83,6 @@ _flagTexture = [
 		"images\flags\flag_germany4c_co.paa"
 	] call BIS_fnc_selectRandom;
 _this select 0 setFlagTexture _flagTexture;
-[[[0,1],format[localize "STR_GNOTF_CaptureSuccess",name player,(group player) getVariable "gang_name" ]],"life_fnc_broadcast",true,false] spawn life_fnc_MP;
+[[[0,4],format[localize "STR_GNOTF_CaptureSuccess",name player,(group player) getVariable "gang_name" ]],"life_fnc_broadcast",true,false] spawn life_fnc_MP;
 _hideout setVariable["inCapture",false,true];
 _hideout setVariable["gangOwner",grpPlayer,true];

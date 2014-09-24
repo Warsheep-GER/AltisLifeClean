@@ -275,6 +275,7 @@ sell_array =
 	["glass",1450],
 	["fuelF",500],
 	["spikeStrip",1200],
+	["handcuffs",200],
 	["radar40",1200],
 	["radar120",1200],
 	["cement",1950],
@@ -308,6 +309,7 @@ buy_array =
 	["radar120",2500],
 	["blastingcharge",35000],
 	["boltcutter",7500],
+	["handcuffs",500],
 	["defusekit",2500],
 	["storagesmall",75000],
 	["storagebig",150000]
