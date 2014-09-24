@@ -25,6 +25,7 @@ corpseRemovalMinTime = 999;
 corpseRemovalMaxTime = 9999;
 
 #include "dialog\MasterHandler.h"
+#include "dialog\agb.hpp"
 
 class RscTitles
 {
