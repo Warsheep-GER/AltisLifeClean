@@ -8,7 +8,6 @@
 private["_cop","_player"];
 _cop = [_this,0,Objnull,[Objnull]] call BIS_fnc_param;
 _player = player;
-if(isNull _cop) exitWith {};
 
 //Monitor excessive restrainment
 [] spawn
@@ -21,6 +20,20 @@ if(isNull _cop) exitWith {};
 		
 		if(!(player getVariable["restrained",FALSE])) exitWith {};
 		if(!([west,getPos player,30] call life_fnc_nearUnits) && (player getVariable["restrained",FALSE]) && vehicle player == player) exitWith {
+			player setVariable["restrained",FALSE,TRUE];
+			player setVariable["Escorting",FALSE,TRUE];
+			player setVariable["transporting",false,true];
+			detach player;
+			titleText[localize "STR_Cop_ExcessiveRestrain","PLAIN"];
+		};
+		if(!([independent,getPos player,30] call life_fnc_nearUnits) && (player getVariable["restrained",FALSE]) && vehicle player == player) exitWith {
+			player setVariable["restrained",FALSE,TRUE];
+			player setVariable["Escorting",FALSE,TRUE];
+			player setVariable["transporting",false,true];
+			detach player;
+			titleText[localize "STR_Cop_ExcessiveRestrain","PLAIN"];
+		};
+		if(!([civilian,getPos player,30] call life_fnc_nearUnits) && (player getVariable["restrained",FALSE]) && vehicle player == player) exitWith {
 			player setVariable["restrained",FALSE,TRUE];
 			player setVariable["Escorting",FALSE,TRUE];
 			player setVariable["transporting",false,true];
