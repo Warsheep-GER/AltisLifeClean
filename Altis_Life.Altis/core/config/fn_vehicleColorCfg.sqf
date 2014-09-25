@@ -221,7 +221,7 @@ switch (_vehicle) do
 			[_cop + "strider.paa","cop"]
 		];
 	};
-	case "C_Van_01_box_F":
+	case "C_Van_01_fuel_F":
 	{
 		_path = "\a3\soft_f_gamma\Van_01\Data\";
 		_cop = "vehskins\cop\cop_";
@@ -247,7 +247,7 @@ switch (_vehicle) do
 			[_path + "van_01_ext_ig_co.paa","reb"]
 		];
 	};
-	case "C_Van_01_fuel_F":
+	case "I_G_Van_01_transport_F":
 	{
 		_path = "\a3\soft_f_gamma\Van_01\Data\";
 		_cop = "vehskins\cop\cop_";
@@ -260,7 +260,75 @@ switch (_vehicle) do
 			[_path + "van_01_ext_ig_co.paa","reb"]
 		];
 	};
-	case "I_Truck_02_covered_F":
+	case "C_Van_01_box_F":
+	{
+		_path = "\a3\soft_f_gamma\Van_01\Data\";
+		_cop = "vehskins\cop\cop_";
+		_med = "vehskins\med\med_";
+		_civ = "vehskins\civ\civ_";
+		_ret = 
+		[
+			[_path + "van_01_ext_co.paa","civ"],
+			[_path + "van_01_ext_red_co.paa","civ"],
+			[_path + "van_01_ext_ig_co.paa","reb"]
+		];
+	};
+	case "B_Truck_01_fuel_F":
+	{
+		_path = "\A3\soft_f_beta\Truck_01\Data\";
+		_cop = "vehskins\cop\cop_";
+		_med = "vehskins\med\med_";
+		_civ = "vehskins\civ\civ_";
+		_ret = 
+		[
+			[_path + "truck_01_ext_01_co.paa","civ",_path + "truck_01_ext_02_co.paa"]
+		];
+	};
+	case "B_Truck_01_transport_F":
+	{
+		_path = "\A3\soft_f_beta\Truck_01\Data\";
+		_cop = "vehskins\cop\cop_";
+		_med = "vehskins\med\med_";
+		_civ = "vehskins\civ\civ_";
+		_ret = 
+		[
+			[_path + "truck_01_ext_01_co.paa","civ",_path + "truck_01_ext_02_co.paa"]
+		];
+	};
+	case "B_Truck_01_ammo_F":
+	{
+		_path = "\A3\soft_f_beta\Truck_01\Data\";
+		_cop = "vehskins\cop\cop_";
+		_med = "vehskins\med\med_";
+		_civ = "vehskins\civ\civ_";
+		_ret = 
+		[
+			[_path + "truck_01_ext_01_co.paa","civ",_path + "truck_01_ext_02_co.paa"]
+		];
+	};
+	case "B_Truck_01_box_F":
+	{
+		_path = "\A3\soft_f_beta\Truck_01\Data\";
+		_cop = "vehskins\cop\cop_";
+		_med = "vehskins\med\med_";
+		_civ = "vehskins\civ\civ_";
+		_ret = 
+		[
+			[_path + "truck_01_ext_01_co.paa","civ",_path + "truck_01_ext_02_co.paa"]
+		];
+	};
+	case "B_Truck_01_covered_F":
+	{
+		_path = "\A3\soft_f_beta\Truck_01\Data\";
+		_cop = "vehskins\cop\cop_";
+		_med = "vehskins\med\med_";
+		_civ = "vehskins\civ\civ_";
+		_ret = 
+		[
+			[_path + "truck_01_ext_01_co.paa","civ",_path + "truck_01_ext_02_co.paa"]
+		];
+	};
+	case "O_Truck_02_fuel_F":
 	{
 		_path = "\A3\Soft_F_Beta\Truck_02\data\";
 		_cop = "vehskins\cop\cop_";
@@ -284,6 +352,76 @@ switch (_vehicle) do
 			[_path + "truck_02_kab_co.paa","civ",_path + "truck_02_kuz_co.paa"],
 			[_path + "truck_02_kab_co.paa","reb",_path + "truck_02_kuz_indp_co.paa"],
 			[_path + "truck_02_kab_co.paa","reb",_path + "truck_02_kuz_opfor_co.paa"]
+		];
+	};
+	case "O_Truck_02_transport_F":
+	{
+		_path = "\A3\Soft_F_Beta\Truck_02\data\";
+		_cop = "vehskins\cop\cop_";
+		_med = "vehskins\med\med_";
+		_civ = "vehskins\civ\civ_";
+		_ret = 
+		[
+			[_path + "truck_02_kab_co.paa","civ",_path + "truck_02_kuz_co.paa"],
+			[_path + "truck_02_kab_co.paa","reb",_path + "truck_02_kuz_indp_co.paa"],
+			[_path + "truck_02_kab_co.paa","reb",_path + "truck_02_kuz_opfor_co.paa"]
+		];
+	};
+	case "I_Truck_02_covered_F":
+	{
+		_path = "\A3\Soft_F_Beta\Truck_02\data\";
+		_cop = "vehskins\cop\cop_";
+		_med = "vehskins\med\med_";
+		_civ = "vehskins\civ\civ_";
+		_ret = 
+		[
+			[_path + "truck_02_kab_co.paa","civ",_path + "truck_02_kuz_co.paa"],
+			[_path + "truck_02_kab_co.paa","reb",_path + "truck_02_kuz_indp_co.paa"],
+			[_path + "truck_02_kab_co.paa","reb",_path + "truck_02_kuz_opfor_co.paa"]
+		];
+	};
+	case "O_Truck_03_fuel_F":
+	{
+		_path = "\A3\soft_f_epc\Truck_03\data\";
+		_cop = "vehskins\cop\cop_";
+		_med = "vehskins\med\med_";
+		_civ = "vehskins\civ\civ_";
+		_ret = 
+		[
+			[_path + "truck_03_ext01_co.paa","civ",_path + "truck_03_ext02_co.paa"]
+		];
+	};
+	case "O_Truck_03_transport_F":
+	{
+		_path = "\A3\soft_f_epc\Truck_03\data\";
+		_cop = "vehskins\cop\cop_";
+		_med = "vehskins\med\med_";
+		_civ = "vehskins\civ\civ_";
+		_ret = 
+		[
+			[_path + "truck_03_ext01_co.paa","civ",_path + "truck_03_ext02_co.paa"]
+		];
+	};
+	case "O_Truck_03_device_F":
+	{
+		_path = "\A3\soft_f_epc\Truck_03\data\";
+		_cop = "vehskins\cop\cop_";
+		_med = "vehskins\med\med_";
+		_civ = "vehskins\civ\civ_";
+		_ret = 
+		[
+			[_path + "truck_03_ext01_co.paa","civ",_path + "truck_03_ext02_co.paa"]
+		];
+	};
+	case "O_Truck_03_covered_F":
+	{
+		_path = "\A3\soft_f_epc\Truck_03\data\";
+		_cop = "vehskins\cop\cop_";
+		_med = "vehskins\med\med_";
+		_civ = "vehskins\civ\civ_";
+		_ret = 
+		[
+			[_path + "truck_03_ext01_co.paa","civ",_path + "truck_03_ext02_co.paa"]
 		];
 	};
 	case "B_Heli_Light_01_F":
@@ -364,8 +502,19 @@ switch (_vehicle) do
 		[
 			[_path + "Skins\heli_transport_02_1_ion_co.paa","civ",_path + "Skins\heli_transport_02_2_ion_co.paa",_path + "Skins\heli_transport_02_3_ion_co.paa"],
 			[_path + "Skins\heli_transport_02_1_dahoman_co.paa","civ",_path + "Skins\heli_transport_02_2_dahoman_co.paa",_path + "Skins\heli_transport_02_3_dahoman_co.paa"],
-			[_path + "heli_transport_02_1_indp_co","reb",_path + "heli_transport_02_2_indp_co",_path + "heli_transport_02_3_indp_co"],
+			[_path + "heli_transport_02_1_indp_co.paa","reb",_path + "heli_transport_02_2_indp_co.paa",_path + "heli_transport_02_3_indp_co.paa"],
 			[_civ + "mohawk_rot_1.paa","civ",_civ + "mohawk_rot_2.paa",_civ + "mohawk_rot_3.paa"]
+		];
+	};
+	case "B_Heli_Attack_01_F":
+	{
+		_path = "\a3\air_f_beta\Heli_Attack_01\Data\";
+		_cop = "vehskins\cop\cop_";
+		_med = "vehskins\med\med_";
+		_civ = "vehskins\civ\civ_";
+		_ret =
+		[
+			[_path + "heli_attack_01_co.paa","cop"]
 		];
 	};
 };

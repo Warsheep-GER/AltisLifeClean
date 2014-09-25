@@ -31,7 +31,6 @@ switch (_vehicle) do
 			case 11: {_color = "Notarzt"};
 		};
 	};
-	
 	case "C_Offroad_01_F" :
 	{
 		switch (_index) do
@@ -58,7 +57,6 @@ switch (_vehicle) do
 			case 3: {_color = "Rebel4"};
 		};
 	};
-	
 	case "C_Hatchback_01_F":
 	{
 		switch (_index) do
@@ -76,7 +74,6 @@ switch (_vehicle) do
 			case 10: {_color = "Notarzt"};
 		};
 	};
-	
 	case "C_Hatchback_01_sport_F":
 	{
 		switch(_index) do
@@ -92,7 +89,6 @@ switch (_vehicle) do
 			case 8: {_color = "Notarzt"};
 		};
 	};
-	
 	case "C_SUV_01_F":
 	{
 		switch (_index) do
@@ -106,7 +102,6 @@ switch (_vehicle) do
 			case 6: {_color = "Weiss tuning";};
 		};
 	};
-	
 	case "B_MRAP_01_F":
 	{
 		switch (_index) do
@@ -168,27 +163,6 @@ switch (_vehicle) do
 			case 2: {_color = "Polizei"};
 		};
 	};
-	
-	case "C_Van_01_box_F":
-	{
-		switch (_index) do
-		{
-			case 0: {_color = "White"};
-			case 1: {_color = "Red"};
-			case 2: {_color = "Camo"};
-		};
-	};
-	
-	case "C_Van_01_transport_F":
-	{
-		switch (_index) do
-		{
-			case 0: {_color = "White"};
-			case 1: {_color = "Red"};
-			case 2: {_color = "Camo"};
-		};
-	};
-	
 	case "C_Van_01_fuel_F":
 	{
 		switch (_index) do
@@ -198,8 +172,69 @@ switch (_vehicle) do
 			case 2: {_color = "Camo"};
 		};
 	};
-	
-	case "I_Truck_02_covered_F":
+	case "C_Van_01_transport_F":
+	{
+		switch (_index) do
+		{
+			case 0: {_color = "White"};
+			case 1: {_color = "Red"};
+			case 2: {_color = "Camo"};
+		};
+	};
+	case "I_G_Van_01_transport_F":
+	{
+		switch (_index) do
+		{
+			case 0: {_color = "White"};
+			case 1: {_color = "Red"};
+			case 2: {_color = "Camo"};
+		};
+	};
+	case "C_Van_01_box_F":
+	{
+		switch (_index) do
+		{
+			case 0: {_color = "White"};
+			case 1: {_color = "Red"};
+			case 2: {_color = "Camo"};
+		};
+	};
+	case "B_Truck_01_fuel_F":
+	{
+		switch (_index) do
+		{
+			case 0: {_color = "Regular"};
+		};
+	};
+	case "B_Truck_01_transport_F":
+	{
+		switch (_index) do
+		{
+			case 0: {_color = "Regular"};
+		};
+	};
+	case "B_Truck_01_ammo_F":
+	{
+		switch (_index) do
+		{
+			case 0: {_color = "Regular"};
+		};
+	};
+	case "B_Truck_01_box_F":
+	{
+		switch (_index) do
+		{
+			case 0: {_color = "Regular"};
+		};
+	};
+	case "B_Truck_01_covered_F":
+	{
+		switch (_index) do
+		{
+			case 0: {_color = "Regular"};
+		};
+	};
+	case "O_Truck_02_fuel_F":
 	{
 		switch (_index) do
 		{
@@ -208,7 +243,6 @@ switch (_vehicle) do
 			case 2: {_color = "Camo2"};
 		};
 	};
-	
 	case "I_Truck_02_transport_F":
 	{
 		switch (_index) do
@@ -218,7 +252,52 @@ switch (_vehicle) do
 			case 2: {_color = "Camo2"};
 		};
 	};
-	
+	case "O_Truck_02_transport_F":
+	{
+		switch (_index) do
+		{
+			case 0: {_color = "Orange"};
+			case 1: {_color = "Camo"};
+			case 2: {_color = "Camo2"};
+		};
+	};
+	case "I_Truck_02_covered_F":
+	{
+		switch (_index) do
+		{
+			case 0: {_color = "Orange"};
+			case 1: {_color = "Camo"};
+			case 2: {_color = "Camo2"};
+		};
+	};
+	case "O_Truck_03_fuel_F":
+	{
+		switch (_index) do
+		{
+			case 0: {_color = "Camo"};
+		};
+	};
+	case "O_Truck_03_transport_F":
+	{
+		switch (_index) do
+		{
+			case 0: {_color = "Camo"};
+		};
+	};
+	case "O_Truck_03_device_F":
+	{
+		switch (_index) do
+		{
+			case 0: {_color = "Camo"};
+		};
+	};
+	case "O_Truck_03_covered_F":
+	{
+		switch (_index) do
+		{
+			case 0: {_color = "Camo"};
+		};
+	};
 	case "B_Heli_Light_01_F":
 	{
 		switch (_index) do
@@ -263,7 +342,6 @@ switch (_vehicle) do
 			case 15: {_color = "Notarzt"};
 		};
 	};
-	
 	case "O_Heli_Light_02_unarmed_F":
 	{
 		switch (_index) do
@@ -276,9 +354,6 @@ switch (_vehicle) do
 			case 5: {_color = "Polizei"};
 		};
 	};
-	
-	
-	
 	case "I_Heli_Transport_02_F":
 	{
 		switch (_index) do
@@ -287,6 +362,13 @@ switch (_vehicle) do
 			case 1: {_color = "Dahoman"};
 			case 2: {_color = "Camo"};
 			case 3: {_color = "Rot"};
+		};
+	};
+	case "B_Heli_Attack_01_F":
+	{
+		switch (_index) do
+		{
+			case 0: {_color = "Bundeswehr"};
 		};
 	};
 };
