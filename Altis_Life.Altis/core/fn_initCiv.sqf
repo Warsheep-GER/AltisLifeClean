@@ -16,8 +16,6 @@ waitUntil {!(isNull (findDisplay 46))};
 diag_log "::Life Client:: Creating AGB Dialog";
 rulesok = false;
 if(!createDialog "agb") exitWith {};
-waitUntil{!isNull (findDisplay 32154)}; //Wait for the spawn selection to be open.
-waitUntil{isNull (findDisplay 32154)}; //Wait for the spawn selection to be done.
 if(!rulesok)then {		
         player enableSimulation false;
         ["agb",false,true] call BIS_fnc_endMission;
@@ -38,3 +36,4 @@ if(life_is_arrested) then
 };
 player addRating 9999999;
 [] call life_fnc_initSkin;
+[] execVM "enable\uilife.sqf";
