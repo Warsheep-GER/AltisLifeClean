@@ -49,13 +49,13 @@ switch (_code) do
 	//Q key for farming
 	case 16:
 	{
-		if((!life_action_inUse) && (vehicle player == player)) then
-                {
-                     if(life_inv_pickaxe > 0) then
-                     {
-                     [] spawn life_fnc_pickAxeUse;
-        	     };
-                }
+	if((!life_action_inUse) && (vehicle player == player)) then
+		{
+		if(life_inv_pickaxe > 0) then
+			{
+				[] spawn life_fnc_pickAxeUse;
+			};
+		}
 	};
 	//Space key for Jumping
 	case 57:
@@ -113,17 +113,29 @@ switch (_code) do
 	case 19:
 	{
 		if(_shift) then {_handled = true;};
-		if(_shift && playerSide == west && !isNull cursorTarget && cursorTarget isKindOf "Man" && (isPlayer cursorTarget) && (side cursorTarget in [civilian,independent]) && alive cursorTarget && cursorTarget distance player < 3.5 && !(cursorTarget getVariable "Escorting") && life_knockout && !(cursorTarget getVariable "restrained") && speed cursorTarget < 1) then
+		switch (playerSide) do 
 		{
-			[] call life_fnc_restrainAction;
-		};
-		if(_shift && playerSide == civilian && life_inv_handcuffs > 0 && !isNull cursorTarget && cursorTarget isKindOf "Man" && (isPlayer cursorTarget) && (side cursorTarget in [west,civilian,independent]) && alive cursorTarget && cursorTarget distance player < 3.5 && !(cursorTarget getVariable "Escorting") && life_knockout && !(cursorTarget getVariable "restrained") && speed cursorTarget < 1 && ([false,handcuffs,1] call life_fnc_handleInv)) then
-		{
-			[] call life_fnc_restrainAction;
-		};
-		if(_shift && playerSide == independent && life_inv_handcuffs > 0 && !isNull cursorTarget && cursorTarget isKindOf "Man" && (isPlayer cursorTarget) && (side cursorTarget in [civiliant]) && alive cursorTarget && cursorTarget distance player < 3.5 && !(cursorTarget getVariable "Escorting") && life_knockout && !(cursorTarget getVariable "restrained") && speed cursorTarget < 1 && ([false,handcuffs,1] call life_fnc_handleInv)) then
-		{
-			[] call life_fnc_restrainAction;
+			case west: 
+			{
+			if(_shift && !isNull cursorTarget && cursorTarget isKindOf "Man" && (isPlayer cursorTarget) && (side cursorTarget in [civilian,independent]) && alive cursorTarget && cursorTarget distance player < 3.5 && !(cursorTarget getVariable "Escorting") && life_knockout && !(cursorTarget getVariable "restrained") && speed cursorTarget < 1) then
+				{
+					[] call life_fnc_restrainAction;
+				};
+			};
+			case independent: 
+			{
+			if(_shift && life_inv_handcuffs > 0 && !isNull cursorTarget && cursorTarget isKindOf "Man" && (isPlayer cursorTarget) && (side cursorTarget in [civilian]) && alive cursorTarget && cursorTarget distance player < 3.5 && !(cursorTarget getVariable "Escorting") && !(cursorTarget getVariable "restrained") && speed cursorTarget < 1 && ([false,handcuffs,1] call life_fnc_handleInv)) then
+				{
+					[] call life_fnc_restrainAction;
+				};
+			};
+			case civilian: 
+			{
+			if(_shift && life_inv_handcuffs > 0 && !isNull cursorTarget && cursorTarget isKindOf "Man" && (isPlayer cursorTarget) && (side cursorTarget in [west,civilian,independent]) && alive cursorTarget && cursorTarget distance player < 3.5 && !(cursorTarget getVariable "Escorting") && life_knockout && !(cursorTarget getVariable "restrained") && speed cursorTarget < 1 && ([false,handcuffs,1] call life_fnc_handleInv)) then
+				{
+					[] call life_fnc_restrainAction;
+				};
+			};
 		};
 	};
 	
