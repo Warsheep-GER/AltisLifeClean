@@ -41,6 +41,8 @@ switch (_boxType) do {
 		clearMagazineCargoGlobal _container;
 		clearItemCargoGlobal _container;
 		clearBackpackCargoGlobal _container;
+		_container allowDamage false;
+		_container enableSimulation false;
 	};
 	
 	case "storagebig": {
@@ -56,5 +58,7 @@ switch (_boxType) do {
 		clearMagazineCargoGlobal _container;
 		clearItemCargoGlobal _container;
 		clearBackpackCargoGlobal _container;
+		_container allowDamage false;
+		_container enableSimulation false;
 	};
 };
