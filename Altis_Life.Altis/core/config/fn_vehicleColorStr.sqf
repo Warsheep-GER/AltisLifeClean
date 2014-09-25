@@ -241,6 +241,28 @@ switch (_vehicle) do
 			case 15: {_color = "Notarzt"};
 		};
 	};
+	case "B_Heli_Light_01_armed_F":
+	{
+		switch (_index) do
+		{
+			case 0: {_color = "camo"};
+			case 1: {_color = "Black"};
+			case 2: {_color = "Civ Blue"};
+			case 3: {_color = "Civ Red"};
+			case 4: {_color = "Digi Green"};
+			case 5: {_color = "Blueline"};
+			case 6: {_color = "Elliptical"};
+			case 7: {_color = "Furious"};
+			case 8: {_color = "Jeans Blue"};
+			case 9: {_color = "Speedy Redline"};
+			case 10: {_color = "Sunset"};
+			case 11: {_color = "Vrana"};
+			case 12: {_color = "Waves Blue"};
+			case 13: {_color = "Rebel Digital"};
+			case 14: {_color = "Polizei"};
+			case 15: {_color = "Notarzt"};
+		};
+	};
 	
 	case "O_Heli_Light_02_unarmed_F":
 	{

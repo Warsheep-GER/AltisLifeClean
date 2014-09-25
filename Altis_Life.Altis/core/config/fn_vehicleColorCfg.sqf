@@ -39,7 +39,6 @@ switch (_vehicle) do
 			
 		];
 	};
-	
 	case "C_Offroad_01_F":
 	{
 		_path = "\A3\soft_F\Offroad_01\Data\";
@@ -77,7 +76,6 @@ switch (_vehicle) do
 			[_path2 + "offroad_01_ext_ig01_co.paa","reb"]
 		];
 	};
-	
 	case "C_Hatchback_01_F":
 	{
 		_path = "\a3\soft_f_gamma\Hatchback_01\data\";
@@ -99,7 +97,6 @@ switch (_vehicle) do
 			[_med + "hatchback.paa","med"]
 		];
 	};
-	
 	case "C_Hatchback_01_sport_F":
 	{
 		_path = "\a3\soft_f_gamma\Hatchback_01\data\";
@@ -119,7 +116,6 @@ switch (_vehicle) do
 			[_med + "hatchback.paa","med"]
 		];
 	};
-		
 	case "C_SUV_01_F":
 	{
 		_path = "\a3\soft_f_gamma\SUV_01\Data\";
@@ -137,7 +133,6 @@ switch (_vehicle) do
 			[_civ + "suv_tuned.paa","civ"]
 		];
 	};
-	
 	case "B_MRAP_01_F":
 	{
 		_path = "\A3\soft_f\MRAP_01\Data\";
@@ -151,7 +146,6 @@ switch (_vehicle) do
 			[_med + "hunter_1.paa","med",_med + "hunter_2.paa"]
 		];
 	};
-	
 	case "B_MRAP_01_hmg_F":
 	{
 		_path = "\A3\soft_f\MRAP_01\Data\";
@@ -164,7 +158,6 @@ switch (_vehicle) do
 			[_cop + "hunter_1.paa","cop",_cop + "hunter_2.paa"]
 		];
 	};
-	
 	case "O_MRAP_02_F":
 	{
 		_path = "\A3\soft_f\MRAP_02\Data\";
@@ -189,7 +182,6 @@ switch (_vehicle) do
 			[_civ + "ifrid_navy_01.paa","reb",_civ + "ifrid_navy_02.paa"]
 		];
 	};
-	
 	case "I_MRAP_03_F":
 	{
 		_path = "\A3\soft_f_beta\MRAP_03\Data\";
@@ -229,7 +221,6 @@ switch (_vehicle) do
 			[_cop + "strider.paa","cop"]
 		];
 	};
-	
 	case "C_Van_01_box_F":
 	{
 		_path = "\a3\soft_f_gamma\Van_01\Data\";
@@ -243,7 +234,6 @@ switch (_vehicle) do
 			[_path + "van_01_ext_ig_co.paa","reb"]
 		];
 	};
-	
 	case "C_Van_01_transport_F":
 	{
 		_path = "\a3\soft_f_gamma\Van_01\Data\";
@@ -257,7 +247,6 @@ switch (_vehicle) do
 			[_path + "van_01_ext_ig_co.paa","reb"]
 		];
 	};
-	
 	case "C_Van_01_fuel_F":
 	{
 		_path = "\a3\soft_f_gamma\Van_01\Data\";
@@ -271,7 +260,6 @@ switch (_vehicle) do
 			[_path + "van_01_ext_ig_co.paa","reb"]
 		];
 	};
-	
 	case "I_Truck_02_covered_F":
 	{
 		_path = "\A3\Soft_F_Beta\Truck_02\data\";
@@ -285,7 +273,6 @@ switch (_vehicle) do
 			[_path + "truck_02_kab_co.paa","reb",_path + "truck_02_kuz_opfor_co.paa"]
 		];
 	};
-	
 	case "I_Truck_02_transport_F":
 	{
 		_path = "\A3\Soft_F_Beta\Truck_02\data\";
@@ -299,7 +286,6 @@ switch (_vehicle) do
 			[_path + "truck_02_kab_co.paa","reb",_path + "truck_02_kuz_opfor_co.paa"]
 		];
 	};
-	
 	case "B_Heli_Light_01_F":
 	{
 		_path = "\a3\air_f\Heli_Light_01\Data\";
@@ -326,7 +312,32 @@ switch (_vehicle) do
 			[_med + "hummingbird.paa","med"]
 		];
 	};
-	
+	case "B_Heli_Light_01_armed_F":
+	{
+		_path = "\a3\air_f\Heli_Light_01\Data\";
+		_cop = "vehskins\cop\cop_";
+		_med = "vehskins\med\med_";
+		_civ = "vehskins\civ\civ_";
+		_ret = 
+		[
+			[_path + "Skins\heli_light_01_ext_sheriff_co.paa","reb"],
+			[_path + "heli_light_01_ext_ion_co.paa","reb"],
+			[_path + "heli_light_01_ext_blue_co.paa","civ"],
+			[_path + "heli_light_01_ext_co.paa","civ"],
+			[_path + "heli_light_01_ext_indp_co.paa","reb"],
+			[_path + "Skins\heli_light_01_ext_blueline_co.paa","civ"],
+			[_path + "Skins\heli_light_01_ext_elliptical_co.paa","civ"],
+			[_path + "Skins\heli_light_01_ext_furious_co.paa","civ"],
+			[_path + "Skins\heli_light_01_ext_jeans_co.paa","civ"],
+			[_path + "Skins\heli_light_01_ext_speedy_co.paa","civ"],
+			[_path + "Skins\heli_light_01_ext_sunset_co.paa","civ"],
+			[_path + "Skins\heli_light_01_ext_vrana_co.paa","civ"],
+			[_path + "Skins\heli_light_01_ext_wave_co.paa","civ"],
+			[_path + "Skins\heli_light_01_ext_digital_co.paa","reb"],
+			[_cop + "hummingbird.paa","cop"],
+			[_med + "hummingbird.paa","med"]
+		];
+	};
 	case "O_Heli_Light_02_unarmed_F":
 	{
 		_path = "\a3\air_f\Heli_Light_02\Data\";
@@ -343,9 +354,6 @@ switch (_vehicle) do
 			[_cop + "orca.paa","cop"]
 		];
 	};
-	
-	
-	
 	case "I_Heli_Transport_02_F":
 	{
 		_path = "\a3\air_f_beta\Heli_Transport_02\Data\";
@@ -361,5 +369,4 @@ switch (_vehicle) do
 		];
 	};
 };
-
 _ret;
