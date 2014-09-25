@@ -58,7 +58,8 @@ switch (_vehicle) do
 			[_path2 + "offroad_01_ext_repair_civ_co.paa","civ"],
 			[_path3 + "offroad_01_ext_ig01_co.paa","reb"],
 			[_med + "offroad.paa","med"],
-			[_cop + "offroad.paa","cop"]
+			[_cop + "offroad.paa","cop"],
+			[_civ + "offroad_hellotitty.paa","civ"]
 		];
 	};
 	case "B_G_Offroad_01_armed_F":
@@ -73,7 +74,8 @@ switch (_vehicle) do
 			[_path + "offroad_01_ext_ig_05_co.paa","reb"],
 			[_path + "offroad_01_ext_ig_06_co.paa","reb"],
 			[_path + "offroad_01_ext_ig_12_co.paa","reb"],
-			[_path2 + "offroad_01_ext_ig01_co.paa","reb"]
+			[_path2 + "offroad_01_ext_ig01_co.paa","reb"],
+			[_civ + "offroad_hellotitty.paa","reb"]
 		];
 	};
 	case "C_Hatchback_01_F":
@@ -489,7 +491,8 @@ switch (_vehicle) do
 			[_path + "heli_light_02_ext_indp_co.paa","reb"],
 			[_path + "heli_light_02_ext_opfor_co.paa","reb"],
 			[_med + "orca.paa","med"],
-			[_cop + "orca.paa","cop"]
+			[_cop + "orca.paa","cop"],
+			[_civ + "orca_strahlenschutz.paa","civ"]
 		];
 	};
 	case "I_Heli_Transport_02_F":

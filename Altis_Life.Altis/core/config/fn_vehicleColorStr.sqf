@@ -45,6 +45,7 @@ switch (_vehicle) do
 			case 7: {_color = "Rebel"};
 			case 8: {_color = "Notarzt"};
 			case 9: {_color = "Polizei"};
+			case 10: {_color = "Titten"};
 		};
 	};
 	case "B_G_Offroad_01_armed_F" :
@@ -55,6 +56,7 @@ switch (_vehicle) do
 			case 1: {_color = "Rebel2"};
 			case 2: {_color = "Rebel3"};
 			case 3: {_color = "Rebel4"};
+			case 4: {_color = "Titten"};
 		};
 	};
 	case "C_Hatchback_01_F":
@@ -352,6 +354,7 @@ switch (_vehicle) do
 			case 3: {_color = "Desert Digi"};
 			case 4: {_color = "Notarzt"};
 			case 5: {_color = "Polizei"};
+			case 6: {_color = "Strahlenschutz"};
 		};
 	};
 	case "I_Heli_Transport_02_F":
