@@ -168,6 +168,9 @@ if(count (handGunItems player) > 0) then
     ["life_inv_redgull", life_inv_redgull],
     ["life_inv_peach", life_inv_peach],
     ["life_inv_spikeStrip", life_inv_spikeStrip],
+    ["life_inv_radar40", life_inv_radar40],
+    ["life_inv_radar120", life_inv_120],
+    ["life_inv_handcuffs", life_inv_handcuffs],
     ["life_inv_defusekit", life_inv_defusekit],
     ["life_inv_storagesmall", life_inv_storagesmall],
     ["life_inv_storagebig", life_inv_storagebig]
