@@ -5328,4 +5328,38 @@
 			<Portuguese>Roubar Jogador</Portuguese>
 		</Key>
 	</Package>
+	<Package name="Agb_Strings">
+		<Key ID="STR_Agb_Ueberschrift">
+			<Original>Serverinfos:</Original>
+			<English>Serverinfos:</English>
+			<German>Server Informationen:</German>
+			<French>Serverinfos:</French>
+			<Italian>Serverinfos:</Italian>		
+			<Portuguese>Serverinfos:</Portuguese>
+		</Key>
+		<Key ID="STR_Agb_No">
+			<Original>Left Server</Original>
+			<English>Left Server</English>
+			<German>Server Verlassen</German>
+			<French>Left Server</French>
+			<Italian>Left Server</Italian>		
+			<Portuguese>Left Server</Portuguese>
+		</Key>
+		<Key ID="STR_Agb_Yes">
+			<Original>Continue</Original>
+			<English>Continue</English>
+			<German>Weiter</German>
+			<French>Continue</French>
+			<Italian>Continue</Italian>		
+			<Portuguese>Continue</Portuguese>
+		</Key>
+		<Key ID="STR_Agb_Info">
+			<Original>&lt;t size='1.0'&gt;Spawnsystem:&lt;br/&gt;&lt;br/&gt;&lt;t size='0.8'&gt;Am Anfang kann man nur in Athira Spawnen aber bei jeden Einwohnermeldeamt.&lt;br/&gt;&lt;br/&gt;kann man sich für 10000 in andere Städte einbürgern lassen.&lt;br/&gt;&lt;br/&gt;Dieses System ist noch in Testphase und du kannst deine Meinung uns gerne im Ts3 mitteilen.&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='1.0'&gt;Kontacktdaten:&lt;br/&gt;&lt;br/&gt;&lt;t size='0.8'&gt;Unser Teamspeak3 Server ist unter 89.163.227.42 zu erreichen. &lt;br/&gt;&lt;br/&gt;</Original>
+			<English>&lt;t size='1.0'&gt;Spawnsystem:&lt;br/&gt;&lt;br/&gt;&lt;t size='0.8'&gt;Am Anfang kann man nur in Athira Spawnen aber bei jeden Einwohnermeldeamt.&lt;br/&gt;&lt;br/&gt;kann man sich für 10000 in andere Städte einbürgern lassen.&lt;br/&gt;&lt;br/&gt;Dieses System ist noch in Testphase und du kannst deine Meinung uns gerne im Ts3 mitteilen.&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='1.0'&gt;Kontacktdaten:&lt;br/&gt;&lt;br/&gt;&lt;t size='0.8'&gt;Unser Teamspeak3 Server ist unter 89.163.227.42 zu erreichen. &lt;br/&gt;&lt;br/&gt;</English>
+			<German>&lt;t size='1.0'&gt;Spawnsystem:&lt;br/&gt;&lt;br/&gt;&lt;t size='0.8'&gt;Am Anfang kann man nur in Athira Spawnen aber bei jeden Einwohnermeldeamt.&lt;br/&gt;&lt;br/&gt;kann man sich für 10000 in andere Städte einbürgern lassen.&lt;br/&gt;&lt;br/&gt;Dieses System ist noch in Testphase und du kannst deine Meinung uns gerne im Ts3 mitteilen.&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='1.0'&gt;Kontacktdaten:&lt;br/&gt;&lt;br/&gt;&lt;t size='0.8'&gt;Unser Teamspeak3 Server ist unter 89.163.227.42 zu erreichen. &lt;br/&gt;&lt;br/&gt;</German>
+			<French>&lt;t size='1.0'&gt;Spawnsystem:&lt;br/&gt;&lt;br/&gt;&lt;t size='0.8'&gt;Am Anfang kann man nur in Athira Spawnen aber bei jeden Einwohnermeldeamt.&lt;br/&gt;&lt;br/&gt;kann man sich für 10000 in andere Städte einbürgern lassen.&lt;br/&gt;&lt;br/&gt;Dieses System ist noch in Testphase und du kannst deine Meinung uns gerne im Ts3 mitteilen.&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='1.0'&gt;Kontacktdaten:&lt;br/&gt;&lt;br/&gt;&lt;t size='0.8'&gt;Unser Teamspeak3 Server ist unter 89.163.227.42 zu erreichen. &lt;br/&gt;&lt;br/&gt;</French>
+			<Italian>&lt;t size='1.0'&gt;Spawnsystem:&lt;br/&gt;&lt;br/&gt;&lt;t size='0.8'&gt;Am Anfang kann man nur in Athira Spawnen aber bei jeden Einwohnermeldeamt.&lt;br/&gt;&lt;br/&gt;kann man sich für 10000 in andere Städte einbürgern lassen.&lt;br/&gt;&lt;br/&gt;Dieses System ist noch in Testphase und du kannst deine Meinung uns gerne im Ts3 mitteilen.&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='1.0'&gt;Kontacktdaten:&lt;br/&gt;&lt;br/&gt;&lt;t size='0.8'&gt;Unser Teamspeak3 Server ist unter 89.163.227.42 zu erreichen. &lt;br/&gt;&lt;br/&gt;</Italian>		
+			<Portuguese>Conti&lt;t size='1.0'&gt;Spawnsystem:&lt;br/&gt;&lt;br/&gt;&lt;t size='0.8'&gt;Am Anfang kann man nur in Athira Spawnen aber bei jeden Einwohnermeldeamt.&lt;br/&gt;&lt;br/&gt;kann man sich für 10000 in andere Städte einbürgern lassen.&lt;br/&gt;&lt;br/&gt;Dieses System ist noch in Testphase und du kannst deine Meinung uns gerne im Ts3 mitteilen.&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='1.0'&gt;Kontacktdaten:&lt;br/&gt;&lt;br/&gt;&lt;t size='0.8'&gt;Unser Teamspeak3 Server ist unter 89.163.227.42 zu erreichen. &lt;br/&gt;&lt;br/&gt;</Portuguese>
+		</Key>
+	</Package>
 </Project>

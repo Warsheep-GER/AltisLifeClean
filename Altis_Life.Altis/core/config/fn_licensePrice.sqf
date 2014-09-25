@@ -35,8 +35,8 @@ switch (_type) do
 	case "cement": {6500};
 	case "mair": {15000};
 	case "home": {75000};
-	case "kavala": {30000};
-	case "pyros": {20000};
+	case "kavala": {10000};
+	case "pyros": {10000};
 	case "sofia": {10000};
 	case "reb1": {100000};
 	case "reb2": {100000};
