@@ -77,7 +77,13 @@ switch (_shop) do
 			["B_MRAP_01_F",500000],
 			["I_MRAP_03_F",500000],
 			["O_MRAP_02_F",500000],
-			["O_MRAP_02_hmg_F",900000],
+			["O_MRAP_02_hmg_F",900000]
+		];
+	};
+	case "reb_truck":
+	{
+		_return =
+		[
 			["O_Truck_03_fuel_F",200000],
 			["O_Truck_03_transport_F",250000],
 			["O_Truck_03_covered_F",300000],

@@ -434,7 +434,7 @@ switch (_vehicle) do
 		_civ = "vehskins\civ\civ_";
 		_ret = 
 		[
-			[_path + "Skins\heli_light_01_ext_sheriff_co.paa","reb"],
+			[_path + "Skins\heli_light_01_ext_sheriff_co.paa","civ"],
 			[_path + "heli_light_01_ext_ion_co.paa","reb"],
 			[_path + "heli_light_01_ext_blue_co.paa","civ"],
 			[_path + "heli_light_01_ext_co.paa","civ"],
@@ -460,7 +460,7 @@ switch (_vehicle) do
 		_civ = "vehskins\civ\civ_";
 		_ret = 
 		[
-			[_path + "Skins\heli_light_01_ext_sheriff_co.paa","reb"],
+			[_path + "Skins\heli_light_01_ext_sheriff_co.paa","civ"],
 			[_path + "heli_light_01_ext_ion_co.paa","reb"],
 			[_path + "heli_light_01_ext_blue_co.paa","civ"],
 			[_path + "heli_light_01_ext_co.paa","civ"],
