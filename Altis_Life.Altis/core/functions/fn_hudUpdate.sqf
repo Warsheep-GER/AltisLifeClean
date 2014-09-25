@@ -29,7 +29,7 @@ _health ctrlSetPosition [safeZoneX+safeZoneW-0.090,safeZoneY+safeZoneH-0.506];
 _health ctrlSetText format["%1", round((1 - (damage player)) * 100)];
 _health ctrlCommit 0;
 
-//need to call in a script bec real time FPS/real time monney
+//need to call in a script for real time update this var
 //Update Money
 //_geld ctrlSetPosition [safeZoneX+safeZoneW-0.090,safeZoneY+safeZoneH-0.45];
 //_geld ctrlSetText format["%1", life_cash];

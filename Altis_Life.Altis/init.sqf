@@ -15,6 +15,6 @@ life_versionInfo = "Altis Life RPG v3.1.4.8";
 
 StartProgress = true;
 
-[] execVM "enable\guidlife.sqf";
+[] execVM "enable\uilife.sqf";
 
 "BIS_fnc_MP_packet" addPublicVariableEventHandler {_this call life_fnc_MPexec};

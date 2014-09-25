@@ -17,4 +17,5 @@ _fps ctrlSetText format["%1", round diag_fps];
 _fps ctrlCommit 0;
 
 	};
+	sleep 1.5;//safe some cpu
 };

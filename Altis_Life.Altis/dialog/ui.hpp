@@ -51,7 +51,7 @@
 				idc = -1;
 				text = "icons\fps.paa";
 				x = safeZoneX+safeZoneW-0.11; y = safeZoneY+safeZoneH-0.40;
-				w = 0.04; h = 0.04;
+				w = 0.02; h = 0.02;
 			};
 		};
 		
