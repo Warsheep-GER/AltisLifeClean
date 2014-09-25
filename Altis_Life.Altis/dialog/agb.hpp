@@ -47,7 +47,7 @@ class agb
 			idc = -1;
 			colorBackground[] = {0, 0, 0, 0};
             sizeEx = 0.0001;
-			text = "<t size = '0.8'>Unerwünschtes Fehlverhalten (führt ggf. zu Bann)<br / ><br / >  §1.1: Hacking / Cheating / Duping<br / >  §1.2: Selbstmord / Disconect um sich dem Rollenspiel zu entziehen.<br / >  §1.3: Bugs/Exploites ausnutzen - im Zweifel Admin fragen<br / ><br / >  §2: Das Rollenspiel auf dem Altis Life Server steht an erster Stelle, wer dies nicht einhält wird verwarnt und nach mehrmaliger Ermahnung ggf. gebannt.<br / ><br / >  §3: Wer die Regeln einer Safezone nicht beachtet oder verstößt wird ohne Vorwarnung gebannt.<br / ><br / >  §4: RDM / VDM wird sofort geahndet und die Täter gebannt.<br / ><br / >Unsere Kontaktdaten: TS³ teamspeak.silentlife.de<br>  Homepage silentlife.de<br / ><br / >Admins: Noldy, Florian<br / ><br / >Die Admins haben das letzt Wort<br / ><br / ></t> Hinweis: Wir suchen ADAC/Medics und Polizisten<br / ><br / ></t> <t font ='PuristaBold' size='0.9'>Um auf dem Altis Life Server zu spielen musst du diesen Regeln zustimmen und verpflichtest dich dazu diese einzuhalten.</t>";
+			text = "$STR_Agb_Info";
 			x = 0.1125;
 			y = 0.16;
 			w = 0.775;

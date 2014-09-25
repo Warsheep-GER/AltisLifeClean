@@ -16,7 +16,7 @@
 			
 				idc = -1;
 				text = "icons\food.paa";
-				x = safeZoneX+safeZoneW-0.115; y = safeZoneY+safeZoneH-0.54;
+				x = safeZoneX+safeZoneW-0.115; y = safeZoneY+safeZoneH-0.60;
 				w = 0.03; h = 0.04;
 			};
 			
@@ -25,7 +25,7 @@
 			
 				idc = -1;
 				text = "icons\water.paa";
-				x = safeZoneX+safeZoneW-0.12; y = safeZoneY+safeZoneH-0.50;
+				x = safeZoneX+safeZoneW-0.12; y = safeZoneY+safeZoneH-0.55;
 				w = 0.04; h = 0.04;
 			};
 			
@@ -34,7 +34,7 @@
 				
 				idc = -1;
 				text = "icons\health.paa";
-				x = safeZoneX+safeZoneW-0.11; y = safeZoneY+safeZoneH-0.46;
+				x = safeZoneX+safeZoneW-0.11; y = safeZoneY+safeZoneH-0.50;
 				w = 0.02; h = 0.03;
 			};
 			class geldIcon : life_RscPicture
@@ -42,15 +42,15 @@
 				
 				idc = -1;
 				text = "icons\money.paa";
-				x = safeZoneX+safeZoneW-0.11; y = safeZoneY+safeZoneH-0.42;
+				x = safeZoneX+safeZoneW-0.11; y = safeZoneY+safeZoneH-0.45;
 				w = 0.02; h = 0.03;
 			};
 			class fpsIcon : life_RscPicture
 			{
 				
 				idc = -1;
-				text = "FPS:";
-				x = safeZoneX+safeZoneW-0.11; y = safeZoneY+safeZoneH-0.38;
+				text = "icons\fps.paa";
+				x = safeZoneX+safeZoneW-0.11; y = safeZoneY+safeZoneH-0.40;
 				w = 0.02; h = 0.03;
 			};
 		};
