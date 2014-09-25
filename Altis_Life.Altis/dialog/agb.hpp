@@ -31,7 +31,7 @@ class agb
 		{
 			colorBackground[] = {0, 0, 0, 0};
 			idc = -1;
-			text = "Die Serverregeln:";
+			text = "$STR_Agb_Ueberschrift";
 			x = 0.0875;
 			y = 0.06;
 			w = 0.825;
@@ -60,7 +60,7 @@ class agb
 		class naz : Life_RscButtonMenu
 		{
 			idc = -1;
-			text = "Nicht Akzeptieren";
+			text = "$STR_Agb_No";
 			colorBackground[] = {"(profilenamespace getvariable ['GUI_BCG_RGB_R',0.3843])", "(profilenamespace getvariable ['GUI_BCG_RGB_G',0.7019])", "(profilenamespace getvariable ['GUI_BCG_RGB_B',0.8862])", "(profilenamespace getvariable ['GUI_BCG_RGB_A',0.7])"};
 			onButtonClick = "closeDialog 0;";
 			x = 0.1075;
@@ -77,7 +77,7 @@ class agb
 		class az : Life_RscButtonMenu
 		{
 			idc = -1;
-			text = "Akzeptieren";
+			text = "$STR_Agb_Yes";
 			colorBackground[] = {"(profilenamespace getvariable ['GUI_BCG_RGB_R',0.3843])", "(profilenamespace getvariable ['GUI_BCG_RGB_G',0.7019])", "(profilenamespace getvariable ['GUI_BCG_RGB_B',0.8862])", "(profilenamespace getvariable ['GUI_BCG_RGB_A',0.7])"};
 			onButtonClick = "rulesok = true; closeDialog 0;";
             x = 0.5825;
