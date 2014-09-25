@@ -42,16 +42,16 @@
 				
 				idc = -1;
 				text = "icons\money.paa";
-				x = safeZoneX+safeZoneW-0.12; y = safeZoneY+safeZoneH-0.45;
-				w = 0.04; h = 0.04;
+				x = safeZoneX+safeZoneW-0.11; y = safeZoneY+safeZoneH-0.45;
+				w = 0.03; h = 0.03;
 			};
 			class fpsIcon : life_RscPicture
 			{
 				
 				idc = -1;
 				text = "icons\fps.paa";
-				x = safeZoneX+safeZoneW-0.1; y = safeZoneY+safeZoneH-0.375;
-				w = 0.08; h = 0.08;
+				x = safeZoneX+safeZoneW-0.1; y = safeZoneY+safeZoneH-0.40;
+				w = 0.06; h = 0.06;
 			};
 		};
 		
