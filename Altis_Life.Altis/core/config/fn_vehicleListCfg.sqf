@@ -29,25 +29,23 @@ switch (_shop) do
 			["C_Hatchback_01_F",9500],
 			["C_Offroad_01_F",12500],
 			["C_SUV_01_F",25000],
-			["C_Van_01_fuel_F",30000]
-			["C_Van_01_transport_F",40000],
+			["C_Van_01_fuel_F",30000],
 			["I_G_Van_01_transport_F",40500],
-			["C_Van_01_box_F",50000],
+			["C_Van_01_box_F",50000]
 		];
 	};
 	case "civ_truck":
 	{
 		_return =
 		[
-			["B_Truck_01_fuel_F",85000],
-			["B_Truck_01_transport_F",100000],
-			["B_Truck_01_ammo_F",125000],
-			["B_Truck_01_box_F",150000],
-			["B_Truck_01_covered_F",175000],
 			["O_Truck_02_fuel_F",150000],
 			["I_Truck_02_transport_F",175000],
-			["O_Truck_02_transport_F",190000],
-			["I_Truck_02_covered_F",200000]
+			["I_Truck_02_covered_F",200000],
+			["B_Truck_01_fuel_F",85000],
+			["B_Truck_01_transport_F",100000],
+			["B_Truck_01_covered_F",125000],
+			["B_Truck_01_ammo_F",150000],
+			["B_Truck_01_box_F",175000]
 		];
 	};
 	case "civ_ship":
@@ -81,9 +79,9 @@ switch (_shop) do
 			["O_MRAP_02_F",500000],
 			["O_MRAP_02_hmg_F",900000],
 			["O_Truck_03_fuel_F",200000],
-			["O_Truck_03_covered_F",250000],
-			["O_Truck_03_device_F",300000],
-			["O_Truck_03_transport_F",350000]
+			["O_Truck_03_transport_F",250000],
+			["O_Truck_03_covered_F",300000],
+			["O_Truck_03_device_F",350000]
 		];
 	};
 	case "reb_air":
