@@ -30,6 +30,7 @@ switch (_filter) do
 		["U_C_Driver_3",nil,3700],
 		["U_C_Driver_4",nil,3700]
 		];
+	[] call life_fnc_initSkin;
 	};
 	
 	//Hats
@@ -47,6 +48,7 @@ switch (_filter) do
 			["H_RacingHelmet_3_F",nil,2500],
 			["H_RacingHelmet_4_F",nil,2500]
 		];
+	[] call life_fnc_initSkin;
 	};
 	
 	//Glasses
@@ -70,4 +72,3 @@ switch (_filter) do
 		];
 	};
 };
-[] call life_fnc_initSkin;

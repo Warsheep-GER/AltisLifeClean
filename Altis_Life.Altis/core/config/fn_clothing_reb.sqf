@@ -26,6 +26,7 @@ switch (_filter) do
 			["U_IG_leader","Guerilla Leader",15340],
 			["U_O_GhillieSuit",nil,50000]
 		];
+	[] call life_fnc_initSkin;
 	};
 	
 	//Hats
@@ -39,6 +40,7 @@ switch (_filter) do
 			["H_MilCap_oucamo",nil,1200],
 			["H_Bandanna_camo",nil,650]
 		];
+	[] call life_fnc_initSkin;
 	};
 	
 	//Glasses
@@ -55,6 +57,7 @@ switch (_filter) do
 			["G_Lowprofile",nil,30],
 			["G_Combat",nil,55]
 		];
+	[] call life_fnc_initSkin;
 	};
 	
 	//Vest
@@ -65,6 +68,7 @@ switch (_filter) do
 			["V_BandollierB_cbr",nil,4500],
 			["V_HarnessO_brn",nil,7500]
 		];
+	[] call life_fnc_initSkin;
 	};
 	
 	//Backpacks
@@ -80,6 +84,6 @@ switch (_filter) do
 			["B_Carryall_oli",nil,5000],
 			["B_Carryall_khk",nil,5000]
 		];
+	[] call life_fnc_initSkin;
 	};
 };
-[] call life_fnc_initSkin;

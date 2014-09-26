@@ -22,7 +22,9 @@ switch (_filter) do
 		_ret = 
 		[
 		["U_Rangemaster","Polizei Uniform",25]
+		
 		];
+	[] call life_fnc_initSkin;
 	};
 	
 	//Hats
@@ -31,7 +33,8 @@ switch (_filter) do
 		_ret = 
 		[
 		["H_HelmetB_plain_mcamo","nil",75]
-		];			
+		];	
+	[] call life_fnc_initSkin;		
 	};
 	
 	//Glasses
@@ -50,6 +53,7 @@ switch (_filter) do
 			["G_Lowprofile",nil,30],
 			["G_Combat",nil,55]
 		];
+	[] call life_fnc_initSkin;
 	};
 	
 	//Vest
@@ -66,6 +70,7 @@ switch (_filter) do
 				["V_PlateCarrier2_rgr",nil,1500]
 			];
 		};
+	[] call life_fnc_initSkin;
 	};
 	
 	//Backpacks
@@ -80,7 +85,7 @@ switch (_filter) do
 			["B_FieldPack_ocamo",nil,3000],
 			["B_Carryall_cbr",nil,3500]
 		];
+	[] call life_fnc_initSkin;
 	};
 };
-[] call life_fnc_initSkin;
 _ret;

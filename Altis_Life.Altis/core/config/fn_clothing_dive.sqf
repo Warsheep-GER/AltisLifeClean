@@ -20,6 +20,7 @@ switch (_filter) do
 		[
 			["U_B_Wetsuit",nil,2000]
 		];
+	[] call life_fnc_initSkin;
 	};
 	
 	//Hats
@@ -27,6 +28,7 @@ switch (_filter) do
 	{
 		[
 		];
+	[] call life_fnc_initSkin;
 	};
 	
 	//Glasses
@@ -35,6 +37,7 @@ switch (_filter) do
 		[
 			["G_Diving",nil,500]
 		];
+	[] call life_fnc_initSkin;
 	};
 	
 	//Vest
@@ -43,6 +46,7 @@ switch (_filter) do
 		[
 			["V_RebreatherB",nil,5000]
 		];
+	[] call life_fnc_initSkin;
 	};
 	
 	//Backpacks
@@ -50,6 +54,6 @@ switch (_filter) do
 	{
 		[
 		];
+	[] call life_fnc_initSkin;
 	};
 };
-[] call life_fnc_initSkin;
