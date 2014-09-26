@@ -42,7 +42,7 @@ switch (true) do
 		case (player distance (getMarkerPos "rock_1") < 50): {_mine = "rock"; _val = 2;};
 		default {_mine = "";};
 	};
-	if not (_mine == "") then
+	if not (_mine == "") exitWith {
 		{
 			[] spawn life_fnc_pickAxeUse;
 	};
@@ -69,7 +69,14 @@ if(_curTarget isKindOf "Man" && {!alive _curTarget} && {playerSide in [west,inde
 	};
 };
 
-
+//Set Escort civilian inde
+if(_curTarget isKindOf "Man" && {!alive _curTarget} && {playerSide in [civilian,independent]}) exitWith {
+	if((_curTarget getVariable["Escorting",false])) then {
+		[_curTarget] call life_fnc_stopEscorting;
+	} else {
+		[_curTarget] call life_fnc_escortAction;
+	};
+};
 //If target is a player then check if we can use the cop menu.
 if(isPlayer _curTarget && _curTarget isKindOf "Man") then {
 	if((_curTarget getVariable["restrained",false]) && !dialog && playerSide == west) then {
