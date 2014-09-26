@@ -23,7 +23,6 @@ switch (_filter) do
 		[
 		["U_Rangemaster","Polizei Uniform",25]
 		];
-	[] call life_fnc_initSkin;
 	};
 	
 	//Hats
@@ -83,5 +82,5 @@ switch (_filter) do
 		];
 	};
 };
-
+[] call life_fnc_initSkin;
 _ret;

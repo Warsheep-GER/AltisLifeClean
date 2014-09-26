@@ -157,9 +157,9 @@ class Life_Client_Core
 		class weaponShopCfg {};
 		class vehicleWeightCfg {};
 		class houseConfig {};
-		class initSkin {};
 		
 		//Clothing Store Configs
+		class initSkin {};
 		class clothing_med {};
 		class clothing_cop {};
 		class clothing_bruce {};

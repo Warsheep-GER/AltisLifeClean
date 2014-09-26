@@ -52,3 +52,4 @@ switch (_filter) do
 		];
 	};
 };
+[] call life_fnc_initSkin;

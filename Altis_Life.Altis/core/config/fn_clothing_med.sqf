@@ -25,7 +25,6 @@ switch (_filter) do
 		["U_Rangemaster","Notarzt Uniform",25]
 		];
 	};
-	[] call life_fnc_initSkin;
 	//Hats
 	case 1:
 	{
@@ -74,5 +73,5 @@ switch (_filter) do
 		];
 	};
 };
-
+[] call life_fnc_initSkin;
 _ret;

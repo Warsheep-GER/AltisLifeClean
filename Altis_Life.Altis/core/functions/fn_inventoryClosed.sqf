@@ -22,6 +22,4 @@ if((typeOf _container) in ["Box_IND_Grenades_F","B_supplyCrate_F"]) exitWith {
 	if(!isNil "_exit" OR !(_house isKindOf "House_F")) exitWith {systemChat localize "STR_House_ContainerError"};
 	[[_house],"TON_fnc_updateHouseContainers",false,false] spawn life_fnc_MP;
 };
-if((playerSide == west) && (uniform player == "U_Rangemaster") || (playerSide == independent) && (uniform player == "U_Rangemaster")) then {
-	[] call life_fnc_initSkin;
-};
+[] call life_fnc_initSkin;

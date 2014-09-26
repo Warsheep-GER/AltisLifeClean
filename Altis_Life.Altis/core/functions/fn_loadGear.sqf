@@ -81,7 +81,4 @@ if(_seco != "") then {_handle = [_seco,true,false,false,false] spawn life_fnc_ha
         player addHandgunItem _x;
     };
 } foreach (_hItems);
-
-if((playerSide == west) && (uniform player == "U_Rangemaster") || (playerSide == independent) && (uniform player == "U_Rangemaster")) then {
-	[] call life_fnc_initSkin;
-};
+[] call life_fnc_initSkin;

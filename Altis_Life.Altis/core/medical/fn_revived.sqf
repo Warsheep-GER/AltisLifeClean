@@ -25,11 +25,6 @@ if(life_atmcash > (call life_revive_fee)) then {
 	life_atmcash = 0;
 };
 
-
-//Retexturing of units clothing, vanilla files only retexture the EMS unit.
-
-[] call life_fnc_initSkin;
-
 //Bring me back to life.
 player setDir _dir;
 player setPosASL (visiblePositionASL life_corpse);
@@ -41,4 +36,7 @@ hideBody life_corpse;
 player setVariable["Revive",nil,TRUE];
 player setVariable["name",nil,TRUE];
 player setVariable["Reviving",nil,TRUE];
+
 [] call life_fnc_hudUpdate; //Request update of hud.
+//Retexturing of units clothing, vanilla files only retexture the EMS unit.
+[] call life_fnc_initSkin;
