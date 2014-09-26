@@ -633,10 +633,13 @@ player createDiaryRecord ["BussGeld-Katalog",
             "Civ",
             "
 				Z: oeffnen des Spielermenues<br/>
-				U: oeffnen und Verschliessen von Fahrzeugen<br/>
-				T: Kofferraum eines Fahrzeugs oeffnen<br/>
+				U: oeffnen und Verschliessen von Fahrzeugen/Häusern<br/>
+				T: Kofferraum eines Fahrzeugs öffnen<br/>
+				Q: Spitzhacke benutzen<br/>
 				Shift links + G: einen Spieler K.O. schlagen<br/>
-				Windowstaste links: Haupttaste um zu interagieren (z.B. Geld aufheben, Autos reparieren, ...).<br/>
+				Shift links + R: einen Spieler Festnehmen(Handschellen)<br/><br/>
+				Windowstaste links: Haupttaste um zu interagieren (z.B. Geld aufheben, Autos reparieren, ...)<br/>
+				Gefesselte Spieler koennen ueber diese Taste Escortiert werden.<br/>
 				Meistens geht das Aufheben von Sachen mit Windows + T besser.<br/><br/>
 			"
         ]
@@ -646,14 +649,15 @@ player createDiaryRecord ["BussGeld-Katalog",
             "Cop",
             "
 				Z: oeffnen des Spielermenues<br/>
-				U: oeffnen und Verschliessen von Fahrzeugen<br/>
-				T: Kofferraum eines Fahrzeugs oeffnen<br/>
-				Shift links + G: einen Spieler K.O. schlagen<br/><br/>
-				Shift links + R: Fesseln<br/>
+				U: oeffnen und Verschliessen von Fahrzeugen/Häusern<br/>
+				T: Kofferraum eines Fahrzeugs öffnen<br/>
+				Q: Spitzhacke benutzen<br/>
 				F: Polizeisirene <br/>
-				Shift links + L: Blaulicht aktivieren<br/>
+				Shift links + L: Blaulicht aktivieren/deaktiviren<br/><br/>
+				Shift links + G: einen Spieler K.O. schlagen<br/>
+				Shift links + R: einen Spieler Festnehmen(Handschellen)<br/><br/>
 				Windowstaste links: Haupttaste um zu interagieren (z.B. Geld aufheben, Autos reparieren, ...).<br/>
-				Polizisten koennen ueber diese Taste mit Zivilisten interagieren.<br/>
+				Polizisten koennen ueber diese Taste mit Spielern interagieren.<br/>
 				Meistens geht das Aufheben von Sachen mit Windows + T besser.<br/><br/>
 			"
         ]
@@ -663,13 +667,15 @@ player createDiaryRecord ["BussGeld-Katalog",
             "Med",
             "
 				Z: oeffnen des Spielermenues<br/>
-				U: oeffnen und Verschliessen von Fahrzeugen<br/>
-				T: Kofferraum eines Fahrzeugs oeffnen<br/>
+				U: oeffnen und Verschliessen von Fahrzeugen/Häusern<br/>
+				T: Kofferraum eines Fahrzeugs öffnen<br/>
+				Q: Spitzhacke benutzen<br/>
+				F: Polizeisirene <br/>
+				Shift links + L: Rotlicht aktivieren/deaktiviren<br/><br/>
 				Shift links + G: einen Spieler K.O. schlagen<br/>
-				F: Notarztsirene<br/>
-				Shift links + L: Rotlicht aktivieren<br/>
+				Shift links + R: einen Spieler Festnehmen(Handschellen)<br/><br/>
 				Windowstaste links: Haupttaste um zu interagieren (z.B. Geld aufheben, Autos reparieren, ...).<br/>
-				Notartzt koennen ueber diese Taste mit Zivilisten interagieren.<br/>
+				Notärtzte koennen ueber diese Taste mit Spielern interagieren.<br/>
 				Meistens geht das Aufheben von Sachen mit Windows + T besser.<br/><br/>
 			"
         ]
