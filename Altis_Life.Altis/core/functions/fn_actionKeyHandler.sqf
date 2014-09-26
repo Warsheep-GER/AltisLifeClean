@@ -7,7 +7,7 @@
 	Master action key handler, handles requests for picking up various items and
 	interacting with other players (Cops = Cop Menu for unrestrain,escort,stop escort, arrest (if near cop hq), etc).
 */
-private["_curTarget","_isWater"];
+private["_mine","_curTarget","_isWater"];
 _curTarget = cursorTarget;
 if(life_action_inUse) exitWith {}; //Action is in use, exit to prevent spamming.
 if(life_interrupted) exitWith {life_interrupted = false;};
@@ -27,6 +27,26 @@ if(isNull _curTarget) exitWith {
 	};
 };
 
+//Test for farm
+if((vehicle player == player) && (life_inv_pickaxe > 0)) then
+{
+switch (true) do
+	{
+		case (player distance (getMarkerPos "lead_1") < 30): {_mine = "copperore"; _val = 2;};
+		case (player distance (getMarkerPos "iron_1") < 30): {_mine = "ironore"; _val = 2;};
+		case (player distance (getMarkerPos "salt_1") < 120) : {_mine = "salt"; _val = 4;};
+		case (player distance (getMarkerPos "sand_1") < 75) : {_mine = "sand"; _val = 5;};
+		case (player distance (getMarkerPos "diamond_1") < 50): {_mine = "diamond"; _val = 1;};
+		case (player distance (getMarkerPos "oil_1") < 40) : {_mine = "oilu"; _val = 1;};
+		case (player distance (getMarkerPos "oil_2") < 40) : {_mine = "oilu"; _val = 1;};
+		case (player distance (getMarkerPos "rock_1") < 50): {_mine = "rock"; _val = 2;};
+		default {_mine = "";};
+	};
+	if!(_mine == "") then
+		{
+			[] spawn life_fnc_pickAxeUse;
+	};
+}
 if(_curTarget isKindOf "House_F" && {player distance _curTarget < 12} OR ((nearestObject [[16019.5,16952.9,0],"Land_Dome_Big_F"]) == _curTarget OR (nearestObject [[16019.5,16952.9,0],"Land_Research_house_V1_F"]) == _curTarget)) exitWith {
 	[_curTarget] call life_fnc_houseMenu;
 };

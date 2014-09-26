@@ -12,7 +12,7 @@ _geld ctrlSetPosition [safeZoneX+safeZoneW-0.090,safeZoneY+safeZoneH-0.457];
 _geld ctrlSetText format["%1", life_cash];
 _geld ctrlCommit 0;
 //Update FPS
-_fps ctrlSetPosition [safeZoneX+safeZoneW-0.1,safeZoneY+safeZoneH-0.409];
+_fps ctrlSetPosition [safeZoneX+safeZoneW-0.1,safeZoneY+safeZoneH-0.418];
 _fps ctrlSetText format["%1", round diag_fps];					
 _fps ctrlCommit 0;
 

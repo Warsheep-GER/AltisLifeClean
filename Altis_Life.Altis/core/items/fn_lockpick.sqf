@@ -69,7 +69,6 @@ life_action_inUse = false;
 if(!_isVehicle) then {
 	_dice = random(100);
 	if(_dice < 70) then {
-		[true,handcuffs,1] call life_fnc_handleInv;
 		titleText[localize "STR_ISTR_LockHandcuffs_Success","PLAIN"];
 		_curTarget setVariable["restrained",false,true];
 		_curTarget setVariable["Escorting",false,true];

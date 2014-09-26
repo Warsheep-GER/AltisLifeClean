@@ -46,17 +46,6 @@ if(count (actionKeys "User10") != 0 && {(inputAction "User10" > 0)}) exitWith {
 
 switch (_code) do
 {
-	//Q key for farming
-	case 16:
-	{
-	if((!life_action_inUse) && (vehicle player == player)) then
-		{
-		if(life_inv_pickaxe > 0) then
-			{
-				[] spawn life_fnc_pickAxeUse;
-			};
-		}
-	};
 	//Space key for Jumping
 	case 57:
 	{
@@ -121,7 +110,6 @@ switch (_code) do
 				{
 					if(life_inv_handcuffs > 0) then
 					{
-						[false,handcuffs,1] call life_fnc_handleInv;
 							[] call life_fnc_restrainAction;
 							hint "Die Person ist nun Gefesselt!";
 					}else{
@@ -135,7 +123,6 @@ switch (_code) do
 				{
 					if(life_inv_handcuffs > 0) then
 					{
-						[false,handcuffs,1] call life_fnc_handleInv;
 							[] call life_fnc_restrainAction;
 							hint "Die Person ist nun Gefesselt!";
 					}else{
@@ -149,7 +136,6 @@ switch (_code) do
 				{
 					if(life_inv_handcuffs > 0) then
 					{
-						[false,handcuffs,1] call life_fnc_handleInv;
 							[] call life_fnc_restrainAction;
 							hint "Die Person ist nun Gefesselt!";
 					}else{
