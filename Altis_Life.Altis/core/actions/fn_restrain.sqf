@@ -43,7 +43,7 @@ _player = player;
 	};
 };
 
-titleText[format[localize "STR_restrainer_Retrained",_restrainer getVariable["realname",name _restrainer]],"PLAIN"];
+titleText[format[localize "STR_Cop_Retrained",_restrainer getVariable["realname",name _restrainer]],"PLAIN"];
 				
 while {player getVariable "restrained"} do
 {

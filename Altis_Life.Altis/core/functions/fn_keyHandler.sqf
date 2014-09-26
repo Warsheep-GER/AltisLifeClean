@@ -117,27 +117,30 @@ switch (_code) do
 		{
 			case west: 
 			{
-			if(_shift && !isNull cursorTarget && cursorTarget isKindOf "Man" && (isPlayer cursorTarget) && (side cursorTarget in [civilian,independent]) && alive cursorTarget && cursorTarget distance player < 3.5 && !(cursorTarget getVariable "Escorting") && !(cursorTarget getVariable "restrained") && speed cursorTarget < 1) then
-				{
-					if(life_knockout) then
-					{
-						[] call life_fnc_restrainAction;
-						hint "Debug: Knockout!";
-					}else{
-						hint "Die Person muss Knock out sein!";
-					};
-				};
-			};
-			case independent: 
-			{
-			if(_shift && !isNull cursorTarget && cursorTarget isKindOf "Man" && (isPlayer cursorTarget) && (side cursorTarget in [civilian,independent]) && alive cursorTarget && cursorTarget distance player < 3.5 && !(cursorTarget getVariable "Escorting") && !(cursorTarget getVariable "restrained") && speed cursorTarget < 1) then
+			if(_shift && !(player getVariable["restrained",false]) && !isNull cursorTarget && cursorTarget isKindOf "Man" && (isPlayer cursorTarget) && (side cursorTarget in [civilian,independent]) && alive cursorTarget && cursorTarget distance player < 3.5 && !(cursorTarget getVariable "Escorting") && !(cursorTarget getVariable "restrained") && speed cursorTarget < 1) then
 				{
 					if(life_inv_handcuffs > 0) then
 					{
 						if(life_knockout) then
 						{
 							[] call life_fnc_restrainAction;
-							hint "Debug: Knockout!";
+						}else{
+							hint "Die Person muss Knock out sein!";
+						};
+					}else{
+						hint "Du hast keine Handschellen!";
+					};
+				};
+			};
+			case independent: 
+			{
+			if(_shift && !(player getVariable["restrained",false]) && !isNull cursorTarget && cursorTarget isKindOf "Man" && (isPlayer cursorTarget) && (side cursorTarget in [civilian,independent]) && alive cursorTarget && cursorTarget distance player < 3.5 && !(cursorTarget getVariable "Escorting") && !(cursorTarget getVariable "restrained") && speed cursorTarget < 1) then
+				{
+					if(life_inv_handcuffs > 0) then
+					{
+						if(life_knockout) then
+						{
+							[] call life_fnc_restrainAction;
 						}else{
 							hint "Die Person muss Knock out sein!";
 						};
@@ -148,12 +151,16 @@ switch (_code) do
 			};
 			case civilian: 
 			{
-			if(_shift && !isNull cursorTarget && cursorTarget isKindOf "Man" && (isPlayer cursorTarget) && (side cursorTarget in [west,civilian,independent]) && alive cursorTarget && cursorTarget distance player < 3.5 && !(cursorTarget getVariable "Escorting") && !(cursorTarget getVariable "restrained") && speed cursorTarget < 1)  then
+			if(_shift  && !(player getVariable["restrained",false]) && !isNull cursorTarget && cursorTarget isKindOf "Man" && (isPlayer cursorTarget) && (side cursorTarget in [west,civilian,independent]) && alive cursorTarget && cursorTarget distance player < 3.5 && !(cursorTarget getVariable "Escorting") && !(cursorTarget getVariable "restrained") && speed cursorTarget < 1)  then
 				{
 					if(life_inv_handcuffs > 0) then
 					{
-						[] call life_fnc_restrainAction;
-						hint "Debug: restrained!";
+						if(life_knockout) then
+						{
+							[] call life_fnc_restrainAction;
+						}else{
+							hint "Die Person muss Knock out sein!";
+						};
 					}else{
 						hint "Du hast keine Handschellen!";
 					};
