@@ -33,7 +33,6 @@ switch (_filter) do
 		["U_OrestesBody","Surfing On Land",1100],
 		["U_NikosAgedBody","Casual Wears",5000]
 		];
-	[] call life_fnc_initSkin;
 	};
 	
 	//Hats
@@ -62,7 +61,6 @@ switch (_filter) do
 			["H_Cap_red",nil,150],
 			["H_Cap_tan",nil,150]
 		];
-	[] call life_fnc_initSkin;
 	};
 	
 	//Glasses
@@ -83,7 +81,6 @@ switch (_filter) do
 			["G_Lowprofile",nil,30],
 			["G_Combat",nil,55]
 		];
-	[] call life_fnc_initSkin;
 	};
 	
 	//Vest
@@ -106,6 +103,5 @@ switch (_filter) do
 			["B_Carryall_oli",nil,5000],
 			["B_Carryall_khk",nil,5000]
 		];
-	[] call life_fnc_initSkin;
 	};
 };

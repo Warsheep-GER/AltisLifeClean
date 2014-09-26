@@ -50,7 +50,6 @@ switch (_filter) do
 			["G_Lowprofile",nil,30],
 			["G_Combat",nil,55]
 		];
-	[] call life_fnc_initSkin;
 	};
 	
 	//Vest
@@ -73,7 +72,6 @@ switch (_filter) do
 			["B_FieldPack_ocamo",nil,3000],
 			["B_Carryall_cbr",nil,3500]
 		];
-	[] call life_fnc_initSkin;
 	};
 };
 _ret;
