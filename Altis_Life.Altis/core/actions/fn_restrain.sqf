@@ -5,8 +5,8 @@
 	Description:
 	Retrains the client.
 */
-private["_cop","_player"];
-_cop = [_this,0,Objnull,[Objnull]] call BIS_fnc_param;
+private["_restrainer","_player"];
+_restrainer = [_this,0,Objnull,[Objnull]] call BIS_fnc_param;
 _player = player;
 
 //Monitor excessive restrainment
@@ -24,26 +24,26 @@ _player = player;
 			player setVariable["Escorting",FALSE,TRUE];
 			player setVariable["transporting",false,true];
 			detach player;
-			titleText[localize "STR_Cop_ExcessiveRestrain","PLAIN"];
+			titleText[localize "STR_restrainer_ExcessiveRestrain","PLAIN"];
 		};
 		if(!([independent,getPos player,30] call life_fnc_nearUnits) && (player getVariable["restrained",FALSE]) && vehicle player == player) exitWith {
 			player setVariable["restrained",FALSE,TRUE];
 			player setVariable["Escorting",FALSE,TRUE];
 			player setVariable["transporting",false,true];
 			detach player;
-			titleText[localize "STR_Cop_ExcessiveRestrain","PLAIN"];
+			titleText[localize "STR_restrainer_ExcessiveRestrain","PLAIN"];
 		};
 		if(!([civilian,getPos player,30] call life_fnc_nearUnits) && (player getVariable["restrained",FALSE]) && vehicle player == player) exitWith {
 			player setVariable["restrained",FALSE,TRUE];
 			player setVariable["Escorting",FALSE,TRUE];
 			player setVariable["transporting",false,true];
 			detach player;
-			titleText[localize "STR_Cop_ExcessiveRestrain","PLAIN"];
+			titleText[localize "STR_restrainer_ExcessiveRestrain","PLAIN"];
 		};
 	};
 };
 
-titleText[format[localize "STR_Cop_Retrained",_cop getVariable["realname",name _cop]],"PLAIN"];
+titleText[format[localize "STR_restrainer_Retrained",_restrainer getVariable["realname",name _restrainer]],"PLAIN"];
 				
 while {player getVariable "restrained"} do
 {
@@ -62,7 +62,7 @@ while {player getVariable "restrained"} do
 		detach _player;
 	};
 	
-	if(!alive _cop) exitWith {
+	if(!alive _restrainer) exitWith {
 		player setVariable ["Escorting",false,true];
 		detach player;
 	};

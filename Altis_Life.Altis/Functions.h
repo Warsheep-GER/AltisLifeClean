@@ -103,9 +103,10 @@ class Life_Client_Core
 		class putInCar {};
 		class stopEscorting {};
 		class restrainAction {};
+		class restrain {};
+		class unrestrain {};
 		class searchAction {};
 		class searchVehAction {};
-		class unrestrain {};
 		class pickupItem {};
 		class pickupMoney {};
 		class ticketAction {};
@@ -292,7 +293,6 @@ class Life_Client_Core
 		class copSearch {};
 		class bountyReceive {};
 		class searchClient {};
-		class restrain {};
 		class ticketGive {};
 		class ticketPay {};
 		class ticketPrompt {};
