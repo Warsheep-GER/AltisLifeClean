@@ -18,7 +18,7 @@ if(playerSide == west) then
 if(playerSide == independent) then
 {
 	if (uniform player == "U_Rangemaster") then {
-		player setObjectTextureGlobal[0,"closkins\med\rettungsdienst.paa"];
+		player setObjectTextureGlobal[0,"closkins\med\notartzt.paa"];
 		if(license_med_bund) then {
 			player setObjectTextureGlobal[0,"closkins\med\bund.paa"];
 		};
