@@ -121,12 +121,9 @@ switch (_code) do
 				{
 					if(life_inv_handcuffs > 0) then
 					{
-						if(life_knockout) then
-						{
+						[false,handcuffs,1] call life_fnc_handleInv;
 							[] call life_fnc_restrainAction;
-						}else{
-							hint "Die Person muss Knock out sein!";
-						};
+							hint "Die Person ist nun Gefesselt!";
 					}else{
 						hint "Du hast keine Handschellen!";
 					};
@@ -138,12 +135,9 @@ switch (_code) do
 				{
 					if(life_inv_handcuffs > 0) then
 					{
-						if(life_knockout) then
-						{
+						[false,handcuffs,1] call life_fnc_handleInv;
 							[] call life_fnc_restrainAction;
-						}else{
-							hint "Die Person muss Knock out sein!";
-						};
+							hint "Die Person ist nun Gefesselt!";
 					}else{
 						hint "Du hast keine Handschellen!";
 					};
@@ -155,12 +149,9 @@ switch (_code) do
 				{
 					if(life_inv_handcuffs > 0) then
 					{
-						if(life_knockout) then
-						{
+						[false,handcuffs,1] call life_fnc_handleInv;
 							[] call life_fnc_restrainAction;
-						}else{
-							hint "Die Person muss Knock out sein!";
-						};
+							hint "Die Person ist nun Gefesselt!";
 					}else{
 						hint "Du hast keine Handschellen!";
 					};
