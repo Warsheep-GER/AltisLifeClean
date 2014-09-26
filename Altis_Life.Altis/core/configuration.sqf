@@ -30,11 +30,12 @@ life_respawned = false;
 life_removeWanted = false;
 life_fatigue = 0.5; //Set the max fatigue limit (50%)
 
+life_TankLaster = 1;
+life_handcuffs = ObjNull;
 //copitems
 life_spikestrip = ObjNull;
 life_radar40 = ObjNull;
 life_radar120 = ObjNull;
-life_handcuffs = ObjNull;
 
 //Adminmenue
 life_god = false; //Add this
