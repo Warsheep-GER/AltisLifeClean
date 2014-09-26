@@ -42,7 +42,7 @@ switch (true) do
 		case (player distance (getMarkerPos "rock_1") < 50): {_mine = "rock"; _val = 2;};
 		default {_mine = "";};
 	};
-	if!(_mine == "") then
+	if not (_mine == "") then
 		{
 			[] spawn life_fnc_pickAxeUse;
 	};
