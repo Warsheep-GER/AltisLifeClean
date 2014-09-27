@@ -32,6 +32,4 @@ player assignItem "ItemGPS";
 if(hmd player != "") then {
 	player unlinkItem (hmd player);
 };
-
-[] call life_fnc_initSkin;
 [] call life_fnc_saveGear;

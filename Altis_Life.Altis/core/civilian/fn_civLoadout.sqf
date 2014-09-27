@@ -20,5 +20,4 @@ player assignItem "ItemCompass";
 player addItem "ItemWatch";
 player assignItem "ItemWatch";
 
-[] call life_fnc_initSkin;
 [] call life_fnc_saveGear;

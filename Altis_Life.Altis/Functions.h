@@ -236,7 +236,7 @@ class Life_Client_Core
 		class loadGear {};
 		class stripDownPlayer {};
 		class fatigueReset {}; 
-		//cleanupgear
+		//cleanupgear bevor spawn
 		class cleanGear {};
 	};
 	

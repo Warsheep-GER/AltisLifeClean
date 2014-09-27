@@ -47,4 +47,3 @@ if(_container isKindOf "Man" && !alive _container) exitWith {
 		closeDialog 0;
 	};
 };
-[] call life_fnc_initSkin;

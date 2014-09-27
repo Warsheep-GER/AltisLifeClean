@@ -1,7 +1,6 @@
 /*
 	File: fn_cleanupGear.sqf
-	Author: Warsheep(GER)
-	
+	Author: Warsheep(GER) but is not realy interresting or?
 	Description:
 	hope thats fixed the bug thats players spawn full equipted
 */

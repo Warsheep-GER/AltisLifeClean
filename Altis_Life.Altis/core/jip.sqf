@@ -21,9 +21,3 @@
 		[_x,_index] spawn life_fnc_colorVehicle;
 	};
 } foreach (allMissionObjects "Air");
-// Lines below added for uniforms script
-{
-	if (_x != player) then {
-		[] call life_fnc_initSkin;
-	};
-} forEach playableUnits;

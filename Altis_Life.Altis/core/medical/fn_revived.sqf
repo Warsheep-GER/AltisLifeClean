@@ -38,5 +38,3 @@ player setVariable["name",nil,TRUE];
 player setVariable["Reviving",nil,TRUE];
 
 [] call life_fnc_hudUpdate; //Request update of hud.
-//Retexturing of units clothing, vanilla files only retexture the EMS unit.
-[] call life_fnc_initSkin;

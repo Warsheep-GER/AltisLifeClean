@@ -23,4 +23,3 @@ switch(playerSide) do
 	};
 	case independent: {};
 };
-[] call life_fnc_initSkin;
