@@ -84,7 +84,9 @@ life_sidechat = true;
 0 cutText ["","BLACK IN"];
 [] call life_fnc_hudSetup;
 [] execVM "core\functions\uilife.sqf";
-diag_log "--hud money/fps loaded--";
+diag_log "||uilife.sqf exected||";
+[] execVM "core\config\fn_initSkin.sqf";
+diag_log "||fn_initSkin.sqf exected||";
 LIFE_ID_PlayerTags = ["LIFE_PlayerTags","onEachFrame","life_fnc_playerTags"] call BIS_fnc_addStackedEventHandler;
 LIFE_ID_RevealObjects = ["LIFE_RevealObjects","onEachFrame","life_fnc_revealObjects"] call BIS_fnc_addStackedEventHandler;
 [] call life_fnc_settingsInit;
@@ -105,5 +107,4 @@ life_fnc_garageRefund = compileFinal
 
 [] execVM "core\init_survival.sqf";
 [] spawn life_fnc_fatigueReset;
-[] call life_fnc_initSkin;
 __CONST__(life_paycheck,life_paycheck); //Make the paycheck static.

@@ -45,7 +45,7 @@ switch (_shop) do
 			["B_MRAP_01_F",500000],
 			["I_MRAP_03_F",600000],
 			["O_MRAP_02_F",700000],
-			["O_MRAP_02_hmg_F",1000000]
+			["O_MRAP_02_hmg_F",3000000]
 		];
 	};
 	case "med_shop":
@@ -204,9 +204,8 @@ switch (_shop) do
 			["I_Truck_02_covered_F",200000],
 			["B_Truck_01_fuel_F",85000],
 			["B_Truck_01_transport_F",100000],
-			["B_Truck_01_covered_F",125000],
-			["B_Truck_01_ammo_F",150000],
-			["B_Truck_01_box_F",175000]
+			["B_Truck_01_covered_F",500000],
+			["B_Truck_01_box_F",1500000]
 		];
 	};
 	case "reb_truck":
@@ -214,9 +213,9 @@ switch (_shop) do
 		_return =
 		[
 			["O_Truck_03_fuel_F",200000],
-			["O_Truck_03_transport_F",250000],
 			["O_Truck_03_covered_F",300000],
-			["O_Truck_03_device_F",350000]
+			["O_Truck_03_transport_F",1200000],
+			["O_Truck_03_device_F",3500000]
 		];
 	};
 	case "civ_ship":
@@ -252,9 +251,9 @@ switch (_shop) do
 		_return =
 		[
 			["B_Heli_Light_01_F",253000],
-			["B_Heli_Light_01_armed_F",1000000],
 			["O_Heli_Light_02_unarmed_F",750000],
-			["I_Heli_Transport_02_F",1000000]
+			["I_Heli_Transport_02_F",1000000],
+			["B_Heli_Light_01_armed_F",3000000]
 		];
 	};
 	case "med_air_hs": 
