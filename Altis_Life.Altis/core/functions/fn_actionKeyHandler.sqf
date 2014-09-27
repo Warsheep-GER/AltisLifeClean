@@ -31,7 +31,7 @@ if(_curTarget isKindOf "House_F" && {player distance _curTarget < 12} OR ((neare
 	[_curTarget] call life_fnc_houseMenu;
 };
 
-//Set Escort civilian inde
+//Set Escort civilian independent
 if(_curTarget isKindOf "Man" && {alive _curTarget} && (_curTarget getVariable["restrained",false]) && {playerSide in [civilian,independent]}) exitWith {
 	if((_curTarget getVariable["Escorting",false])) then {
 		[_curTarget] call life_fnc_stopEscorting;
