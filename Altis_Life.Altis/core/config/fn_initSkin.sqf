@@ -26,6 +26,5 @@ while {true} do
 			};
 		};
 	};
-	};
-	sleep 1.5;//safe some cpu
+	sleep 2;//safe some cpu
 };

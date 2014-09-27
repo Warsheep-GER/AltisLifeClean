@@ -11,8 +11,12 @@ waitUntil {!(isNull (findDisplay 46))};
 
 _handle = [] spawn life_fnc_stripDownPlayer;
 waitUntil {scriptDone _handle};
-//clean gear bevor loading any others(fixed full equipted spawn?)
-[] call life_fnc_cleangear;
+
+//Cleanup player 
+removeAllContainers player;
+removeAllWeapons player;
+removeGoggles player;
+removeHeadGear player;
 
 if(count _itemArray == 0) exitWith
 {
@@ -83,4 +87,3 @@ if(_seco != "") then {_handle = [_seco,true,false,false,false] spawn life_fnc_ha
         player addHandgunItem _x;
     };
 } foreach (_hItems);
-[] call life_fnc_initSkin;

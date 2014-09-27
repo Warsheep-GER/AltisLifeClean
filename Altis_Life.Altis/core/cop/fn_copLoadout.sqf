@@ -20,7 +20,6 @@ player addUniform "U_Rangemaster";
 player addVest "V_Rangemaster_belt";
 
 player addWeapon "hgun_P07_snds_F";
-player assignItem "hgun_P07_snds_F";
 player addItem "FirstAidKit";
 player addMagazine "16Rnd_9x21_Mag";
 player addMagazine "16Rnd_9x21_Mag";
