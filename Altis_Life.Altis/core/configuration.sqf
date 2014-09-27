@@ -32,6 +32,7 @@ life_fatigue = 0.5; //Set the max fatigue limit (50%)
 
 life_TankLaster = 1;
 life_handcuffs = ObjNull;
+life_handcuffkeys = ObjNull;
 //copitems
 life_spikestrip = ObjNull;
 life_radar40 = ObjNull;
@@ -180,6 +181,7 @@ life_inv_items =
 	"life_inv_blastingcharge",
 	"life_inv_boltcutter",
 	"life_inv_handcuffs",
+	"life_inv_handcuffkeys",
 	"life_inv_defusekit",
 	"life_inv_storagesmall",
 	"life_inv_storagebig"
@@ -232,6 +234,7 @@ life_dp_points = ["dp_1","dp_2","dp_3","dp_4","dp_5","dp_6","dp_7","dp_8","dp_9"
 life_illegal_items = 
 [
 	["handcuffs",200],
+	["handcuffkeys",100],
 	["heroinu",5],
 	["heroinp",6],
 	["cocaine",4000],
@@ -280,6 +283,7 @@ sell_array =
 	["fuelF",500],
 	["spikeStrip",1200],
 	["handcuffs",200],
+	["handcuffkeys",100],
 	["radar40",1200],
 	["radar120",1200],
 	["cement",1950],
@@ -314,6 +318,7 @@ buy_array =
 	["blastingcharge",35000],
 	["boltcutter",7500],
 	["handcuffs",500],
+	["handcuffkeys",300],
 	["defusekit",2500],
 	["storagesmall",75000],
 	["storagebig",150000]

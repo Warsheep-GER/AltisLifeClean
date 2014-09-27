@@ -30,15 +30,6 @@ if(isNull _curTarget) exitWith {
 if(_curTarget isKindOf "House_F" && {player distance _curTarget < 12} OR ((nearestObject [[16019.5,16952.9,0],"Land_Dome_Big_F"]) == _curTarget OR (nearestObject [[16019.5,16952.9,0],"Land_Research_house_V1_F"]) == _curTarget)) exitWith {
 	[_curTarget] call life_fnc_houseMenu;
 };
-
-//Set Escort civilian independent
-if(_curTarget isKindOf "Man" && {alive _curTarget} && (_curTarget getVariable["restrained",false]) && {playerSide in [civilian,independent]}) exitWith {
-	if((_curTarget getVariable["Escorting",false])) then {
-		[_curTarget] call life_fnc_stopEscorting;
-	} else {
-		[_curTarget] call life_fnc_escortAction;
-	};
-};
 if(dialog) exitWith {}; //Don't bother when a dialog is open.
 if(vehicle player != player) exitWith {}; //He's in a vehicle, cancel!
 life_action_inUse = true;
@@ -61,6 +52,10 @@ if(_curTarget isKindOf "Man" && {!alive _curTarget} && {playerSide in [west,inde
 if(isPlayer _curTarget && _curTarget isKindOf "Man") then {
 	if((_curTarget getVariable["restrained",false]) && !dialog && playerSide == west) then {
 		[_curTarget] call life_fnc_copInteractionMenu;
+	};
+	//Set Escort civilian independent
+	if(_curTarget getVariable["restrained",false]) && {playerSide in [civilian,independent]}) exitWith {
+		[_curTarget] call life_fnc_InteractionMenu;
 	};
 } else {
 	//OK, it wasn't a player so what is it?

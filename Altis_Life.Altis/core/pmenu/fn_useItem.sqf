@@ -56,7 +56,6 @@ switch (true) do
 			};
 		};
 	};
-	
 	case (_item == "spikeStrip"):
 	{
 		if(!isNull life_spikestrip) exitWith {hint localize "STR_ISTR_SpikesDeployment"};
@@ -86,22 +85,19 @@ switch (true) do
 		if(vehicle player != player) exitWith {hint localize "STR_ISTR_RefuelInVehicle"};
 		[] spawn life_fnc_jerryRefuel;
 	};
-	
 	case (_item == "lockpick"):
 	{
 		[] spawn life_fnc_lockpick;
 	};
-	
+
 	case (_item in ["apple","rabbit","salema","ornate","mackerel","tuna","mullet","catshark","turtle","turtlesoup","donuts","tbacon","peach"]):
 	{
 		[_item] call life_fnc_eatFood;
 	};
-
 	case (_item == "pickaxe"):
 	{
 		[] spawn life_fnc_pickAxeUse;
 	};
-	
 	default
 	{
 		hint localize "STR_ISTR_NotUsable";

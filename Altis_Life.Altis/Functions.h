@@ -101,6 +101,7 @@ class Life_Client_Core
 		class impoundAction {};
 		class pulloutAction {};
 		class putInCar {};
+		class InteractionMenu {};
 		class stopEscorting {};
 		class restrainAction {};
 		class restrain {};

@@ -3149,6 +3149,14 @@
 			<Italian>Handcuffs</Italian>
 			<Portuguese>Maconha não Processada</Portuguese>
 		</Key>
+		<Key ID="STR_Item_Handcuffkeys">
+			<Original>Handcuffkeys</Original>
+			<English>Handcuffkeys</English>
+			<German>Handschellenschlüssel</German>
+			<French>Handcuffkeys</French>
+			<Italian>Handcuffkeys</Italian>
+			<Portuguese>Maconha não Processada</Portuguese>
+		</Key>
 		<Key ID="STR_Item_Cannabis">
 			<Original>Cannabis</Original>
 			<English>Cannabis</English>
