@@ -5,7 +5,7 @@
 	Description:
 	Updates the HUD when it needs to.
 */
-private["_ui","_food","_water","_health","_fps"];
+private["_ui","_food","_water"];
 disableSerialization;
 
 _ui = uiNameSpace getVariable ["playerHUD",displayNull];
@@ -13,8 +13,6 @@ if(isNull _ui) then {[] call life_fnc_hudSetup;};
 _food = _ui displayCtrl 23500;
 _water = _ui displayCtrl 23510;
 _health = _ui displayCtrl 23515;
-//_geld = _ui displayCtrl 23520;
-//_fps = _ui displayCtrl 23525;
 
 //Update food
 _food ctrlSetPosition [safeZoneX+safeZoneW-0.090,safeZoneY+safeZoneH-0.598];
@@ -28,13 +26,3 @@ _water ctrlCommit 0;
 _health ctrlSetPosition [safeZoneX+safeZoneW-0.090,safeZoneY+safeZoneH-0.506];
 _health ctrlSetText format["%1", round((1 - (damage player)) * 100)];
 _health ctrlCommit 0;
-
-//need to call in a script for real time update this var
-//Update Money
-//_geld ctrlSetPosition [safeZoneX+safeZoneW-0.090,safeZoneY+safeZoneH-0.45];
-//_geld ctrlSetText format["%1", life_cash];
-//_geld ctrlCommit 0;
-//FPS 
-//_fps ctrlSetPosition [safeZoneX+safeZoneW-0.090,safeZoneY+safeZoneH-0.40];
-//_fps ctrlSetText format["%1", round diag_fps];					
-//_fps ctrlCommit 0;
