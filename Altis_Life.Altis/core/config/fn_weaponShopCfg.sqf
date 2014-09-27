@@ -48,7 +48,7 @@ switch(_shop) do
 			{
 				["Waffenladen",
 					[
-						["hgun_Pistol_heavy_01_F",45_acp,3000],
+						["hgun_Pistol_heavy_01_F",nil,3000],
 						["11Rnd_45ACP_Mag",nil,3000],
 						["hgun_PDW2000_F",nil,3000],
 						["hgun_PDW2000_snds_F","+Schalldämpfer",80000],
@@ -515,8 +515,7 @@ switch(_shop) do
 						["srifle_GM6_F",nil,400000],
 						["srifle_GM6_SOS_F","+SOS",450000],
 						["srifle_GM6_LRPS_F","+LRPS",450000],
-						["5Rnd_127x108_Mag",nil,500],
-						["muzzle_snds_B",Schalldämpfer (7,62 mm),3000],
+						["5Rnd_127x108_Mag",nil,500]
 						["arifle_MX_SW_F",nil,500000],
 						["arifle_MX_SW_pointer_F","+Pointer",550000],
 						["arifle_MX_SW_Hamr_pointer_F","+Hamr +Pointer",550000],
