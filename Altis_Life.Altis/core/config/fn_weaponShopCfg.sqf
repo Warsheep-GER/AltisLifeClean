@@ -515,7 +515,7 @@ switch(_shop) do
 						["srifle_GM6_F",nil,400000],
 						["srifle_GM6_SOS_F","+SOS",450000],
 						["srifle_GM6_LRPS_F","+LRPS",450000],
-						["5Rnd_127x108_Mag",nil,500]
+						["5Rnd_127x108_Mag",nil,500],
 						["arifle_MX_SW_F",nil,500000],
 						["arifle_MX_SW_pointer_F","+Pointer",550000],
 						["arifle_MX_SW_Hamr_pointer_F","+Hamr +Pointer",550000],
