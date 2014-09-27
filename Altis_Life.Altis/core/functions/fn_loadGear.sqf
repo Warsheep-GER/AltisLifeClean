@@ -11,6 +11,8 @@ waitUntil {!(isNull (findDisplay 46))};
 
 _handle = [] spawn life_fnc_stripDownPlayer;
 waitUntil {scriptDone _handle};
+//clean gear bevor loading any others(fixed full equipted spawn?)
+[] call life_fnc_cleangear;
 
 if(count _itemArray == 0) exitWith
 {

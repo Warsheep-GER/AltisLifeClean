@@ -23,11 +23,11 @@ life_is_processing = false;
 life_bail_paid = false;
 life_impound_inuse = false;
 life_action_inUse = false;
-life_respawn_timer = 0.2; //Scaled in minutes
+life_respawn_timer = 0.5; //Scaled in minutes
 life_knockout = false;
 life_interrupted = false;
 life_respawned = false;
-life_removeWanted = false;
+life_removeWanted = true;
 life_fatigue = 0.5; //Set the max fatigue limit (50%)
 
 life_TankLaster = 1;

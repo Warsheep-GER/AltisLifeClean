@@ -236,6 +236,8 @@ class Life_Client_Core
 		class loadGear {};
 		class stripDownPlayer {};
 		class fatigueReset {}; 
+		//cleanupgear
+		class cleanGear {};
 	};
 	
 	class Network
