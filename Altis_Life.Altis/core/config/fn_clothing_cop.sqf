@@ -29,10 +29,25 @@ switch (_filter) do
 	//Hats
 	case 1:
 	{
-		_ret = 
-		[
-		["H_HelmetB_plain_mcamo","nil",75]
-		];		
+		
+		_ret =
+			[	
+			["H_Beret_blk_POLICE",nil,500]
+			];
+		if(__GETC__(life_coplevel) > 5) then
+		{
+			_ret = _ret + 
+			[	
+				["H_Beret_02",nil,500]
+			];
+		};
+		if (license_cop_bund) then
+		{
+			_ret = _ret + 
+			[	
+				["H_Beret_Colonel",nil,500]
+			];
+		};	
 	};
 	
 	//Glasses
