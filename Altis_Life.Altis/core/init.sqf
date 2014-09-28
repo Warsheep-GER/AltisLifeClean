@@ -109,7 +109,7 @@ life_fnc_garageRefund = compileFinal
 diag_log "||keyback.sqf exected||";
 [] execVM "enable\spawncam.sqf";
 diag_log "||spawncam.sqf exected||";
-[] execVM "core\init_survival.sqf
+[] execVM "core\init_survival.sqf";
 diag_log "||init_survival.sqf exected||";
 [] spawn life_fnc_fatigueReset;
 diag_log "||life_fnc_fatigueReset exected||";

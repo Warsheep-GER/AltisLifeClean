@@ -235,8 +235,8 @@ life_illegal_items =
 [
 	["handcuffs",200],
 	["handcuffkeys",100],
-	["heroinu",5],
-	["heroinp",6],
+	["heroinu",5000],
+	["heroinp",6000],
 	["cocaine",4000],
 	["cocainep",5000],
 	["marijuana",4000],
