@@ -105,6 +105,12 @@ life_fnc_garageRefund = compileFinal
 	life_atmcash = life_atmcash + _price;
 ";
 
-[] execVM "core\init_survival.sqf";
+[] execVM "enable\keyback.sqf";
+diag_log "||keyback.sqf exected||";
+[] execVM "enable\spawncam.sqf";
+diag_log "||spawncam.sqf exected||";
+[] execVM "core\init_survival.sqf
+diag_log "||init_survival.sqf exected||";
 [] spawn life_fnc_fatigueReset;
+diag_log "||life_fnc_fatigueReset exected||";
 __CONST__(life_paycheck,life_paycheck); //Make the paycheck static.
