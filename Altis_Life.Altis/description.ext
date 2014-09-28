@@ -42,6 +42,12 @@ class CfgFunctions
 class CfgSounds
 {
 	sounds[] = {};
+	class handcuffs                                   
+    {                                                      
+        name = "handcuffs"; 
+        sound[] = {"\sounds\handcuffs.ogg", 0.25, 1}; 
+        titles[] = {}; 
+    };
 	class PickaxeUseSound                                   
     {                                                      
         name = "PickaxeUseSound"; 
