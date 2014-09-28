@@ -41,6 +41,6 @@ if(life_inv_handcuffkeys > 0) then
 	_Btn2 buttonSetAction "[life_pInact_curTarget] call life_fnc_unrestrain; closeDialog 0;";
 }else{
 	_Btn2 ctrlSetText localize "STR_pInAct_Unrestrain";
-	_Btn2 buttonSetAction "[] call life_fnc_lockpick; closeDialog 0;";
+	_Btn2 buttonSetAction "[] spawn life_fnc_lockpick; closeDialog 0;";
 	if(life_inv_lockpick > 0) then {_Btn2 ctrlEnable true;} else {_Btn2 ctrlEnable false;};
 };
