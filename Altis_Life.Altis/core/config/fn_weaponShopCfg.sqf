@@ -165,6 +165,34 @@ switch(_shop) do
 			};
 		};
 	};
+	case "med_bund":
+	{
+		switch(true) do
+		{
+			case (playerSide != independent): {"Du bist kein sanitäter!"};
+			case (__GETC__(life_mediclevel) < 3): {"Du hast nicht den benötigten rank!"};
+			case (!license_med_bund): {"Du bist nicht in der Bundeswehr!"};
+			default
+			{
+				["Sanitäter Ausrüstung",
+					[
+						["hgun_P07_snds_F","(9mm)Taser Pistol",500],
+						["16Rnd_9x21_Mag","(9mm)Taser Magazine",50],
+						["ItemGPS",nil,100],
+						["Binocular",nil,150],
+						["ToolKit",nil,250],
+						["FirstAidKit",nil,150],
+						["Medikit",nil,500],
+						["NVGoggles",nil,1200],
+						["hgun_Pistol_Signal_F",nil,15000],
+						["6Rnd_GreenSignal_F",nil,500],
+						["6Rnd_RedSignal_F",nil,500],
+						["HandGrenade_Stone","Flashbang",1000]
+					]
+				];
+			};
+		};
+	};
 	case "cop_lvl_1":
 	{
 		switch(true) do
