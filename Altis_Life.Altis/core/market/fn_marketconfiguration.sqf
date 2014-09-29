@@ -12,7 +12,7 @@ life_market_resources = [
 	//Schema: SHORTNAME, Default, Min, Max, changes in action, [Sales multiplied by 1, Purchase multiplied by -1]
 	//["gold", 1500, 450, 2300, 8, 5],
 	
-	["oilp", 3000, 1500, 4500, 4, 2,
+	["oilp", 3200, 1600, 5200, 4, 2,
 		[
 			["diamondc",1],
 			["iron_r",1],
@@ -24,7 +24,7 @@ life_market_resources = [
 	]
 	,
 	
-	["iron_r", 1200, 600, 1800, 4, 4,  
+	["iron_r", 3200, 1600, 5200, 4, 4,  
 		[ 
 			["diamondc",1], 
 			["oilp",1],
@@ -35,7 +35,7 @@ life_market_resources = [
 		] 
 	],
 	
-	["diamondc", 3500, 1750, 5250, 4, 2, 
+	["diamondc", 3000, 1500, 5000, 4, 2, 
 		[ 
 			["oilp",1],
 			["iron_r",1],
@@ -46,7 +46,7 @@ life_market_resources = [
 		] 
 	],
 	
-	["copper_r", 1500, 750, 2250, 4, 4,
+	["copper_r", 1000, 500, 3000, 4, 4,
 		[ 
 			["diamondc",1], 
 			["oilp",1],
@@ -57,7 +57,7 @@ life_market_resources = [
 		] 
 	],
 	
-	["salt_r", 2500, 1250, 3750, 4, 3,
+	["salt_r", 1700, 850, 3700, 4, 3,
 		[ 
 			["diamondc",1], 
 			["oilp",1],
@@ -68,7 +68,7 @@ life_market_resources = [
 		] 
 	],
 	
-	["glass", 2300, 1150, 3450, 4, 3,
+	["glass", 1500, 750, 3500, 4, 3,
 		[ 
 			["diamondc",1], 
 			["oilp",1],
@@ -79,7 +79,7 @@ life_market_resources = [
 		] 
 	],
 	
-	["cement", 1900, 950, 2850, 4, 3,
+	["cement", 2000, 1000, 4000, 4, 3,
 		[ 
 			["diamondc",1], 
 			["oilp",1],
@@ -91,7 +91,7 @@ life_market_resources = [
 	],
 /////////////////////////
 	
-	["turtle", 3000, 1500,4500, 4, 4,  
+	["turtle", 10000, 5000,12000, 4, 4,  
 		[ 
 			["marijuana",1], 
 			["cocainep",1],
@@ -99,7 +99,7 @@ life_market_resources = [
 		] 
 	],
 
-	["marijuana", 5500, 2750, 8250, 4, 4,   
+	["marijuana", 4000, 2000, 6000, 4, 4,   
 		[ 
 			["turtle",1], 
 			["cocainep",1],
@@ -107,7 +107,7 @@ life_market_resources = [
 		] 
 	],
 	
-	["cocainep", 8000, 4000, 12000, 4, 4,   
+	["cocainep", 5000, 2500, 10000, 4, 4,   
 		[ 
 			["marijuana",1], 
 			["turtle",1],
@@ -115,7 +115,7 @@ life_market_resources = [
 		] 
 	],
 
-	["heroinp", 7000, 3500, 11500, 4, 4,   
+	["heroinp", 6000, 3000, 12000, 4, 4,   
 		[ 
 			["marijuana",1], 
 			["turtle",1],

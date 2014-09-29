@@ -1192,6 +1192,14 @@
 			<Italian>Salva Dati</Italian>
 			<Portuguese>Sincronizar Dados</Portuguese>
 		</Key>
+		<Key ID="STR_PM_Markt">
+			<Original>Market</Original>
+			<English>Market</English>
+			<German>Markt</German>
+			<French>Market</French>
+			<Italian>Salva Dati</Italian>
+			<Portuguese>Sincronizar Dados</Portuguese>
+		</Key>
 	</Package>
 	<Package name="Settings_Menu">
 		<Key ID="STR_SM_Title">
