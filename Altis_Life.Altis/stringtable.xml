@@ -4330,7 +4330,7 @@
 		<Key ID="STR_Medic_Online">
 			<Original>Medics Online: %1</Original>
 			<English>Medics Online: %1</English>
-			<German>Sanitäter online: %1</German>
+			<German>Notärtzte online: %1</German>
 			<French>Medics en ligne: %1</French>
 			<Italian>Medici Online: %1</Italian>
 			<Portuguese>Médicos Online: %1</Portuguese>

@@ -40,10 +40,16 @@ _unit spawn
 	_RespawnBtn = ((findDisplay 7300) displayCtrl 7302);
 	_Timer = ((findDisplay 7300) displayCtrl 7301);
 	
-	_maxTime = time + (life_respawn_timer * 60);
+	_maxTime = time + (life_respawn_timer * 20);
 	_RespawnBtn ctrlEnable false;
 	waitUntil {_Timer ctrlSetText format[localize "STR_Medic_Respawn",[(_maxTime - time),"MM:SS.MS"] call BIS_fnc_secondsToString]; 
-	round(_maxTime - time) <= 0 OR isNull _this};
+	round(_maxTime - time) <= 0 OR isNull _this OR Life_request_timer};
+	if (Life_request_timer) then {
+		_maxTime = time + (life_respawn_timer * 180);
+		waitUntil {_Timer ctrlSetText format["Respawn Available in: %1",[(_maxTime - time),"MM:SS.MS"] call BIS_fnc_secondsToString]; 
+		round(_maxTime - time) <= 0 || isNull _this};
+	};
+	Life_request_timer = false; //resets increased respawn timer
 	_RespawnBtn ctrlEnable true;
 	_Timer ctrlSetText localize "STR_Medic_Respawn_2";
 };
@@ -92,8 +98,8 @@ if(!isNull _killer && {_killer != _unit}) then {
 _handle = [_unit] spawn life_fnc_dropItems;
 waitUntil {scriptDone _handle};
 
-life_hunger = 100;
-life_thirst = 100;
+life_hunger = 123;
+life_thirst = 123;
 life_carryWeight = 0;
 life_cash = 0;
 

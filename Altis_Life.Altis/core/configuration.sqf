@@ -23,13 +23,13 @@ life_is_processing = false;
 life_bail_paid = false;
 life_impound_inuse = false;
 life_action_inUse = false;
-life_respawn_timer = 0.5; //Scaled in minutes
 life_knockout = false;
 life_interrupted = false;
 life_respawned = false;
 life_removeWanted = true;
 life_fatigue = 0.5; //Set the max fatigue limit (50%)
-
+life_respawn_timer = 1; //Scaled in minutes
+Life_request_timer = false;
 life_TankLaster = 1;
 life_handcuffs = ObjNull;
 life_handcuffkeys = ObjNull;
@@ -280,7 +280,7 @@ sell_array =
 	["cocaine",4000],
 	["cocainep",5000],
 	["diamond",750],
-	["diamondc",3000],
+	["diamondc",6000],
 	["iron_r",3200],
 	["copper_r",1000],
 	["salt_r",1650],
@@ -291,7 +291,7 @@ sell_array =
 	["radar120",1200],
 	["handcuffs",200],
 	["handcuffkeys",100],
-	["cement",1950],
+	["cement",2000],
 	["goldbar",100000]
 ];
 __CONST__(sell_array,sell_array);
