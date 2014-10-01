@@ -34,9 +34,10 @@ if((_curTarget getVariable["Escorting",false])) then {
 };
 
 //Set Unrestrain Button
-if(life_inv_handcuffkeys > 0) then
+if([false,"handcuffkeys",1] call life_fnc_handleInv) then
 {
 	//Set Unrestrain Button
+	[true,"handcuffs",1] call life_fnc_handleInv;
 	_Btn2 ctrlSetText localize "STR_pInAct_Unrestrain";
 	_Btn2 buttonSetAction "[life_pInact_curTarget] call life_fnc_unrestrain; closeDialog 0;";
 }else{

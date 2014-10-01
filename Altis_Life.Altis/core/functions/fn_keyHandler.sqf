@@ -119,12 +119,13 @@ switch (_code) do
 			{
 			if(_shift && !(player getVariable["restrained",false]) && !isNull cursorTarget && cursorTarget isKindOf "Man" && (isPlayer cursorTarget) && (side cursorTarget in [civilian,independent]) && alive cursorTarget && cursorTarget distance player < 3.5 && !(cursorTarget getVariable "Escorting") && !(cursorTarget getVariable "restrained") && !life_knockout&& speed cursorTarget < 1) then
 				{
-					if(life_inv_handcuffs > 0) then
+					if([false,"handcuffs",1] call life_fnc_handleInv) then
 					{
-							[] call life_fnc_restrainAction;
-							hint "Die Person ist nun Gefesselt!";
+						[] call life_fnc_restrainAction;
+						life_inv_handcuffs = life_inv_handcuffs - 1;
+						systemChat localize "STR_NOTF_RestrainedPerson";
 					}else{
-						hint "Du hast keine Handschellen!";
+						systemChat localize "STR_NOTF_NoHandcuffs";
 					};
 				};
 			};
@@ -132,12 +133,13 @@ switch (_code) do
 			{
 			if(_shift && !(player getVariable["restrained",false]) && !isNull cursorTarget && cursorTarget isKindOf "Man" && (isPlayer cursorTarget) && (side cursorTarget in [civilian,independent]) && alive cursorTarget && cursorTarget distance player < 3.5 && !(cursorTarget getVariable "Escorting") && !(cursorTarget getVariable "restrained") && !life_knockout&& speed cursorTarget < 1) then
 				{
-					if(life_inv_handcuffs > 0) then
+					if([false,"handcuffs",1] call life_fnc_handleInv) then
 					{
-							[] call life_fnc_restrainAction;
-							hint "Die Person ist nun Gefesselt!";
+						[] call life_fnc_restrainAction;
+						life_inv_handcuffs = life_inv_handcuffs - 1;
+						systemChat localize "STR_NOTF_RestrainedPerson";
 					}else{
-						hint "Du hast keine Handschellen!";
+						systemChat localize "STR_NOTF_NoHandcuffs";
 					};
 				};
 			};
@@ -145,12 +147,13 @@ switch (_code) do
 			{
 			if(_shift  && !(player getVariable["restrained",false]) && !isNull cursorTarget && cursorTarget isKindOf "Man" && (isPlayer cursorTarget) && (side cursorTarget in [west,civilian,independent]) && alive cursorTarget && cursorTarget distance player < 3.5 && !(cursorTarget getVariable "Escorting") && !(cursorTarget getVariable "restrained") && !life_knockout&& speed cursorTarget < 1)  then
 				{
-					if(life_inv_handcuffs > 0) then
+					if([false,"handcuffs",1] call life_fnc_handleInv) then
 					{
-							[] call life_fnc_restrainAction;
-							hint "Die Person ist nun Gefesselt!";
+						[] call life_fnc_restrainAction;
+						life_inv_handcuffs = life_inv_handcuffs - 1;
+						systemChat localize "STR_NOTF_RestrainedPerson";
 					}else{
-						hint "Du hast keine Handschellen!";
+						systemChat localize "STR_NOTF_NoHandcuffs";
 					};
 				};
 			};
