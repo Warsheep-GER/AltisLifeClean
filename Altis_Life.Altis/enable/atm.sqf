@@ -138,11 +138,6 @@ _newATMArray = [];
 	_theNewATM enableSimulation false;
 
 	_theNewATM addAction["<t color='#ADFF2F'>ATM</t>",life_fnc_atmMenu,"",0,false,false,"",'((_this distance _target) < 3)'];
-/* 	_theNewATM addAction["Banking Insurance ($1,000)",
-	{
-		if(life_atmcash > 1000) then {life_has_insurance = true; life_atmcash = life_atmcash - 1000;};
-	}
-	,"",0,false,false,"",'(!life_has_insurance) && ((_this distance _target) < 3)']; */
 	_newATMArray = _newATMArray + [_theNewATM];
 	
 	_marker = createMarkerLocal [format["ATM_spawnedMarker_%1",_atmID],visiblePosition _theNewATM];
@@ -163,11 +158,6 @@ _newATMArray = [];
 	_theNewATM enableSimulation false;
 
 	_theNewATM addAction["<t color='#ADFF2F'>ATM</t>",life_fnc_atmMenu,"",0,false,false,"",'((_this distance _target) < 3)'];
-/* 	_theNewATM addAction["Banking Insurance ($1,000)",
-	{
-		if(life_atmcash > 1000) then {life_has_insurance = true; life_atmcash = life_atmcash - 1000;};
-	}
-	,"",0,false,false,"",'(!life_has_insurance) && ((_this distance _target) < 3)']; */
 	_newATMArray = _newATMArray + [_theNewATM];
 	
 	_marker = createMarkerLocal [format["ATM_spawnedMarker_%1",_atmPos],visiblePosition _theNewATM];
@@ -176,14 +166,4 @@ _newATMArray = [];
 
 } foreach [[[13813.8,18984.2,20.1607],142.395], [[23535.4,19959.8,13.3099],144.94], [[15197.5,17333.8,17.9218],227.717], [[16555.2,12779.5,11.0153],31.246]];
 
-/*
-{	
-	_x addAction["<t color='#ADFF2F'>ATM</t>",life_fnc_atmMenu]; 
-	_x addAction["Banking Insurance ($1,000)",
-	{
-		if(life_atmcash > 1000) then {life_has_insurance = true};
-	}
-	,"",0,false,false,"",'!life_has_insurance'];
-}forEach _theATMs;
-*/
 diag_Log format["ATMs initialized. Num ATMs: %1",(count _newATMArray)];
