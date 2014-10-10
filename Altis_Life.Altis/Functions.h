@@ -56,6 +56,7 @@ class Life_Client_Core
 		class adminSpectate {};
 		class adminTeleport {};
 		class adminTpHere {};
+		class adminTpTo {};
 		class adminDebugCon {};
 		class adminCompensate {};
 		class adminGodMode {};
@@ -120,6 +121,8 @@ class Life_Client_Core
 		class gather {};
 		//radar
 		class radarFlash {};
+		//müll durchsuchen
+		class searchItems {};
 	};
 	
 	class Housing
@@ -257,6 +260,7 @@ class Life_Client_Core
 	class Civilian
 	{
 		file = "core\civilian";
+		class freezePlayer {};
 		class jailMe {};
 		class jail {};
 		class tazed {};

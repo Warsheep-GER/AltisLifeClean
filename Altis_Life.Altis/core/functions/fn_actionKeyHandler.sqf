@@ -27,7 +27,10 @@ if(isNull _curTarget) exitWith {
 	};
 };
 
-if(_curTarget isKindOf "House_F" && {player distance _curTarget < 12} OR ((nearestObject [[16019.5,16952.9,0],"Land_Dome_Big_F"]) == _curTarget OR (nearestObject [[16019.5,16952.9,0],"Land_Research_house_V1_F"]) == _curTarget)) exitWith {
+if((_curTarget isKindOf "Land_cargo_house_slum_F" OR _curTarget isKindOf "Land_Slum_House01_F" OR _curTarget isKindOf "Land_Slum_House02_F" OR _curTarget isKindOf "Land_Slum_House03_F") && {player distance _curTarget < 3}) exitWith {
+	[_curTarget] spawn life_fnc_searchItems;
+};
+if(_curTarget isKindOf "House_F" && {player distance _curTarget < 5} OR ((nearestObject [[16019.5,16952.9,0],"Land_Dome_Big_F"]) == _curTarget OR (nearestObject [[16019.5,16952.9,0],"Land_Research_house_V1_F"]) == _curTarget)) exitWith {
 	[_curTarget] call life_fnc_houseMenu;
 };
 if(dialog) exitWith {}; //Don't bother when a dialog is open.
@@ -61,7 +64,7 @@ if(isPlayer _curTarget && _curTarget isKindOf "Man") then {
 	//OK, it wasn't a player so what is it?
 	private["_isVehicle","_miscItems","_money"];
 	_isVehicle = if((_curTarget isKindOf "landVehicle") OR (_curTarget isKindOf "Ship") OR (_curTarget isKindOf "Air")) then {true} else {false};
-	_miscItems = ["Land_BottlePlastic_V1_F","Land_TacticalBacon_F","Land_Can_V3_F","Land_CanisterFuel_F","Land_Suitcase_F"];
+	_miscItems = ["Land_CanisterOil_F","Land_CanisterPlastic_F","Land_PowderedMilk_F","Land_RiceBox_F","Land_Basket_F","Land_Sack_F","Land_BottlePlastic_V1_F","Land_TacticalBacon_F","Land_Can_V3_F","Land_CanisterFuel_F","Land_Axe_fire_F","Land_File_F","Land_Grinder_F","Land_Pliers_F","Land_Pillow_grey_F","Land_Pillow_camouflage_F","Land_FirePlace_F","Land_Pillow_old_F","Land_Matches_F","Land_MetalWire_F","Land_Suitcase_F"];
 	_animalTypes = ["Salema_F","Ornate_random_F","Mackerel_F","Tuna_F","Mullet_F","CatShark_F","Turtle_F"];
 	_money = "Land_Money_F";
 	

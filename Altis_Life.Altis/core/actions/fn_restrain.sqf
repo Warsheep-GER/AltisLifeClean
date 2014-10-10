@@ -19,21 +19,7 @@ _player = player;
 		waitUntil {(time - _time) > (5 * 60)};
 		
 		if(!(player getVariable["restrained",FALSE])) exitWith {};
-		if(!([west,getPos player,30] call life_fnc_nearUnits) && (player getVariable["restrained",FALSE]) && vehicle player == player) exitWith {
-			player setVariable["restrained",FALSE,TRUE];
-			player setVariable["Escorting",FALSE,TRUE];
-			player setVariable["transporting",false,true];
-			detach player;
-			titleText[localize "STR_restrainer_ExcessiveRestrain","PLAIN"];
-		};
-		if(!([independent,getPos player,30] call life_fnc_nearUnits) && (player getVariable["restrained",FALSE]) && vehicle player == player) exitWith {
-			player setVariable["restrained",FALSE,TRUE];
-			player setVariable["Escorting",FALSE,TRUE];
-			player setVariable["transporting",false,true];
-			detach player;
-			titleText[localize "STR_restrainer_ExcessiveRestrain","PLAIN"];
-		};
-		if(!([civilian,getPos player,30] call life_fnc_nearUnits) && (player getVariable["restrained",FALSE]) && vehicle player == player) exitWith {
+		if(!([west,getPos player,30] call life_fnc_nearUnits) || !([civilian,getPos player,30] call life_fnc_nearUnits) || !([independent,getPos player,30] call life_fnc_nearUnits) && (player getVariable["restrained",FALSE]) && vehicle player == player) exitWith {
 			player setVariable["restrained",FALSE,TRUE];
 			player setVariable["Escorting",FALSE,TRUE];
 			player setVariable["transporting",false,true];
